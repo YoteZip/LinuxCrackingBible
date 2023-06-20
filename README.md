@@ -74,7 +74,7 @@ The process of adding a cracked game to Lutris is relatively simple. Click the "
 
   - `DXVK` - Emulates DX9, DX10, and DX11 for your game. Pick the latest version and leave it alone
 
-  - `VKD3D` - Emulates DX12 for your game. Pick the latest version and leave it alone
+  - `VKD3D` - Emulates DX12 for your game. Pick the latest version and leave it alone, unless you want to intentionally disable DX12 to try to force a DX9/10/11 fallback
 
   - `D3D Extras` - Just leave it on, have never had an issue with it
 
