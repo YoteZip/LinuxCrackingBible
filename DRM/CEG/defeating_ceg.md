@@ -1,4 +1,4 @@
-# **Steam Custom Executable Generation (CEG)**
+# **CEG (Steam Custom Executable Generation)**
 
 This is Valve's attempt at a non-trivial DRM. When you download a game from Steam that has CEG enabled, Steam will generate a unique EXE just for you. The easiest way to defeat CEG is through LumaCEG. LumaCEG can be found in cs.rin's `Main Forum -> Releases` section (thread ID `64354`). The important files to grab here are the x86 and x64 plugins, but grabbing the main injection file as well is a good idea for your toolkit. Defeating CEG with LumaCEG has two stages:
 
