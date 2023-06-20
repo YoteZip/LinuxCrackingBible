@@ -22,7 +22,7 @@ For our walkthrough we'll be cracking the CEG DRM on the Windows version of "Sai
 
 4. Overwrite `SaintsRowTheThird.exe` and `SaintsRowTheThird_DX11.exe` with the two new anonymized EXEs
 
-5. Since SRTT is 32-bit, we'll copy `LumaCEG_Plugin_x86.dll` and `LumaCEGPlugin.ini` from LumaCEG into the SRTT directory as well.
+5. Since SRTT is 32-bit, we'll copy `LumaCEG_Plugin_x86.dll` and `LumaCEGPlugin.ini` from LumaCEG into the SRTT directory
 
 6. Now LumaCEG is ready to auto-defeat CEG, but it needs to get injected into the runtime first. To inject LumaCEG, we're going to use a general purpose injection tool named Koaloader. Refer to the [Koaloader Guide](../../Tools/Koaloader/koaloader.md) for more information on how this tool works.
 
