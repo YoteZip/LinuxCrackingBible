@@ -1,0 +1,2019 @@
+// From https://github.com/acidicoala/public-entitlements/blob/main/origin/v1/entitlements.json
+
+[
+    {
+        "___name": "Deluxe Upgrade Pack",
+        "entitlementTag": "CITIES_SKYLINES_DELUXE",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002833",
+        "___options": "replace"
+    },
+    {
+        "___name": "After Dark",
+        "entitlementTag": "CITIES_SKYLINES_AFTER_DARK",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002840"
+    },
+    {
+        "___name": "Campus",
+        "entitlementTag": "CITIES_SKYLINES_CAMPUS",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0003562"
+    },
+    {
+        "___name": "Green Cities",
+        "entitlementTag": "CITIES_SKYLINES_GREEN_CITIES",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002844"
+    },
+    {
+        "___name": "Industries",
+        "entitlementTag": "CITIES_SKYLINES_INDUSTRIES",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0003113"
+    },
+    {
+        "___name": "Mass Transit",
+        "entitlementTag": "CITIES_SKYLINES_MASS_TRANSIT",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002843"
+    },
+    {
+        "___name": "Natural Disasters",
+        "entitlementTag": "CITIES_SKYLINES_NATURAL_DISASTERS",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002842"
+    },
+    {
+        "___name": "Parklife",
+        "entitlementTag": "CITIES_SKYLINES_PARKLIFE",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002845"
+    },
+    {
+        "___name": "Pearls From the East",
+        "entitlementTag": "CITIES_SKYLINES_PEARLS_FROM_EAST",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002850"
+    },
+    {
+        "___name": "Snowfall",
+        "entitlementTag": "CITIES_SKYLINES_SNOWFALL",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002841"
+    },
+    {
+        "___name": "Sunset Harbor",
+        "entitlementTag": "CITIES_SKYLINES_SUNSET_HARBOR",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0003907"
+    },
+    {
+        "___name": "Concerts",
+        "entitlementTag": "CITIES_SKYLINES_CONCERTS",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002838"
+    },
+    {
+        "___name": "All That Jazz",
+        "entitlementTag": "CITIES_SKYLINES_ALL_THAT_JAZZ",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002836"
+    },
+    {
+        "___name": "Campus Rock Radio",
+        "entitlementTag": "CITIES_SKYLINES_CAMPUS_RADIO",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0003565"
+    },
+    {
+        "___name": "Coast to Coast Radio",
+        "entitlementTag": "CITIES_SKYLINES_COAST_TO_COAST",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0003909"
+    },
+    {
+        "___name": "Country Road Radio",
+        "entitlementTag": "CITIES_SKYLINES_COUNTRY_ROAD_RADIO",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002837"
+    },
+    {
+        "___name": "Deep Focus Radio",
+        "entitlementTag": "CITIES_SKYLINES_DEEP_FOCUS",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0003564"
+    },
+    {
+        "___name": "Downtown Radio",
+        "entitlementTag": "CITIES_SKYLINES_DOWNTOWN_RADIO",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0003895"
+    },
+    {
+        "___name": "Relaxation Station",
+        "entitlementTag": "CITIES_SKYLINES_RELAXATION_STATION",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002834"
+    },
+    {
+        "___name": "Rock City Radio",
+        "entitlementTag": "CITIES_SKYLINES_ROCK_CITY_RADIO",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002835"
+    },
+    {
+        "___name": "Synthetic Dawn Radio",
+        "entitlementTag": "CITIES_SKYLINES_SYNTHETIC_DAWN_RADIO",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0003114"
+    },
+    {
+        "___name": "Content Creator Pack: Art Deco",
+        "entitlementTag": "CITIES_SKYLINES_CCP_ART_DECO",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002847"
+    },
+    {
+        "___name": "Content Creator Pack: European Suburbia",
+        "entitlementTag": "CITIES_SKYLINES_CCP_EU_SUBURBIA",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002849"
+    },
+    {
+        "___name": "Content Creator Pack: High-Tech Buildings",
+        "entitlementTag": "CITIES_SKYLINES_CCP_HIGH_TECH",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002848"
+    },
+    {
+        "___name": "Content Creator Pack: Modern City",
+        "entitlementTag": "CITIES_SKYLINES_CCP_MODERN_CITY_CENTER",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0003894"
+    },
+    {
+        "___name": "Content Creator Pack: Modern Japan",
+        "entitlementTag": "CITIES_SKYLINES_CCP_MODERN_JAPAN",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0003908"
+    },
+    {
+        "___name": "Content Creator Pack: University City",
+        "entitlementTag": "CITIES_SKYLINES_CCP_UNIVERSITY_CITY",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0003563"
+    },
+    {
+        "___name": "Match Day",
+        "entitlementTag": "CITIES_SKYLINES_MATCH_DAY",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002846",
+        "___v1only": true
+    },
+    {
+        "___name": "Carols, Candles and Candy",
+        "entitlementTag": "CITIES_SKYLINES_CAROLS_CANDLES_CANDY",
+        "entitlementType": "DEFAULT",
+        "groupName": "CITIES_SKYLINES",
+        "productId": "Origin.OFR.50.0002839",
+        "___v1only": true
+    },
+    {
+        "___name": "<unknown>",
+        "entitlementTag": "DELUXE_UPGRADE",
+        "entitlementType": "DEFAULT",
+        "groupName": "BEYONDPC",
+        "productId": "Origin.OFR.50.0005118",
+        "version": "1"
+    },
+    {
+        "___name": "<unknown>",
+        "entitlementTag": "EA_PLAY_PRO_CONTENT",
+        "entitlementType": "DEFAULT",
+        "groupName": "BEYONDPC",
+        "productId": "Origin.OFR.50.0005144",
+        "version": "1"
+    },
+    {
+        "___name": "Awakened",
+        "entitlementTag": "DS3:PDLC_DLC1",
+        "entitlementType": "DEFAULT",
+        "groupName": "DeadSpace3PC",
+        "productId": "OFB-EAST:109546295"
+    },
+    {
+        "___name": "Witness the Truth Pack",
+        "entitlementTag": "DS3:PDLC_WITNESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "DeadSpace3PC",
+        "productId": "OFB-EAST:109546302"
+    },
+    {
+        "___name": "First Contact Pack",
+        "entitlementTag": "DS3:PDLC_FIRSTCONTACT",
+        "entitlementType": "DEFAULT",
+        "groupName": "DeadSpace3PC",
+        "productId": "OFB-EAST:109546301"
+    },
+    {
+        "___name": "Bot Accelerator",
+        "entitlementTag": "DS3:PDLC_BOTACCELERATOR",
+        "entitlementType": "DEFAULT",
+        "groupName": "DeadSpace3PC",
+        "productId": "OFB-EAST:109546362"
+    },
+    {
+        "___name": "Bot Capacity Upgrade",
+        "entitlementTag": "DS3:PDLC_BOTCAPACITY",
+        "entitlementType": "DEFAULT",
+        "groupName": "DeadSpace3PC",
+        "productId": "OFB-EAST:109546361"
+    },
+    {
+        "___name": "Tundra Recon Pack",
+        "entitlementTag": "DS3:PDLC_TUNDRA",
+        "entitlementType": "DEFAULT",
+        "groupName": "DeadSpace3PC",
+        "productId": "OFB-EAST:109546298"
+    },
+    {
+        "___name": "Marauder Pack",
+        "entitlementTag": "DS3:PDLC_MARAUDER",
+        "entitlementType": "DEFAULT",
+        "groupName": "DeadSpace3PC",
+        "productId": "OFB-EAST:109546299"
+    },
+    {
+        "___name": "Tau Volantis Survival Kit",
+        "entitlementTag": "DS3:PDLC_BUNDLE1",
+        "entitlementType": "DEFAULT",
+        "groupName": "DeadSpace3PC",
+        "productId": "OFB-EAST:59716"
+    },
+    {
+        "___name": "Bot Personality Pack",
+        "entitlementTag": "DS3:PDLC_BOTPERSONALITY",
+        "entitlementType": "DEFAULT",
+        "groupName": "DeadSpace3PC",
+        "productId": "OFB-EAST:109546360"
+    },
+    {
+        "___name": "Sharpshooter Pack",
+        "entitlementTag": "DS3:PDLC_SHARPSHOOTER",
+        "entitlementType": "DEFAULT",
+        "groupName": "DeadSpace3PC",
+        "productId": "OFB-EAST:109546300"
+    },
+    {
+        "___name": "Limited Edition",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "OFB-EAST:109546710"
+    },
+    {
+        "___name": "EG-900 SMG",
+        "entitlementTag": "DS3:PDLC_EG900",
+        "entitlementType": "DEFAULT",
+        "groupName": "DeadSpace3PC",
+        "productId": "OFB-EAST:109546363"
+    },
+    {
+        "___name": "Enervator",
+        "entitlementTag": "DS3:PDLC_ENERVATOR",
+        "entitlementType": "DEFAULT",
+        "groupName": "DeadSpace3PC",
+        "productId": "OFB-EAST:109546714"
+    },
+    {
+        "___name": "Broadbow Arc Cutter",
+        "entitlementTag": "DS3:PROMO:SlimJim:Line",
+        "entitlementType": "DEFAULT",
+        "groupName": "DeadSpace3PC",
+        "productId": "OFB-EAST:55003"
+    },
+    {
+        "___name": "Rapido CAW-4b",
+        "entitlementTag": "DS3:PROMO:SlimJim:P90",
+        "entitlementType": "DEFAULT",
+        "groupName": "DeadSpace3PC",
+        "productId": "OFB-EAST:55004"
+    },
+    {
+        "___name": "The Skewer",
+        "entitlementTag": "DS3:PROMO:SlimJim:Javelin",
+        "entitlementType": "DEFAULT",
+        "groupName": "DeadSpace3PC",
+        "productId": "OFB-EAST:55002"
+    },
+    {
+        "___name": "F1® 22 Champions Edition",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "Origin.OFR.50.0004955"
+    },
+    {
+        "___name": "F1® 22: Early Pre-Order Incentive",
+        "entitlementTag": "EAR_CHAMPS_INT",
+        "entitlementType": "DEFAULT",
+        "groupName": "F1-2022PC",
+        "productId": "Origin.OFR.50.0004924"
+    },
+    {
+        "___name": "F1® 22: Champions Content Bundle",
+        "entitlementTag": "DLX_UPGRADE_INT",
+        "entitlementType": "DEFAULT",
+        "groupName": "F1-2022PC",
+        "productId": "Origin.OFR.50.0004950"
+    },
+    {
+        "___name": "F1® 22: 18,000 PitCoin",
+        "entitlementTag": "VC_18000",
+        "entitlementType": "DEFAULT",
+        "groupName": "F1-2022PC",
+        "productId": "Origin.OFR.50.0004937"
+    },
+    {
+        "___name": "F1® 22: Champions Edition Content Pack",
+        "entitlementTag": "CHAMPS_INT",
+        "entitlementType": "DEFAULT",
+        "groupName": "F1-2022PC",
+        "productId": "Origin.OFR.50.0004923"
+    },
+    {
+        "___name": "F1® 22: Pre-Order Content",
+        "entitlementTag": "STD_INT",
+        "entitlementType": "DEFAULT",
+        "groupName": "F1-2022PC",
+        "productId": "Origin.OFR.50.0004921"
+    },
+    {
+        "___name": "<unknown>",
+        "entitlementTag": "F23_Deluxe_Preorder_Content",
+        "entitlementType": "DEFAULT",
+        "groupName": "F1-2023PC",
+        "productId": "Origin.OFR.50.0005199"
+    },
+    {
+        "___name": "<unknown>",
+        "entitlementTag": "F23_Deluxe_Content_Pack",
+        "entitlementType": "DEFAULT",
+        "groupName": "F1-2023PC",
+        "productId": "Origin.OFR.50.0005201"
+    },
+    {
+        "___name": "<unknown>",
+        "entitlementTag": "F23_Deluxe_Content_Bundle",
+        "entitlementType": "DEFAULT",
+        "groupName": "F1-2023PC",
+        "productId": "Origin.OFR.50.0005233"
+    },
+    {
+        "___name": "Frostpunk - The Rifts",
+        "entitlementTag": "FROSTPUNK_DLC_1",
+        "entitlementType": "DEFAULT",
+        "groupName": "OPP",
+        "productId": "Origin.OFR.50.0003751"
+    },
+    {
+        "___name": "Frostpunk - The Last Autumn",
+        "entitlementTag": "FROSTPUNK_DLC_2",
+        "entitlementType": "DEFAULT",
+        "groupName": "OPP",
+        "productId": "Origin.OFR.50.0003752"
+    },
+    {
+        "___name": "Frostpunk - On The Edge",
+        "entitlementTag": "FROSTPUNK_DLC_3",
+        "entitlementType": "DEFAULT",
+        "groupName": "OPP",
+        "productId": "Origin.OFR.50.0003753"
+    },
+    {
+        "___name": "Frostpunk - Season Pass",
+        "entitlementTag": "FROSTPUNK_SEASON_PASS",
+        "entitlementType": "DEFAULT",
+        "groupName": "OPP",
+        "productId": "Origin.OFR.50.0003754"
+    },
+    {
+        "___name": "GRID Legends",
+        "entitlementTag": "ONLINE_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "GRID_5PC",
+        "productId": "Origin.OFR.50.0004676"
+    },
+    {
+        "___name": "GRID Legends: Deluxe Edition",
+        "entitlementTag": "ONLINE_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "GRID_5PC",
+        "productId": "Origin.OFR.50.0004720"
+    },
+    {
+        "___name": "GRID Legends: Deluxe Upgrade",
+        "entitlementTag": "GL_DELUXE_UPGRADE",
+        "entitlementType": "DEFAULT",
+        "groupName": "GRID_5PC",
+        "productId": "Origin.OFR.50.0004847"
+    },
+    {
+        "___name": "GRID Legends: Voltz Pack",
+        "entitlementTag": "GL_Voltz_Legends_Pack",
+        "entitlementType": "DEFAULT",
+        "groupName": "GRID_5PC",
+        "productId": "Origin.OFR.50.0004750"
+    },
+    {
+        "___name": "GRID Legends: Seneca & Ravenwest Double Pack",
+        "entitlementTag": "GL_Preorder_Content",
+        "entitlementType": "DEFAULT",
+        "groupName": "GRID_5PC",
+        "productId": "Origin.OFR.50.0004748"
+    },
+    {
+        "___name": "GRID Legends: Mechanic Pass",
+        "entitlementTag": "GL_Mechanics_Pass",
+        "entitlementType": "DEFAULT",
+        "groupName": "GRID_5PC",
+        "productId": "Origin.OFR.50.0004749"
+    },
+    {
+        "___name": "GRID Legends: Valentin's Classic Car-Nage",
+        "entitlementTag": "GL_DLC1",
+        "entitlementType": "DEFAULT",
+        "groupName": "GRID_5PC",
+        "productId": "Origin.OFR.50.0004724"
+    },
+    {
+        "___name": "GRID Legends: DLC2",
+        "entitlementTag": "GL_DLC2",
+        "entitlementType": "DEFAULT",
+        "groupName": "GRID_5PC",
+        "productId": "Origin.OFR.50.0004743"
+    },
+    {
+        "___name": "GRID Legends: DLC3",
+        "entitlementTag": "GL_DLC3",
+        "entitlementType": "DEFAULT",
+        "groupName": "GRID_5PC",
+        "productId": "Origin.OFR.50.0004744"
+    },
+    {
+        "___name": "GRID Legends: DLC4",
+        "entitlementTag": "GL_DLC4",
+        "entitlementType": "DEFAULT",
+        "groupName": "GRID_5PC",
+        "productId": "Origin.OFR.50.0004745"
+    },
+    {
+        "___name": "Seed of Evil",
+        "entitlementTag": "MUTANT_YEAR_ZERO_SOE",
+        "entitlementType": "DEFAULT",
+        "groupName": "MUTANT_YEAR_ZERO",
+        "productId": "Origin.OFR.50.0003696"
+    },
+    {
+        "___name": "Player Attire Package",
+        "entitlementTag": "TEST",
+        "entitlementType": "DEFAULT",
+        "groupName": "OPP",
+        "productId": "Origin.OFR.50.0003994"
+    },
+    {
+        "___name": "NPC Attire Package",
+        "entitlementTag": "TEST",
+        "entitlementType": "DEFAULT",
+        "groupName": "OPP",
+        "productId": "Origin.OFR.50.0003995"
+    },
+    {
+        "___name": "Swimwear",
+        "entitlementTag": "TEST",
+        "entitlementType": "DEFAULT",
+        "groupName": "OPP",
+        "productId": "Origin.OFR.50.0003996"
+    },
+    {
+        "___name": "NFS Heat: K.S Edition Mitsubishi Lancer Evolution X",
+        "entitlementTag": "PREORDER_CONTENT_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS20PC",
+        "productId": "Origin.OFR.50.0003423",
+        "___url": "/need-for-speed/need-for-speed-heat/FAKE_URL",
+        "___description": "<ul>\n<li>K.S Edition Mitsubishi Lancer Evolution X Starter Car</li>\n<ul>\n<li>Exclusive Origin Access wrap</li>\n</ul>\n</ul>",
+        "___downloadable": "False"
+    },
+    {
+        "___name": "NFS Heat: Deluxe Edition Upgrade Content",
+        "entitlementTag": "DELUXE_CONTENT_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS20PC",
+        "productId": "Origin.OFR.50.0003455",
+        "___url": "/need-for-speed/need-for-speed-heat/FAKE_URL",
+        "___description": "Hustle by day and risk it all at night in Need for Speed™ Heat, a thrilling race experience that pits you against a city’s rogue police force as you battle your way into street racing’s elite.<br><br>\n\nUPGRADE to the Deluxe Edition and get noticed in Need for Speed™ Heat with 3 additional K.S Edition cars unlocked through progression, 4 exclusive character outfits and a REP and BANK boost. <br><br>\n\nDeluxe Edition Content:<br>\nK.S Edition BMW i8 Coupe<br>\nAvailable at REP level 10 from player garage<br><br>\n \nK.S Edition Mercedes C63 AMG Coupe<br>\nAvailable at REP level 14 from player garage<br><br>\n\nK.S Edition Chevrolet Corvette Grand Sport<br>\nAvailable at REP level 18 from player garage<br><br>\n\n4x Character Outfits<br>\nAvailable in character customization<br>\nAll items are swappable and fit both male and female avatars<br><br>\n\nREP Boost<br>\nREP rewards increased by 5%<br><br>\n\nBANK Boost<br>\nBANK rewards increased by 5%",
+        "___downloadable": "False"
+    },
+    {
+        "___name": "NFS Heat: Keys to the Map",
+        "entitlementTag": "MAP_REVEAL_CONTENT_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS20PC",
+        "productId": "Origin.OFR.50.0003885",
+        "___url": "/need-for-speed/need-for-speed-heat/addon/need-for-speed-heat--keys-to-the-map",
+        "___description": "Shift into high gear with the keys to the Need for Speed Heat Map. Every collectible, location and activity in every district will be revealed instantly, so no need to slow down to explore. From safe houses to street art, find exactly what you want, faster!",
+        "___downloadable": "False"
+    },
+    {
+        "___name": "NFS Heat: McLaren F1 Black Market Delivery",
+        "entitlementTag": "MCLAREN_F1_CONTENT_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS20PC",
+        "productId": "Origin.OFR.50.0003886",
+        "___url": "/need-for-speed/need-for-speed-heat/addon/need-for-speed-heat--mclaren-f1-black-market-delivery",
+        "___description": "A new shipment has arrived to the dockyard of Palm City. Get the McLaren F1 Black Market Delivery to burn all limits with the McLaren F1 through a unique set of challenges. Plus, receive hot, new special customization parts, character outfits, vanity items, and decals as rewards!",
+        "___downloadable": "False"
+    },
+    {
+        "___name": "NFS Heat: Red Bull Car Park Drift Nissan 370 Z",
+        "entitlementTag": "REDBULL_CONTENT_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS20PC",
+        "productId": "Origin.OFR.50.0003935",
+        "___url": "/need-for-speed/need-for-speed-heat/FAKE_URL",
+        "___description": "",
+        "___downloadable": "False"
+    },
+    {
+        "___name": "Limited Edition",
+        "entitlementTag": "PROJECT10_CODE_CONSUMED_LE1",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS13PC",
+        "productId": "OFB-EAST:50882"
+    },
+    {
+        "___name": "Strike Pack (preorder bonus)",
+        "entitlementTag": "NFSMW_PROMO_STRIKE",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS13PC",
+        "productId": "OFB-EAST:51196"
+    },
+    {
+        "___name": "Speed Pack (preorder bonus)",
+        "entitlementTag": "NFSMW_PROMO_SPEED",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS13PC",
+        "productId": "OFB-EAST:51195"
+    },
+    {
+        "___name": "Power Pack (preorder bonus)",
+        "entitlementTag": "NFSMW_PROMO_POWER",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS13PC",
+        "productId": "OFB-EAST:51082"
+    },
+    {
+        "___name": "Ultimate Speed Pack",
+        "entitlementTag": "NFSMW_DLCPACK1",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS13PC",
+        "productId": "OFB-EAST:58267"
+    },
+    {
+        "___name": "Terminal Velocity Pack",
+        "entitlementTag": "NFSMW_DLCPACK2",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS13PC",
+        "productId": "OFB-EAST:109548131"
+    },
+    {
+        "___name": "Movie Legends Pack",
+        "entitlementTag": "NFSMW_DLCPACK3",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS13PC",
+        "productId": "OFB-EAST:109548104"
+    },
+    {
+        "___name": "NFS Heroes Pack",
+        "entitlementTag": "NFSMW_DLCPACK4",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS13PC",
+        "productId": "OFB-EAST:109548103"
+    },
+    {
+        "___name": "Deluxe DLC Bundle",
+        "entitlementTag": "NFSMW_ULTIMATE_OLP_PACK",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS13PC",
+        "productId": "OFB-EAST:109548147"
+    },
+    {
+        "___name": "Slim Jim Promo - Dodge Charger SRT8",
+        "entitlementTag": "NFSMW_PROMO_SLIMJIM_DODGE",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS13PC",
+        "productId": "OFB-EAST:52690"
+    },
+    {
+        "___name": "Premium Modification Unlock - Pro Mods for every car in the game",
+        "entitlementTag": "NFSMW_MOD_TS_PACK_ALL",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS13PC",
+        "productId": "OFB-EAST:109548145"
+    },
+    {
+        "___name": "NFS Payback: High Roller Pack",
+        "entitlementTag": "DELUXE_CONTENT_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS18PC",
+        "productId": "Origin.OFR.50.0002194",
+        "___url": "/need-for-speed/need-for-speed-payback/FAKE_URL",
+        "___description": "Stand out from the crowd with exclusive customization items and receive in-game discounts, Rep bonuses and five shipments to get your adventure started.<br> High Roller Pack includes:<br>\n• Upcoming Story Mission Pack<br>\n• Exclusive Deluxe Edition NOS color (Can be applied to 5 cars)<br>\n• Exclusive Deluxe Edition license plate<br>\n• Exclusive Deluxe Edition leaderboard icon<br>\n• Five shipments<br>\n• 5% rep bonus<br>\n• 10% discount on in-game purchases",
+        "___downloadable": "False"
+    },
+    {
+        "___name": "NFS Payback: Alfa Romeo Quadrifoglio",
+        "entitlementTag": "ALFA_ROMEO_QUAD_CONTENT_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS18PC",
+        "productId": "Origin.OFR.50.0002624",
+        "___url": "/need-for-speed/need-for-speed-payback/addon/need-for-speed-payback-alfa-romeo-quadrifoglio",
+        "___description": "Strike luck in a gamblers paradise with the Alfa Romeo Giulia Quadrifoglio. Sleek with distinctive Italian design made for making an impact when rolling up to the starting line.",
+        "___downloadable": "False"
+    },
+    {
+        "___name": "NFS Payback: Platinum Car Pack",
+        "entitlementTag": "PREORDER_CONTENT_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS18PC",
+        "productId": "Origin.OFR.50.0002195",
+        "___url": "/need-for-speed/need-for-speed-payback/FAKE_URL",
+        "___description": "Drive straight into the action on the roads of Fortune Valley with instant access to five uniquely customized and tuned iconic cars, each with exclusive Platinum Blue Tire Smoke with the Need for Speed™ Payback - Platinum Car Pack.<br><br>\n\nIncludes:<br>\n&bull; Chevrolet Camaro SS 1967<br>\n&bull; Dodge Charger R/T 1969<br>\n&bull; Ford F-150 Raptor 2016<br>\n&bull; Nissan 350Z 2008<br>\n&bull; Volkswagen Golf GTI Clubsport 2016<br>\n&bull; Platinum Blue Tire Smoke",
+        "___downloadable": "False"
+    },
+    {
+        "___name": "NFS Payback: Fortune Valley Map Shortcuts",
+        "entitlementTag": "MAP_SHORTCUTS_CONTENT_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS18PC",
+        "productId": "Origin.OFR.50.0002428",
+        "___url": "/need-for-speed/need-for-speed-payback/addon/fortune-valley-map-shortcuts",
+        "___description": "Instantly reveal points of interest on your map of Fortune Valley. Find out where collectibles, activities and gas stations are located. Your very own map to success!",
+        "___downloadable": "False"
+    },
+    {
+        "___name": "NFS Payback: Infiniti Q60 S",
+        "entitlementTag": "INFINITI_Q60S_CONTENT_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS18PC",
+        "productId": "Origin.OFR.50.0002430",
+        "___url": "/need-for-speed/need-for-speed-payback/addon/infiniti-q60-s",
+        "___description": "The Infiniti Q60 is a premium sports coupe that combines expressive design with exhilarating performance and dynamics. The taut, muscular lines of the exterior underline the Q60's considerable performance potential - reinforced by an advanced all-new 3.0-liter V6 twin-turbo engine.\nLower and wider than previous Infiniti coupes, the Q60's bold exterior expresses 'Powerful Elegance' - an Infiniti design language which gives the sports coupe a sinewy athleticism, confidently projecting a sense of motion and power.",
+        "___downloadable": "False"
+    },
+    {
+        "___name": "NFS Payback: MINI John Cooper Works Countryman",
+        "entitlementTag": "MINI_COUNTRYMAN_CONTENT_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS18PC",
+        "productId": "Origin.OFR.50.0002431",
+        "___url": "/need-for-speed/need-for-speed-payback/addon/mini-john-cooper-works-countryman",
+        "___description": "The second generation of the MINI Countryman is the biggest and most versatile model in the entire range of the tradition-steeped British brand. And another superlative now applies to the power unit of the MINI John Cooper Works Countryman. With an output of 170 kW/231 hp, it is the most powerful engine ever to be fitted in a MINI: in combination with the standard all-wheel drive system ALL4 and a robust vehicle concept, it ensures that the latest addition to the family of top John Cooper Works athletes takes the MINI experience to a whole new level - in terms of both race track feeling on the road and extreme driving fun over unsurfaced terrain.",
+        "___downloadable": "False"
+    },
+    {
+        "___name": "NFS Payback: Pontiac Firebird Superbuild",
+        "entitlementTag": "PONTIAC_FIREBIRD_DERELICT_CONTENT_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS18PC",
+        "productId": "Origin.OFR.50.0002432",
+        "___url": "/need-for-speed/need-for-speed-payback/addon/pontiac-firebird-superbuild",
+        "___description": "Be a bandit in the Pontiac Firebird.",
+        "___downloadable": "False"
+    },
+    {
+        "___name": "NFS Payback: Aston Martin DB5 Superbuild",
+        "entitlementTag": "ASTON_MARTIN_DERELICT_CONTENT_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS18PC",
+        "productId": "Origin.OFR.50.0002433",
+        "___url": "/need-for-speed/need-for-speed-payback/addon/aston-martin-db5-superbuild",
+        "___description": "Drive faster than a thunderball in this classic movie car.",
+        "___downloadable": "False"
+    },
+    {
+        "___name": "NFS Payback: Chevrolet Colorado ZR2",
+        "entitlementTag": "CHEVROLET_COLORADO_CONTENT_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS18PC",
+        "productId": "Origin.OFR.50.0002434",
+        "___url": "/need-for-speed/need-for-speed-payback/addon/need-for-speed-payback-chevrolet-colorado-zr2",
+        "___description": "Chevrolet Colorado ZR2 is ready to tear it up on the roads as well as in the dirt of Fortune Valley. With a beefed up engine you will leave the competition in a cloud of dust!",
+        "___downloadable": "False"
+    },
+    {
+        "___name": "NFS Payback: Range Rover Sport SVR",
+        "entitlementTag": "RANGE_ROVER_CONTENT_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS18PC",
+        "productId": "Origin.OFR.50.0002435",
+        "___url": "/need-for-speed/need-for-speed-payback/addon/need-for-speed-payback-range-rover-sport-svr",
+        "___description": "Make your presence known with the impactful appearance of that the Range Rover Sport SVR brings both on and off road. Not only does it look the part, it also drives like a beast!",
+        "___downloadable": "False"
+    },
+    {
+        "___name": "NFS Payback: Speedcross Story",
+        "entitlementTag": "SPEEDCROSS_CONTENT_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS18PC",
+        "productId": "Origin.OFR.50.0002440",
+        "___url": "/need-for-speed/need-for-speed-payback/FAKE_URL",
+        "___description": "Slide straight into the action in the Speedcross expansion! Follow the daring exploits of Mac as he competes to become the Speedcross King of Fortune Valley.<br><br>\n\nGet behind the wheel of Rav's custom Mini Countryman, and take on elite drivers from Rockport, Olympic City, Bayview, and Palmont, to defeat the reigning champion, Jason “Barracuda” Munroe, in the Fortune Valley Speedcross Series.<br><br>\n\nSpeedcross is a track-based time-trial hybrid of precision driving and offroad mayhem offering pulse-pounding, high-speed driving action. Drift, jump, and speed through the course on your way to Speedcross glory!<br><br>\n\nSpeedcross expansion features the new Speedcross game mode with a new questline, the new Speedcross build type and two new cars, the Infiniti Q60S &amp; Mini John Cooper Works Countryman!",
+        "___downloadable": "False"
+    },
+    {
+        "___name": "Preorder bonuses",
+        "entitlementTag": "NFS22_PREORDER_CONTENT",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS22PC",
+        "productId": "Origin.OFR.50.0004477"
+    },
+    {
+        "___name": "Palace Edition bonuses",
+        "entitlementTag": "NFS22_DELUXE_EDITION_CONTENT",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS22PC",
+        "productId": "Origin.OFR.50.0004475"
+    },
+    {
+        "___name": "Palace Edition upgrade (?)",
+        "entitlementTag": "NFS22_DELUXE_UPGRADE",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS22PC",
+        "productId": "Origin.OFR.50.0004476"
+    },
+    {
+        "___name": "Keys to the City (future DLC?)",
+        "entitlementTag": "NFS22_KEYSTOTHECITY_CONTENT",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS22PC",
+        "productId": "Origin.OFR.50.0004474"
+    },
+    {
+        "___name": "Northgard - Svafnir, Clan of the Snake",
+        "entitlementTag": "NORTHGARD_HCOTS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NORTHGARD_2",
+        "productId": "Origin.OFR.50.0004147"
+    },
+    {
+        "___name": "Northgard - Nidhogg Clan of the Dragon",
+        "entitlementTag": "NORTHGARD_HCOTD",
+        "entitlementType": "DEFAULT",
+        "groupName": "NORTHGARD_2",
+        "productId": "Origin.OFR.50.0004148"
+    },
+    {
+        "___name": "Northgard - Svardilfari, Clan of the Horse",
+        "entitlementTag": "NORTHGARD_HCOTH",
+        "entitlementType": "DEFAULT",
+        "groupName": "NORTHGARD_2",
+        "productId": "Origin.OFR.50.0004149"
+    },
+    {
+        "___name": "Northgard - Lyngbakr, Clan of the Kraken",
+        "entitlementTag": "NORTHGARD_HCOTK",
+        "entitlementType": "DEFAULT",
+        "groupName": "NORTHGARD_2",
+        "productId": "Origin.OFR.50.0004150"
+    },
+    {
+        "___name": "Northgard - Himminbrjotir, Clan of the Ox",
+        "entitlementTag": "NORTHGARD_HCOTO",
+        "entitlementType": "DEFAULT",
+        "groupName": "NORTHGARD_2",
+        "productId": "Origin.OFR.50.0004151"
+    },
+    {
+        "___name": "Northgard - Brundr & Kaelinn, Clan of the Lynx",
+        "entitlementTag": "NORTHGARD_HCOTL",
+        "entitlementType": "DEFAULT",
+        "groupName": "NORTHGARD_2",
+        "productId": "Origin.OFR.50.0004350"
+    },
+    {
+        "___name": "Northgard - Ratatoskr, Clan of the Squirrel",
+        "entitlementTag": "NORTHGARD_HCOTS",
+        "entitlementType": "DEFAULT",
+        "groupName": "NORTHGARD_2",
+        "productId": "Origin.OFR.50.0004614"
+    },
+    {
+        "___name": "Preorder bonuses (already unlocked in some free update but I'll keep the entitlement here)",
+        "entitlementTag": "SWJFO_PREORDER_CONTENT",
+        "entitlementType": "DEFAULT",
+        "groupName": "BirdDogPC",
+        "productId": "Origin.OFR.50.0003517",
+        "___fakesub": true,
+        "___comment": "Vanguard skins are unlocked by faking EA Play subscription"
+    },
+    {
+        "___name": "Deluxe bonuses",
+        "entitlementTag": "SWJFO_DDX_CONTENT",
+        "entitlementType": "DEFAULT",
+        "groupName": "BirdDogPC",
+        "productId": "Origin.OFR.50.0003518"
+    },
+    {
+        "___name": "Tundra skins",
+        "entitlementTag": "SWJFO_BD1RETAILPROMO_CONTENT",
+        "entitlementType": "DEFAULT",
+        "groupName": "BirdDogPC",
+        "productId": "Origin.OFR.50.0003793"
+    },
+    {
+        "___name": "Preorder bonuses",
+        "entitlementTag": "APPLEJACK_PREORDER_CONTENT",
+        "entitlementType": "DEFAULT",
+        "groupName": "APPLEJACKPC",
+        "productId": "Origin.OFR.50.0005115"
+    },
+    {
+        "___name": "Deluxe bonuses",
+        "entitlementTag": "APPLEJACK_DELUXE_UPGRADE",
+        "entitlementType": "DEFAULT",
+        "groupName": "APPLEJACKPC",
+        "productId": "Origin.OFR.50.0005116"
+    },
+    {
+        "___name": "SimCity (2013) Standard Edition",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "OFB-EAST:60108"
+    },
+    {
+        "___name": "SimCity (2013) Complete Edition",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "Origin.OFR.50.0000741"
+    },
+    {
+        "___name": "SimCity (2013) Limited Edition",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "OFB-EAST:48205"
+    },
+    {
+        "___name": "<unknown>",
+        "entitlementTag": "PACK_WW_CLASSIC-RIDES",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:109548700"
+    },
+    {
+        "___name": "<unknown>",
+        "entitlementTag": "PACK_WW_THRILL-RIDES",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:109548693"
+    },
+    {
+        "___name": "<unknown>",
+        "entitlementTag": "PACK_WW_WHEELS",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:109548696"
+    },
+    {
+        "___name": "launch-memorial-balloon-park",
+        "entitlementTag": "TOY_WW_LAUNCH-MEMORIAL-PARK",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:109549247"
+    },
+    {
+        "___name": "Plumbob Park",
+        "entitlementTag": "PARK_WW_SIMS3",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:60171"
+    },
+    {
+        "___name": "SimCity Heroes and Villains Set",
+        "entitlementTag": "PACK_WW_MAXIS-MAN",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:60112"
+    },
+    {
+        "___name": "SimCity French City Set",
+        "entitlementTag": "CITY_WW_PARIS",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:60174"
+    },
+    {
+        "___name": "SimCity British City Set",
+        "entitlementTag": "CITY_WW_LONDON",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:60175"
+    },
+    {
+        "___name": "SimCity German City Set",
+        "entitlementTag": "CITY_WW_BERLIN",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:60173"
+    },
+    {
+        "___name": "SimCity - Origin Exclusive - Plumbob Park",
+        "entitlementTag": "ONLINE_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "DR:260832700"
+    },
+    {
+        "___name": "Simcity Amusement Park Set",
+        "entitlementTag": "PACK_WW_AMUSEMENT-TYCOON",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:109548807"
+    },
+    {
+        "___name": "SIMCITY NISSAN LEAF PACK",
+        "entitlementTag": "PACK-PARTNER_WW_NISSAN",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:109548655"
+    },
+    {
+        "___name": "SimCity SALON PLAY - PL",
+        "entitlementTag": "TOY-PARTNER_PL_SALONPLAY",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:109550403"
+    },
+    {
+        "___name": "SimCity Metro - FR",
+        "entitlementTag": "TOY-PARTNER_FR_METRO",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:109550409"
+    },
+    {
+        "___name": "SimCity Micromania - FR",
+        "entitlementTag": "TOY-PARTNER_FR_MICROMANIA",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:109550417"
+    },
+    {
+        "___name": "SimCity Telia - SE",
+        "entitlementTag": "TOY-PARTNER_SV_TELIA",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:109550406"
+    },
+    {
+        "___name": "SimCity Media Markt - DE",
+        "entitlementTag": "TOY-PARTNER_DA_MEDIAMRKT",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:109550401"
+    },
+    {
+        "___name": "SimCity Airships Pack",
+        "entitlementTag": "PACK_WW_AIRSHIPS",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:109548449"
+    },
+    {
+        "___name": "Red Cross Disaster Relief Set",
+        "entitlementTag": "RAZOR1911-5221328086",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:109548657"
+    },
+    {
+        "___name": "Progressive Insurence Set",
+        "entitlementTag": "PACK-PARTNER_WW_PROGRESSIVE",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:1000038"
+    },
+    {
+        "___name": "SIMCITY: CITIES OF TOMORROW (EP1) SKYTOWER ROOF TOPPER",
+        "entitlementTag": "TOY_ROLLER_COASTER_CROWN",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:109552718"
+    },
+    {
+        "___name": "SIMCITY: CITIES OF TOMORROW LIMITED (LAUNCH ARCOLOGY DLC)",
+        "entitlementTag": "TOY_LAUNCH_ARCOLOGY",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPCDLC",
+        "productId": "OFB-EAST:109552720"
+    },
+    {
+        "___name": "SIMCITY CITIES OF TOMORROW (EP1) STANDARD EDITION",
+        "entitlementTag": "SC_CITIES_OF_TOMORROW",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPC",
+        "productId": "OFB-EAST:65822"
+    },
+    {
+        "___name": "SIMCITY: CITIES OF TOMORROW LIMITED EDITION",
+        "entitlementTag": "SC_CITIES_OF_TOMORROW",
+        "entitlementType": "DEFAULT",
+        "groupName": "SimCityPC",
+        "productId": "OFB-EAST:109552719"
+    },
+    {
+        "___name": "EP01: World Adventures",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "DR:137311600"
+    },
+    {
+        "___name": "EP02: Ambitions",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "DR:169598400"
+    },
+    {
+        "___name": "EP03: Late Night",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "DR:194011300"
+    },
+    {
+        "___name": "EP04: Generations",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "DR:219720800"
+    },
+    {
+        "___name": "EP05: Pets",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "DR:234872200"
+    },
+    {
+        "___name": "EP06: Showtime",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "OFB-EAST:42334"
+    },
+    {
+        "___name": "EP07: Supernatural",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "OFB-EAST:49019"
+    },
+    {
+        "___name": "EP08: Seasons",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "OFB-EAST:49463"
+    },
+    {
+        "___name": "EP09: University Life",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "OFB-EAST:109545788"
+    },
+    {
+        "___name": "EP10: Island Paradise",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "OFB-EAST:109546946"
+    },
+    {
+        "___name": "EP11: Into the Future",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "OFB-EAST:64320"
+    },
+    {
+        "___name": "SP01: High-End Loft Stuff",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "DR:156751300"
+    },
+    {
+        "___name": "SP02: Fast Lane Stuff",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "DR:191313700"
+    },
+    {
+        "___name": "SP03: Outdoor Living Stuff",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "DR:215625800"
+    },
+    {
+        "___name": "SP04: Town Life Stuff",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "DR:227821700"
+    },
+    {
+        "___name": "SP05: Master Suite Stuff",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "DR:231553700"
+    },
+    {
+        "___name": "SP06: Katy Perry's Sweet Treats",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "OFB-EAST:43768"
+    },
+    {
+        "___name": "SP07: Diesel Stuff",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "OFB-EAST:43769"
+    },
+    {
+        "___name": "SP08: 70s, 80s, & 90s Stuff",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "OFB-EAST:52011"
+    },
+    {
+        "___name": "SP09: Movie Stuff",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ORIGIN_DOWNLOAD",
+        "groupName": "",
+        "productId": "OFB-EAST:64317"
+    },
+    {
+        "___name": "The Sims™ 4 Holiday Celebration Pack",
+        "entitlementTag": "Sims4HolidayObjectsBundle_0x000000000001266C:75372",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000001266C"
+    },
+    {
+        "___name": "The Sims™ 4 Outdoor Retreat",
+        "entitlementTag": "GreatOutdoors_0x0000000000011A4B:72267",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000011A4B"
+    },
+    {
+        "___name": "The Sims™ 4 Get Together",
+        "entitlementTag": "GetTogether_0x00000000000170FF:94463",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x00000000000170FF"
+    },
+    {
+        "___name": "The Sims™ 4 City Living",
+        "entitlementTag": "EP03_CityLife_0x000000000001D5ED:120301",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000001D5ED"
+    },
+    {
+        "___name": "The Sims™ 4 Cats & Dogs",
+        "entitlementTag": "EP04_CatsandDogs_0x000000000002714B:160075",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000002714B"
+    },
+    {
+        "___name": "The Sims™ 4 Get to Work",
+        "entitlementTag": "ExpansionPack1_0x0000000000011AC5:72389",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000011AC5"
+    },
+    {
+        "___name": "The Sims™ 4 Spa Day",
+        "entitlementTag": "GP02_SpaDay_0x0000000000016C2A:93226",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000016C2A"
+    },
+    {
+        "___name": "The Sims™ 4 Dine Out",
+        "entitlementTag": "GP03_Restaurants_0x000000000001C03A:114746",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000001C03A"
+    },
+    {
+        "___name": "The Sims™ 4 Vampires",
+        "entitlementTag": "GP04_Vampires_0x000000000002376D:145261",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000002376D"
+    },
+    {
+        "___name": "The Sims™ 4 Parenthood",
+        "entitlementTag": "GP05_FamilyFirst_0x0000000000027890:161936",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000027890"
+    },
+    {
+        "___name": "The Sims™ 4 Jungle Adventure",
+        "entitlementTag": "GP06_JungleWorld_0x000000000002B073:176243",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000002B073"
+    },
+    {
+        "___name": "The Sims™ 4 Digital Soundtrack",
+        "entitlementTag": "TS4DigitalSoundtrack_0x000000000000B51A:46362",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000000B51A"
+    },
+    {
+        "___name": "Up All Night Digital Content",
+        "entitlementTag": "UpAllNight_0x0000000000009AED:39661",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000009AED"
+    },
+    {
+        "___name": "Awesome Animal Hats Digital Content",
+        "entitlementTag": "OriginExclusivePack_0x00000000000098C2:39106",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x00000000000098C2"
+    },
+    {
+        "___name": "Life of the Party Digital Content",
+        "entitlementTag": "LifeOfTheParty_0x0000000000008E14:36372",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000008E14"
+    },
+    {
+        "___name": "The Sims™ 4 Digital Deluxe Upgrade",
+        "entitlementTag": "DigitalDeluxeUpgrade_0x000000000000AB5C:43868",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000000AB5C"
+    },
+    {
+        "___name": "The Sims™ 4 Luxury Party Stuff",
+        "entitlementTag": "SP01_LuxuryPartyStuff_0x0000000000016390:91024",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000016390"
+    },
+    {
+        "___name": "The Sims™ 4 Perfect Patio Stuff",
+        "entitlementTag": "SP02_PerfectPatioStuff_0x0000000000016B37:92983",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000016B37"
+    },
+    {
+        "___name": "The Sims™ 4 Cool Kitchen Stuff",
+        "entitlementTag": "SP03_CoolKitchenStuff_0x0000000000018B66:101222",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000018B66"
+    },
+    {
+        "___name": "The Sims™ 4 Spooky Stuff",
+        "entitlementTag": "SP04_SpookyStuff_0x0000000000019B59:105305",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000019B59"
+    },
+    {
+        "___name": "The Sims™ 4 Movie Hangout Stuff",
+        "entitlementTag": "SP05_MovieNight_0x000000000001A9A7:108967",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000001A9A7"
+    },
+    {
+        "___name": "The Sims™ 4 Romantic Garden Stuff",
+        "entitlementTag": "SP06_SecretGarden_0x000000000001C04E:114766",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000001C04E"
+    },
+    {
+        "___name": "The Sims™ 4 Kids Room Stuff",
+        "entitlementTag": "SP07_KidsRoom_0x000000000001D5F2:120306",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000001D5F2"
+    },
+    {
+        "___name": "The Sims™ 4 Backyard Stuff",
+        "entitlementTag": "SP08_BackyardFun_0x0000000000020176:131446",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000020176"
+    },
+    {
+        "___name": "The Sims™ 4 Vintage Glamour Stuff",
+        "entitlementTag": "SP09_GlamorousStuffPack_0x0000000000022C32:142386",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000022C32"
+    },
+    {
+        "___name": "The Sims™ 4 Bowling Night Stuff",
+        "entitlementTag": "SP10_BowlingStuff_0x0000000000027128:160040",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000027128"
+    },
+    {
+        "___name": "The Sims™ 4 Fitness Stuff",
+        "entitlementTag": "SP11_FitnessStuff_0x0000000000028FE2:167906",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000028FE2"
+    },
+    {
+        "___name": "The Sims™ 4 Toddler Stuff",
+        "entitlementTag": "SP12_ToddlerStuff_0x000000000002A4FE:173310",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000002A4FE"
+    },
+    {
+        "___name": "The Sims™ 4 Laundry Day Stuff",
+        "entitlementTag": "SP13_LaundryStuff_0x000000000002CA06:182790",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000002CA06"
+    },
+    {
+        "___name": "<unknown>",
+        "entitlementTag": "Incentive01_musicGuitar_EF0GENreaper:145262",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000002376E"
+    },
+    {
+        "___name": "<unknown>",
+        "entitlementTag": "Prima_0x0000000000007BC5:31685",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000007BC5"
+    },
+    {
+        "___name": "The Sims™ 4 My First Pet Stuff",
+        "entitlementTag": "SP14_MyFirstPetStuff_0x000000000002EA24:191012",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000002EA24"
+    },
+    {
+        "___name": "The Sims™ 4 Seasons",
+        "entitlementTag": "EP05_Seasons_0x000000000002E2C7:189127",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000002E2C7"
+    },
+    {
+        "___name": "The Sims™ 4 Get Famous",
+        "entitlementTag": "EP06_GetFamous_0x0000000000030553:197971",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000030553"
+    },
+    {
+        "___name": "The Sims™ 4 StrangerVille",
+        "entitlementTag": "GP07_StrangerVille_0x0000000000033910:211216",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000033910"
+    },
+    {
+        "___name": "The Sims™ 4 Island Living",
+        "entitlementTag": "EP07_IslandLiving_0x00000000000327AF:206767",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x00000000000327AF"
+    },
+    {
+        "___name": "The Sims™ 4 Moschino Stuff Pack",
+        "entitlementTag": "SP15_MoschinoStuff_0x000000000003749F:226463",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000003749F"
+    },
+    {
+        "___name": "The Sims™ 4 Realm of Magic",
+        "entitlementTag": "GP08_RealmOfMagic_0x0000000000036EE8:225000",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000036EE8"
+    },
+    {
+        "___name": "The Sims™ 4 Discover University",
+        "entitlementTag": "EP08_DiscoverUniversity_0x0000000000035113:217363",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000035113"
+    },
+    {
+        "___name": "The Sims™ 4 Tiny Living",
+        "entitlementTag": "SP16_TinyLivingStuff_0x000000000003A92D:239917",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000003A92D"
+    },
+    {
+        "___name": "<unknown>",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ONLINE_ACCESS",
+        "groupName": "",
+        "productId": "OFB-EAST:48217"
+    },
+    {
+        "___name": "The Sims™ 4 Digital Soundtrack",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ONLINE_ACCESS",
+        "groupName": "",
+        "productId": "SIMS4.OFF.SOLP.0x000000000000B51A"
+    },
+    {
+        "___name": "The Sims™ 4",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ONLINE_ACCESS",
+        "groupName": "",
+        "productId": "OFB-EAST:109552299"
+    },
+    {
+        "___name": "<unknown>",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ONLINE_ACCESS",
+        "groupName": "",
+        "productId": "DR:225126100"
+    },
+    {
+        "___name": "The Sims™ 4 Create A Sim Demo",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ONLINE_ACCESS",
+        "groupName": "",
+        "productId": "OFB-EAST:109551057"
+    },
+    {
+        "___name": "<unknown>",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ONLINE_ACCESS",
+        "groupName": "",
+        "productId": "SIMS4.OFF.SOLP.0x000000000000E38E"
+    },
+    {
+        "___name": "<unknown>",
+        "entitlementTag": "ORIGIN_DOWNLOAD",
+        "entitlementType": "ONLINE_ACCESS",
+        "groupName": "",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000023F8C"
+    },
+    {
+        "___name": "The Sims™ 3 Expansion Bundle",
+        "entitlementTag": "ONLINE_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "DR:284184500"
+    },
+    {
+        "___name": "The Sims™ 3",
+        "entitlementTag": "ONLINE_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "OFB-EAST:55107"
+    },
+    {
+        "___name": "The Sims™ 3 University Life",
+        "entitlementTag": "ONLINE_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "OFB-EAST:109545788"
+    },
+    {
+        "___name": "The Sims™ 3 Island Paradise",
+        "entitlementTag": "ONLINE_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "OFB-EAST:109546946"
+    },
+    {
+        "___name": "The Sims™ 3 Into the Future Limited Edition",
+        "entitlementTag": "ONLINE_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "OFB-EAST:109550229"
+    },
+    {
+        "___name": "The Sims™ 3 Showtime",
+        "entitlementTag": "ONLINE_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "OFB-EAST:42334"
+    },
+    {
+        "___name": "The Sims™ 3 Supernatural",
+        "entitlementTag": "ONLINE_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "OFB-EAST:49019"
+    },
+    {
+        "___name": "The Sims™ 3 Seasons",
+        "entitlementTag": "ONLINE_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "OFB-EAST:49463"
+    },
+    {
+        "___name": "The Sims™ 3 Ambitions",
+        "entitlementTag": "ONLINE_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "DR:169598400"
+    },
+    {
+        "___name": "The Sims™ 3 Late Night Expansion Pack",
+        "entitlementTag": "ONLINE_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "DR:194011300"
+    },
+    {
+        "___name": "<unknown>",
+        "entitlementTag": "ONLINE_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "DR:230842700"
+    },
+    {
+        "___name": "<unknown>",
+        "entitlementTag": "ONLINE_ACCESS",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000002AEA7"
+    },
+    {
+        "___name": "The Sims™ 4 Eco Lifestyle",
+        "entitlementTag": "EP09_EcoLifestyle_0x0000000000039AA7:236199",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000039AA7"
+    },
+    {
+        "___name": "The Sims™ 4 Nifty Knitting Stuff Pack",
+        "entitlementTag": "SP17_NiftyKnittingStuff_0x000000000003D4E9:251113",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000003D4E9"
+    },
+    {
+        "___name": "The Sims™ 4 STAR WARS™: Journey to Batuu Game Pack",
+        "entitlementTag": "GP09_JourneytoBatuu_0x000000000003B1C1:242113",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000003B1C1"
+    },
+    {
+        "___name": "The Sims™ 4 Snowy Escape",
+        "entitlementTag": "EP10_SnowyEscape_0x000000000003C344:246596",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000003C344"
+    },
+    {
+        "___name": "The Sims™ 4 Paranormal Stuff Pack",
+        "entitlementTag": "SP18_ParanormalStuff_0x000000000003FA50:260688",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000003FA50"
+    },
+    {
+        "___name": "The Sims™ 4 Throwback Fit Kit",
+        "entitlementTag": "SP20_ThrowbackFitKit_0x000000000004008B:262283",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000004008B"
+    },
+    {
+        "___name": "The Sims™ 4 Country Kitchen Kit",
+        "entitlementTag": "SP21_CountryKitchenKit_0x000000000004008C:262284",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000004008C"
+    },
+    {
+        "___name": "The Sims™ 4 Bust the Dust Kit",
+        "entitlementTag": "SP22_BusttheDustKit_0x000000000004008D:262285",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000004008D"
+    },
+    {
+        "___name": "The Sims™ 4 Courtyard Oasis Kit",
+        "entitlementTag": "SP23_CourtyardOasisKit_0x0000000000043896:276630",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000043896"
+    },
+    {
+        "___name": "The Sims™ 4 Dream Home Decorator",
+        "entitlementTag": "GP10_DreamHomeDecorator_0x0000000000040A01:264705",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000040A01"
+    },
+    {
+        "___name": "The Sims™ 4 Gnome on the Go - Cottage Living Preorder Bonus",
+        "entitlementTag": "GnomeOnTheGo_CLPreorderBonus:283880",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x00000000000454E8"
+    },
+    {
+        "___name": "The Sims™ 4 Cottage Living",
+        "entitlementTag": "EP11_CottageLiving_0x00000000000405E6:263654",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x00000000000405E6"
+    },
+    {
+        "___name": "The Sims™ 4 Industrial Loft Kit",
+        "entitlementTag": "SP25_IndustrialLoftKit_0x00000000000463B9:287673",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x00000000000463B9"
+    },
+    {
+        "___name": "The Sims™ 4 Fashion Street Kit",
+        "entitlementTag": "SP24_FashionStreetKit_0x0000000000045113:282899",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000045113"
+    },
+    {
+        "___name": "The Sims™ 4 Incheon Arrivals Kit",
+        "entitlementTag": "SP26_IncheonArrivalsKit_0x00000000000467AA:288682",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x00000000000467AA"
+    },
+    {
+        "___name": "The Sims™ 4 Blooming Rooms Kit",
+        "entitlementTag": "SP29_BloomingRoomsKit_0x0000000000046859:288857",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000046859"
+    },
+    {
+        "___name": "The Sims™ 4 Modern Menswear Kit",
+        "entitlementTag": "SP28_ModernMenswearKit_0x0000000000046858:288856",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000046858"
+    },
+    {
+        "___name": "The Sims™ 4 Carnaval Streetwear Kit",
+        "entitlementTag": "SP30_CarnavalKit_0x000000000004685A:288858",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000004685A"
+    },
+    {
+        "___name": "The Sims™ 4 My Wedding Stories",
+        "entitlementTag": "GP11_WeddingStories_0x0000000000047D7E:294270",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000047D7E"
+    },
+    {
+        "___name": "The Sims™ 4 Décor to the Max Kit",
+        "entitlementTag": "SP31_Maximalism Kit_0x0000000000048CFD:298237",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000048CFD"
+    },
+    {
+        "___name": "The Sims™ 4 Moonlight Chic Kit",
+        "entitlementTag": "SP32_DateNightParisKit_0x000000000004CB7A:314234",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000004CB7A"
+    },
+    {
+        "___name": "The Sims™ 4 Little Campers Kit",
+        "entitlementTag": "SP33_CozyCampoutKit_0x000000000004CB7B:314235",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000004CB7B"
+    },
+    {
+        "___name": "The Sims™ 4 Werewolves",
+        "entitlementTag": "GP12_Werewolves_0x0000000000048E3E:298558",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000048E3E"
+    },
+    {
+        "___name": "The Sims™ 4 High School Years (normal)",
+        "entitlementTag": "EP12_HighSchool_0x0000000000047D4B:294219",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000047D4B"
+    },
+    {
+        "___name": "The Sims™ 4 High School Years (preorder)",
+        "entitlementTag": "EP12_PrePurchase_0x000000000004AAD0:305872",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000004AAD0"
+    },
+    {
+        "___name": "The Sims™ 4 High School Years (preorder only)",
+        "entitlementTag": "EP12_IncentiveItems_0x000000000004AAD1:305873",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000004AAD1"
+    },
+    {
+        "___name": "The Sims™ 4 First Fits Kit",
+        "entitlementTag": "SP34_LittleTrendsetters_0x000000000004E9E7:322023",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000004E9E7"
+    },
+    {
+        "___name": "The Sims™ 4 Desert Luxe Kit",
+        "entitlementTag": "SP35_DesertLuxury_0x000000000004E9E8:322024",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x000000000004E9E8"
+    },
+    {
+        "___name": "The Sims™ 4 Pastel Pop Kit",
+        "entitlementTag": "SP36_PastelPopKit_0x0000000000050752:329554",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000050752"
+    },
+    {
+        "___name": "The Sims™ 4 Everyday Clutter Kit",
+        "entitlementTag": "SP37_EverydayClutterKit_0x0000000000050753:329555",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000050753"
+    },
+    {
+        "___name": "The Sims™ 4 Simtimates Collection Kit",
+        "entitlementTag": "SP38_ModernLoungewearKit_0x0000000000052633:337459",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000052633"
+    },
+    {
+        "___name": "The Sims™ 4 Bathroom Clutter Kit",
+        "entitlementTag": "SP39_BathroomClutterKit_0x0000000000052C6F:339055",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000052C6F"
+    },
+    {
+        "___name": "The Sims™ 4 Growing Together (preorder)",
+        "entitlementTag": "EP13_PrePurchase_0x00000000000530C0:340160",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x00000000000530C0"
+    },
+    {
+        "___name": "The Sims™ 4 Growing Together (preorder only)",
+        "entitlementTag": "EP13_IncentiveItems_0x00000000000530BF:340159",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x00000000000530BF"
+    },
+    {
+        "___name": "The Sims™ 4 Greenhouse Haven Kit",
+        "entitlementTag": "SP40_GreenhouseKit_0x0000000000056640:353856",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000056640"
+    },
+    {
+        "___name": "The Sims™ 4 Basement Treasures Kit",
+        "entitlementTag": "SP41_GrungyBasementKit_0x0000000000056641:353857",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x0000000000056641"
+    },
+    {
+        "___name": "The Sims™ 4 Grunge Revival Kit",
+        "entitlementTag": "SP42_GrungeRevivalKit_0x00000000000574B3:357555",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x00000000000574B3"
+    },
+    {
+        "___name": "The Sims™ 4 Book Nook Kit",
+        "entitlementTag": "SP43_BookNookKit_0x00000000000574B4:357556",
+        "entitlementType": "DEFAULT",
+        "groupName": "THESIMS4PC",
+        "productId": "SIMS4.OFF.SOLP.0x00000000000574B4"
+    },
+    {
+        "___name": "The Sinking City - Investigator Pack",
+        "entitlementTag": "THE_SINKING_CITY_DLC_1",
+        "entitlementType": "DEFAULT",
+        "groupName": "THE_SINKING_CITY",
+        "productId": "Origin.OFR.50.0004208"
+    },
+    {
+        "___name": "The Sinking City - Merciful Madness",
+        "entitlementTag": "THE_SINKING_CITY_DLC_2",
+        "entitlementType": "DEFAULT",
+        "groupName": "THE_SINKING_CITY",
+        "productId": "Origin.OFR.50.0004209"
+    },
+    {
+        "___name": "The Sinking City - Chicago Organ Grinder",
+        "entitlementTag": "THE_SINKING_CITY_DLC_3",
+        "entitlementType": "DEFAULT",
+        "groupName": "THE_SINKING_CITY",
+        "productId": "Origin.OFR.50.0004210"
+    },
+    {
+        "___name": "The Sinking City - Worshippers of the Necronomicon",
+        "entitlementTag": "THE_SINKING_CITY_DLC_4",
+        "entitlementType": "DEFAULT",
+        "groupName": "THE_SINKING_CITY",
+        "productId": "Origin.OFR.50.0004211"
+    },
+    {
+        "___name": "The Sinking City - Experience Boost",
+        "entitlementTag": "THE_SINKING_CITY_DLC_5",
+        "entitlementType": "DEFAULT",
+        "groupName": "THE_SINKING_CITY",
+        "productId": "Origin.OFR.50.0004212"
+    },
+    {
+        "___name": "CREO Special Employee Kit",
+        "entitlementTag": "THE_SURGE_CSEK",
+        "entitlementType": "DEFAULT",
+        "groupName": "OPP",
+        "productId": "Origin.OFR.50.0002257"
+    },
+    {
+        "___name": "A Walk in the Park",
+        "entitlementTag": "THE_SURGE_AWITP",
+        "entitlementType": "DEFAULT",
+        "groupName": "OPP",
+        "productId": "Origin.OFR.50.0002885"
+    },
+    {
+        "___name": "The Good, The Bad and the Augmented",
+        "entitlementTag": "THE_SURGE_TGTBTA",
+        "entitlementType": "DEFAULT",
+        "groupName": "OPP",
+        "productId": "Origin.OFR.50.0003031"
+    },
+    {
+        "___name": "War Child Charity DLC",
+        "entitlementTag": "THIS_WAR_OF_MINE_WAR_CHILD_DLC",
+        "entitlementType": "DEFAULT",
+        "groupName": "THIS_WAR_OF_MINE",
+        "productId": "Origin.OFR.50.0001269"
+    },
+    {
+        "___name": "The Little Ones DLC",
+        "entitlementTag": "THIS_WAR_OF_MINE_THE_LITTLE_ONES",
+        "entitlementType": "DEFAULT",
+        "groupName": "THIS_WAR_OF_MINE",
+        "productId": "Origin.OFR.50.0001587"
+    },
+    {
+        "___name": "Fathers Promise",
+        "entitlementTag": "THIS_WAR_OF_MINE_FATHERS_PROMISE",
+        "entitlementType": "DEFAULT",
+        "groupName": "THIS_WAR_OF_MINE",
+        "productId": "Origin.OFR.50.0004333"
+    },
+    {
+        "___name": "The Last Broadcast",
+        "entitlementTag": "THIS_WAR_OF_MINE_THE_LAST_BROADCAST",
+        "entitlementType": "DEFAULT",
+        "groupName": "THIS_WAR_OF_MINE",
+        "productId": "Origin.OFR.50.0004334"
+    },
+    {
+        "___name": "Fading Embers",
+        "entitlementTag": "THIS_WAR_OF_MINE_FADING_EMBERS",
+        "entitlementType": "DEFAULT",
+        "groupName": "THIS_WAR_OF_MINE",
+        "productId": "Origin.OFR.50.0004335"
+    },
+    {
+        "___name": "Season Pass",
+        "entitlementTag": "THIS_WAR_OF_MINE_SEASON_PASS",
+        "entitlementType": "DEFAULT",
+        "groupName": "THIS_WAR_OF_MINE",
+        "productId": "Origin.OFR.50.0004336"
+    },
+    {
+        "___name": "Tropico 6 - Llama of Wall Street DLC",
+        "entitlementTag": "TROPICO_6_DLC_1",
+        "entitlementType": "DEFAULT",
+        "groupName": "OPP",
+        "productId": "Origin.OFR.50.0003573"
+    },
+    {
+        "___name": "Tropico 6 - Spitter DLC",
+        "entitlementTag": "TROPICO_6_DLC_2",
+        "entitlementType": "DEFAULT",
+        "groupName": "OPP",
+        "productId": "Origin.OFR.50.0003574"
+    },
+    {
+        "___name": "Tropico 6 - Lobbyistico DLC",
+        "entitlementTag": "TROPICO_6_DLC_3",
+        "entitlementType": "DEFAULT",
+        "groupName": "OPP",
+        "productId": "Origin.OFR.50.0004161"
+    },
+    {
+        "___name": "Tropico 6 - Caribbean Skies DLC",
+        "entitlementTag": "TROPICO_6_DLC_4",
+        "entitlementType": "DEFAULT",
+        "groupName": "OPP",
+        "productId": "Origin.OFR.50.0004428"
+    },
+    {
+        "___name": "Tropico 6 - Festival DLC",
+        "entitlementTag": "TROPICO_6_DLC_5",
+        "entitlementType": "DEFAULT",
+        "groupName": "OPP",
+        "productId": "Origin.OFR.50.0004685"
+    }
+]

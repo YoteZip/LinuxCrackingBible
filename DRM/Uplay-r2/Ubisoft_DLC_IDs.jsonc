@@ -1,0 +1,620 @@
+// From https://github.com/acidicoala/public-entitlements/blob/main/ubisoft/v1/products.jsonc
+
+{
+  "3352|3360": {
+    "name": "UNO",
+    "dlcs": [
+      3765, // UNO - Rayman Theme Cards
+      3766, // UNO - Just Dance Theme Cards
+      3776, // UNO - Winter Theme Cards
+      16383, // UNO - Flip Theme Cards
+      17860, // UNO - Fenyx's Quest Theme Cards
+      17942, // UNO - 50th Anniversary Theme Cards
+      59689, // UNO - The Call of Yara Theme Cards
+      60710 // UNO - AC Valhalla Theme Cards
+    ],
+    "items": [
+      61887
+    ]
+  },
+  "3353": {
+    "name": "Watch Dogs: Legion",
+    "dlcs": [
+      5187,
+      5188,
+      5189,
+      5190,
+      5191,
+      5192,
+      5193,
+      5194,
+      5195,
+      5196,
+      5718,
+      10789,
+      10790,
+      10791,
+      10792,
+      10793,
+      11228,
+      17888,
+      17791,
+      17956,
+      57998,
+      58001,
+      58002,
+      58861
+    ],
+    "items": [
+      5354,
+      5355,
+      5356,
+      5357,
+      5358
+    ]
+  },
+  "4553|4554": {
+    "name": "Anno 1800",
+    "dlcs": [
+      // Credit to asqwed for comments
+      4556, // DLC0_Anarchist
+      4557, // Anno 1800 ULC - Imperial Pack - PreOrder Bonus
+      5440, // Anno 1800 - Twitch Drop - Billboard - Annoholic
+      5441, // Anno 1800 - Twitch Drop - Billboard - Anno Union
+      5442, // Anno 1800 - Twitch Drop - Billboard - Anarchy
+      5443, // Anno 1800 - Twitch Drop - Billboard - Sunken Treasures
+      5444, // Anno 1800 - Twitch Drop - Billboard - Botanical Garden
+      5445, // Anno 1800 - Twitch Drop - Billboard - The Passage
+      5446, // Anno 1800 - Twitch Drop - Flag Banner - Annoholic
+      5447, // Anno 1800 - Twitch Drop - Flag Banner - Anno Union
+      5448, // Anno 1800 - Twitch Drop - Morris Column - Annoholic
+      5560, // Anno 1800 CDLC 01 - Holiday
+      5800, // Anno 1800 DLC - Charity Tree
+      12104, // Anno 1800 Company Logos
+      12165, // LanguagePackEnglish
+      12166, // LanguagePackFrench
+      12167, // LanguagePackItalian
+      12168, // LanguagePackGerman
+      12169, // LanguagePackSpanish
+      12170, // LanguagePackPolish
+      12171, // LanguagePackRussian
+      12172, // LanguagePackJapanese
+      12173, // LanguagePackKorean
+      12174, // LanguagePackChinese
+      12175, // LanguagePackTaiwanese
+      12176, // ???
+      14074, // Anno 1800 - Season Pass Player Assets
+      14214, // Anno 1800 DLC - Sunken Treasure
+      14215, // Anno 1800 DLC - Botanica
+      14216, // Anno 1800 DLC - The Passage
+      // 15519, // Uplay+ Non Subscription Tracker
+      // 15923, // Anno 1800 - Playtest Content
+      16621, // Anno 1800 DLC - The Palace
+      16622, // Anno 1800 DLC - Bright Harvest
+      16623, // Anno 1800 DLC - Land of Lions
+      16624, // Anno 1800 - Season 2 Pass Reward
+      16625, // Anno 1800 - Twitch Drop - Seat of Power - Flag
+      16626, // Anno 1800 - Twitch Drop - Seat of Power - Billboard
+      16627, // Anno 1800 - Twitch Drop - Bright Harvest - Flag
+      16628, // Anno 1800 - Twitch Drop - Bright Harvest - Billboard
+      16629, // Anno 1800 - Twitch Drop - Land of Lions - Flag
+      16630, // Anno 1800 - Twitch Drop - Land of Lions - Billboard
+      17029, // Anno Bundle History Edition Ornament
+      17030, // Anno 1602 History Edition Company Logo
+      17031, // Anno 1503 History Edition Company Logo
+      17032, // Anno 1701 History Edition Company Logo
+      17033, // Anno 1404 History Edition Company Logo
+      17316, // Anno 1800 CDLC 02 - Amusement Park
+      17627, // Anno 1800 CDLC 03 - City Lights
+      17794, // Anno 1800 DLC - Docklands
+      17795, // Anno 1800 DLC - Tourism
+      17796, // Anno 1800 DLC - HighLife
+      17797, // Anno 1800 CDLC 04 - Vehicle Liveries
+      17798, // Anno 1800 CDLC 05 - Pedestrian Zone
+      17799, // Anno 1800 CDLC 06 - Vibrant City
+      17804, // Anno 1800 - Season 3 Pass Reward
+      17806, // Anno 1800 - Twitch Drop - DockLands 1
+      17807, // Anno 1800 - Twitch Drop - DockLands 2
+      17808, // Anno 1800 - Twitch Drop - Tourism 1
+      17809, // Anno 1800 - Twitch Drop - Tourism 2
+      17810, // Anno 1800 - Twitch Drop - HighLife 1
+      17811, // Anno 1800 - Twitch Drop - HighLife 2
+      // 17878, // Uplay - Free Weekend - Feb 2021
+      // 17879, // Epic - Free Weekend - Feb 2021
+      59682, // ???
+      59720, // Anno 1800 - Anno 1701 - Ship Skin
+      59721, // Anno 1800 - Anno 2070 - Ship Skin
+      60440, // Anno 1800 DLC - Seeds of Change
+      60673, // Anno 1800 DLC - Empire of the Skies
+      60681, // Anno 1800 DLC - New World Rising
+      60682, // Anno 1800 CDLC 07 - Seasonal Decorations
+      60683, // Anno 1800 CDLC 08 - Industrial Zone
+      60684, // Anno 1800 CDLC 09 - Old Town
+      60685, // Anno 1800 - Season 4 Bonus Content
+      60686, // Anno 1800 - Twitch Drop - DLC10 Flag
+      60687, // Anno 1800 - Twitch Drop - DLC10 Billboard
+      60688, // Anno 1800 - Twitch Drop - DLC11 Flag
+      60689, // Anno 1800 - Twitch Drop - DLC11 Billboard
+      60690, // Anno 1800 - Twitch Drop - DLC12 Flag
+      60691, // Anno 1800 - Twitch Drop - DLC12 Billboard
+      60692, // Anno 1800 - Refer-a-Friend
+      62488,// Anno 1800 CDLC 10 - Dragon Garden
+      62613 // Anno 1800 CDLC 11 - Fiesta Time
+    ],
+    "items": []
+  },
+  "920|5266": {
+    "name": "Far Cry 6",
+    "dlcs": [
+      13652,
+      13653,
+      13654,
+      13655,
+      13656,
+      13657,
+      13658,
+      13659,
+      13660,
+      13661,
+      13662,
+      13663,
+      13664,
+      13665,
+      13666,
+      13667,
+      13668,
+      17287,
+      17288,
+      17289,
+      17290,
+      17291,
+      17292,
+      17293,
+      17381,
+      17382,
+      17383,
+      17384,
+      17385,
+      17386,
+      17387,
+      17388,
+      17389,
+      17390,
+      17391,
+      17392,
+      17393,
+      17394,
+      17395,
+      17396,
+      17397,
+      17398,
+      17399,
+      17400,
+      17401,
+      17402,
+      17403,
+      17404,
+      17405,
+      17406,
+      17407,
+      17408,
+      17409,
+      17410,
+      17411,
+      17412,
+      17413,
+      17414,
+      17415,
+      17416,
+      17417,
+      17418,
+      17419,
+      17420,
+      17421,
+      17422,
+      17423,
+      17424,
+      17425,
+      17426,
+      17427,
+      17428,
+      17429,
+      17430,
+      17431,
+      17432,
+      17433,
+      17434,
+      17435,
+      17436,
+      17437,
+      17438,
+      17439,
+      17440,
+      17440,
+      17441,
+      17442,
+      17443,
+      17444,
+      17445,
+      17446,
+      17447,
+      17448,
+      17449,
+      17450,
+      17451,
+      17452,
+      17453,
+      17454,
+      17455,
+      17456,
+      17457,
+      17458,
+      17480,
+      17772, // Far Cry® 6 - Vaas: Insanity
+      17773, // Far Cry® 6 - Pagan: Control
+      17774, // Far Cry® 6 - Joseph: Collapse
+      17812,
+      17813,
+      17814,
+      17815,
+      17816,
+      17817,
+      17818,
+      17907, // Far Cry® 6 - Libertad Pack
+      17908, // Far Cry® 6 - Vice Pack
+      17909, // Far Cry® 6 - Croc Hunter Pack
+      17910, // Far Cry® 6 - Jungle Expedition Pack
+      17911, // Far Cry® 6 - Season Pass
+      17938, // Far Cry® 6 - Starter Pack
+      17988,
+      18009,
+      18020,
+      18031,
+      19028, // Enable offline mode
+      58168,
+      58881,
+      59360,
+      59361,
+      59362,
+      59363,
+      59390,
+      59523,
+      59541,
+      59543,
+      59544,
+      59545,
+      59546,
+      59599,
+      59693,
+      59694,
+      59696,
+      59698,
+      59699,
+      59734,
+      59736,
+      59780,
+      59781,
+      59782,
+      59797,
+      59800,
+      59844,
+      59851,
+      59853,
+      59854,
+      59855,
+      59856,
+      59857,
+      59858,
+      59859,
+      59866,
+      59879,
+      60012,
+      60066,
+      60392,
+      60393,
+      60394,
+      60395,
+      60396,
+      60397,
+      60398,
+      60399,
+      60400,
+      60401,
+      60402,
+      60403,
+      60404,
+      60405,
+      60406,
+      60407,
+      60408,
+      60409,
+      60410,
+      60411,
+      60412,
+      60434,
+      60623,
+      60642,
+      60643,
+      60644,
+      60645,
+      60646,
+      60647,
+      60648,
+      60649,
+      60650,
+      60739,
+      60856,
+      61245,
+      61246,
+      61404, // Lost Between Worlds DLC
+      61682,
+      61749,
+      61750,
+      61867,
+      61868,
+      61921,
+      61930,
+      61931,
+      61932,
+      61933,
+      61934,
+      61935,
+      61936,
+      61954,
+      61955,
+      61956,
+      61957,
+      61958,
+      61959,
+      61960,
+      61961,
+      61962,
+      61963,
+      61964,
+      61965,
+      61966,
+      61967,
+      61968,
+      61969,
+      61970,
+      61971,
+      61972,
+      61973,
+      61974,
+      61975,
+      61976,
+      61977,
+      61978,
+      61979,
+      61980,
+      61981,
+      61982,
+      61983,
+      61984,
+      62107,
+      62262,
+      62263,
+      62264,
+      62265,
+      62266,
+      62267,
+      62268,
+      62269,
+      62270,
+      62271,
+      62272,
+      62273,
+      62274,
+      62275,
+      62276,
+      62303,
+      62304,
+      62306
+    ],
+    "items": [
+      57122,
+      57918,
+      57919,
+      57920,
+      57921
+    ]
+  },
+  "5405|62326": {
+    "name": "Immortals Fenyx Rising",
+    "dlcs": [
+      5490,
+      5491,
+      5492,
+      5519,
+      5520,
+      5521,
+      5522,
+      5523,
+      5524,
+      5525,
+      5526,
+      5527,
+      5528,
+      5529,
+      5530,
+      5531,
+      5532,
+      5533,
+      5534,
+      5535,
+      5536,
+      5537,
+      5538,
+      5539,
+      5540,
+      5541,
+      5542,
+      5723,
+      5724,
+      60478
+    ],
+    "items": [
+      5507,
+      5508,
+      5509,
+      5510,
+      5511,
+      5512,
+      5513,
+      5514
+    ]
+  },
+  "13504|7013": {
+    "name": "Assassin's Creed: Valhalla",
+    "dlcs": [
+      5606, // DLC: The Legend of Beowulf
+      5607, // DLC: Wrath of the Druids
+      5625, // Language Pack: fr-FR
+      5626, // Language Pack: it-IT
+      5627, // Language Pack: de-DE
+      5628, // Language Pack: es-ES
+      5629, // Language Pack: ru-RU
+      5630, // Language Pack: pt-BR
+      5631, // Language Pack: ja-JP
+      5632, // Language Pack: pl-PL
+      5633, // Language Pack: ar-AA
+      5634, // Language Pack: es-MX
+      5635, // Language Pack: zh-TW
+      5636, // Language Pack: zh-CN
+      5637, // Language Pack: ko-KO
+      5638,
+      5639, // DLC: Berserker Pack
+      5640, // DLC: Berserker Settlement Pack
+      5641, // DLC: Berserker Ship Pack
+      5676, // DLC: Season Pass
+      5691, // DLC: Set of Runes
+      5692, // Raven skin: Huginn and Muninn
+      5693, // Mount skin: Hati
+      5694, // DLC: The Siege of Paris
+      5695,
+      5696,
+      5697,
+      5698, // Language Pack: en-US
+      5699,
+      5725, // DLC: Premium Starter Pack
+      16915,
+      16916,
+      16917,
+      16918,
+      16919,
+      16920,
+      16921,
+      16923,
+      16962,
+      16963,
+      16964,
+      16965,
+      16966,
+      16968,
+      16969,
+      16978,
+      16979,
+      16982,
+      16983,
+      16984,
+      16985,
+      16986,
+      16987,
+      16988,
+      16989,
+      16990,
+      16991,
+      16992,
+      16993,
+      16994,
+      17337,
+      17368,
+      17369,
+      17370,
+      17371,
+      17372,
+      17373,
+      17374,
+      17479,
+      58252,
+      58256,
+      58257,
+      58258,
+      58259,
+      58260,
+      58262,
+      58263,
+      58264,
+      58265,
+      58266,
+      58267,
+      58268,
+      58269,
+      58270,
+      58292,
+      59211,
+      59571,
+      59571,
+      59590,
+      59625,
+      59884, // DLC: Dawn of Ragnarök
+      59885, // DLC: Twilight Pack
+      61148,
+      61149,
+      61150,
+      61151,
+      61152,
+      61153,
+      61154,
+      61175,
+      61318,
+      61320,
+      61321,
+      61322,
+      61323,
+      61331,
+      62290,
+      62311,
+      62314,
+      62315,
+      62316,
+      62317
+    ],
+    "items": [
+      5596,
+      5597,
+      5598,
+      5599,
+      5600,
+      5601,
+      5602,
+      5603,
+      5604,
+      5605,
+      5606,
+      5608,
+      5609,
+      5610,
+      6148,
+      7000,
+      7001,
+      7002,
+      7003,
+      7004,
+      7005,
+      7006,
+      7007,
+      7008,
+      7009,
+      7010,
+      7011,
+      7012,
+      17175,
+      17176,
+      17177,
+      17178,
+      17179,
+      58178
+    ]
+  }
+}
