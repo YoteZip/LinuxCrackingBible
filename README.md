@@ -254,7 +254,7 @@ In order to defeat DRM, we first need to know what types of DRM we're up against
 **SteamDRM (Windows):**
   - Sometimes in Steam games
   - Most games that have this are older but new games can still use it
-  - Run the game's executables through `Steamless` and check if you get a `.steamstripped` file output (more info on this tool in the [SteamDRM (Windows) Guide](DRM/SteamDRM-Windows/defeating_steamdrm_windows.md))
+  - Run the game's executables through `Steamless` and check if you get an `.unpacked.exe` file output (more info on this tool in the [SteamDRM (Windows) Guide](DRM/SteamDRM-Windows/defeating_steamdrm_windows.md))
 
 **SteamDRM (Linux):**
   - Very rare in older native Linux Steam games
