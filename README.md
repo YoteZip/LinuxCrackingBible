@@ -196,7 +196,7 @@ If you're somehow not able to find a copy of the game on cs.rin, then you have t
 
 We're assuming from this point forwards that you've obtained a clean copy of your game and copied it to your workspace.
 
-**Protip**: You should set up `!cs` and `!scs` Firefox bangs that allow you to perform searches in the `Main Forum` and `SCS` forum directly from your browser's search bar. To do this, go to the relevant forum, right click inside the "Search this forum..." textbox, and click "Add a keyword for this search". Save the bookmark somewhere out of the way and type `!cs` or `!scs` into the keyword box. Now you can type e.g. `!cs Star Wars Fable 3` into your search bar and get direct results from the Main Forum.
+**Protip**: You should set up `!cs` and `!scs` Firefox bangs that allow you to perform searches in the `Main Forum` and `SCS` forum directly from your browser's search bar. To do this, go to the relevant forum, right click inside the "Search this forum..." textbox, and click "Add a keyword for this search". Save the bookmark somewhere out of the way and type `!cs` or `!scs` into the keyword box. Now you can type e.g. `!cs Fable 3` into your search bar and get direct results from the Main Forum.
 
 # **5. DRM research**
 
