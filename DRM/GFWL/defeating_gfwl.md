@@ -16,7 +16,7 @@ For our walkthrough we'll be cracking the GFWL DRM on Fable 3. This game is easy
 
 4. [`FABLE 3 ONLY`] Defeat [Securom](../Securom/defeating_securom.md) protection (we crack Fable 3 in the Securom guide as well)
 
-5. Extract `xlive.dll` and `xlive.ini` to your game directory.
+5. Extract `xlive.dll` and `xlive.ini` from catspaw's GFWL emulator to your game directory.
 
 6. Configure `xlive.ini`:
 
