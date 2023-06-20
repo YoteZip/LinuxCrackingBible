@@ -224,7 +224,7 @@ In order to defeat DRM, we first need to know what types of DRM we're up against
   - Not generically defeatable to my knowledge, so not very useful for us
   - This can look very similar to new Origin DRM
   - If you're not sure whether your game is old or new Origin DRM, check the [Old Origin DRM list](DRM/OldOrigin/list_of_oldorigin_games.md).
-  - If you're still confused whether your game is old or new Origin DRM, you can run your game executable through `Anadius's Unwrapper` and it will tell you that there is no .ooa section if it's the old version (more info on this tool in the [Origin cracking guide](DRM/NewOrigin/defeating_origin.md))
+  - If you're still confused whether your game is old or new Origin DRM, you can run your game executable through `Anadius's Origin Unwrapper` and it will tell you that there is no .ooa section if it's the old version (more info on this tool in the [Origin cracking guide](DRM/NewOrigin/defeating_origin.md))
   - Telltale files:
     - `__Installer` folder
     - `Core` folder
