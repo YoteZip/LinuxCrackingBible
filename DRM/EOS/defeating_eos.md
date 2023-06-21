@@ -1,4 +1,4 @@
-# **Epic Online Services**
+# **Epic Online Services (EOS)**
 
 This is a generic DRM applied to games sold on the Epic store. It's trivial to defeat using `Nemirtingas Epic Emulator`. You can find this emulator in cs.rin's `Main Forum -> Releases` section (thread ID `105551`). Download all versions of the emulator (win32, win64, linux64, mac64) and keep them in your toolkit.
 

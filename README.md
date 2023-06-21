@@ -202,7 +202,7 @@ We're assuming from this point forwards that you've obtained a clean copy of you
 
 In order to defeat DRM, we first need to know what types of DRM we're up against. Games can contain one or many types of DRM. If it came from the SCS forum, it's most likely at least using Steamworks API. We can search through [PCGamingWiki](https://www.pcgamingwiki.com/) for our game and look through the "Availability" section at the top, which will likely give us a general idea of what type of DRM is inside. PCGamingWiki sometimes lacks precision on which specific version of a company's DRM is being used, but it's an easy way to get a general idea. While we're here, we should check if our game has Denuvo or Arxan DRM included. If it does, we won't be able to crack it. Denuvo is nearly impossible to crack even for people who know what they're doing, but Arxan has been shown to be at least a bit easier. Unfortunately, I'll need more typewriters before I figure out how to get rid of those DRMs.
 
-**CEG:**
+**CEG (Steam Custom Executable Generation):**
   - Very rarely in older games.
   - No new games have this DRM. Check if your game is on [this historic list](DRM/CEG/list_of_ceg_games.md).
 
@@ -214,7 +214,7 @@ In order to defeat DRM, we first need to know what types of DRM we're up against
     - `libEOSSDK-Linux-Shipping.so`
   - Sometimes games will include these files without using them
 
-**Games For Windows Live:**
+**Games for Windows Live (GFWL):**
   - Very rare, games from ~2007-2013
   - It's a good idea to check the PCGamingWiki page for your game, since GFWL is often stripped out by the developer - GFWL may only be present on specific versions of a game
   - No new games have this DRM. Check if your game is on [this historic list](DRM/GFWL/list_of_gfwl_games.md).
@@ -301,12 +301,12 @@ If you are still puzzled on what DRM your game is using, reading the posts in it
 
 # **6. DRM stripping guides**
 
-| Guide                                                                    | Stripped By                          |
-|--------------------------------------------------------------------------|--------------------------------------|
+| Guide                                                                    | Stripped By                        |
+|--------------------------------------------------------------------------|------------------------------------|
 | [CEG (Steam Custom Executable Generation)](DRM/CEG/defeating_ceg.md)     | Koaloader + LumaCEG                |
-| [Epic Online Services](DRM/EOS/defeating_eos.md)                         | Nemirtingas Epic Emulator          |
-| [GFWL (Games for Windows Live)](DRM/GFWL/defeating_gfwl.md)              | Catspaw GFWL Emulator (15d)        |
-| [Origin](DRM/NewOrigin/defeating_origin.md)                              | Anadius Origin Unwrapper+Emulator  |
+| [Epic Online Services (EOS)](DRM/EOS/defeating_eos.md)                   | Nemirtingas Epic Emulator          |
+| [Games for Windows Live (GFWL)](DRM/GFWL/defeating_gfwl.md)              | Catspaw GFWL Emulator (15d)        |
+| [Origin (New)](DRM/NewOrigin/defeating_origin.md)                        | Anadius Origin Unwrapper+Emulator  |
 | [Securom](DRM/Securom/defeating_securom.md)                              | Virusek+Neogame Generic 7/8 Bypass |
 | [SteamDRM (Windows)](DRM/SteamDRM-Windows/defeating_steamdrm_windows.md) | Steamless                          |
 | [SteamDRM (Linux)](DRM/SteamDRM-Linux/defeating_steamdrm_linux.md)       | pyUnstub                           |
@@ -319,9 +319,9 @@ If you are still puzzled on what DRM your game is using, reading the posts in it
 
 | Tool                                                                                | Purpose                                       |
 |-------------------------------------------------------------------------------------|-----------------------------------------------|
-| [GoldbergAutoTool](Tools/GoldbergAutoTool/goldbergautotool.md)                      | Crack Steamworks API games more efficiently |
-| [Koaloader](Tools/Koaloader/koaloader.md)                                           | Customizable DLL Injection                  |
-| [Steam Linux Runtime](Tools/Linux-Steam-Runtime/configuring_linux_steam_runtime.md) | Required for certain native Linux games      |
+| [GoldbergAutoTool](Tools/GoldbergAutoTool/goldbergautotool.md)                      | Crack Steamworks API games more efficiently   |
+| [Koaloader](Tools/Koaloader/koaloader.md)                                           | Customizable DLL Injection                    |
+| [Steam Linux Runtime](Tools/Linux-Steam-Runtime/configuring_linux_steam_runtime.md) | Required for certain native Linux games       |
 
 # **7. Repacking**
 
@@ -379,12 +379,12 @@ The real fun is doing it yourself. If you want more experience with cracking dif
 
 ## **Easy Mode**
 
-**CEG**:
+**CEG (Steam Custom Executable Generation)**:
 - Call of Duty Black Ops 1 (+Steamworks API, Winetricks `xact` for sound)
 - Call of Duty Black Ops 2 (+Steamworks API)
 - GRID 2 (+Steamworks API, careful of NVAPI crashes on this one)
 
-**Origin**:
+**Origin (New)**:
 - Battlefield 4
 - Mass Effect 1/2/3 Legendary Edition
   - For ME1/2 you need to put the following as a launch option: `-NoHomeDir -SeekFreeLoadingPCConsole -Subtitles 20 -OVERRIDELANGUAGE=INT`

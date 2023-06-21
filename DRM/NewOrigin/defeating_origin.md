@@ -1,4 +1,4 @@
-# **Origin (aka EA)**
+# **Origin (New)**
 
 This is a generic DRM applied to games sold on the EA/Origin store, and sometimes to EA games on other stores. It's quite easy to defeat generically using Anadius's Origin Unwrapper and Emulator tools. The Origin Unwrapper tool can be found under `Main Forum -> Releases` (thread ID `125589`), and the Emulator can be found in the same forum (thread ID `115335`).
 
