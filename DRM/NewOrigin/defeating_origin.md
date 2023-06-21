@@ -48,7 +48,7 @@ For our walkthrough we'll be cracking the Origin DRM on Mass Effect Andromeda (h
 
 11. Because I'm omniscient I already know the MEA DLC identifiers. Add the following sections to your anadius.cfg:
 
-    ```
+    ```json
 	"Content"
 	{
 		// Deluxe Edition

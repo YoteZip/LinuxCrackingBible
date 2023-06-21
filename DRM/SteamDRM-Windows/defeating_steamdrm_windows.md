@@ -24,7 +24,7 @@ For our walkthrough we'll be cracking SteamDRM on Call of Duty - World at War. T
 
 ![WAW Mass Steamless Run](images/WAW-MassSteamless.png "Mass steamless run")
 
-```
+```bash
 # Steamless
 export STEAMLESSLOC="/path/to/Steamless.CLI.exe"
 

@@ -20,7 +20,7 @@ I couldn't find any easily-accessible clean and native Linux versions of Valve g
 
     `-novid` will skip startup videos
 
-    ```
+    ```bash
     "./steam-runtime/run.sh" "./csgo.sh" "-steam" "-nojoy" "-tickrate 128" "-vulkan"
     ```
 
@@ -30,7 +30,7 @@ I couldn't find any easily-accessible clean and native Linux versions of Valve g
 
     `-novid` will skip startup videos
 
-    ```
+    ```bash
     "./steam-runtime/run.sh" "./hl2.sh" "-game" "left4dead2" "-steam" "-tickrate 128" "-nojoy" "-vulkan"
     ```
 
@@ -38,7 +38,7 @@ I couldn't find any easily-accessible clean and native Linux versions of Valve g
 
     `-novid` will skip startup videos
 
-    ```
+    ```bash
     "./steam-runtime/run.sh" "./hl2.sh" "-game" "portal" "-steam" "-tickrate 128" "-nojoy"
     ```
 
@@ -48,7 +48,7 @@ I couldn't find any easily-accessible clean and native Linux versions of Valve g
 
     `-novid` will skip startup videos
 
-    ```
+    ```bash
     "./steam-runtime/run.sh" "./portal2.sh" "-game" "portal2" "-steam" "-tickrate 128" "-nojoy"
     ```
 
@@ -56,7 +56,7 @@ I couldn't find any easily-accessible clean and native Linux versions of Valve g
 
     `-novid` will skip startup videos
 
-    ```
+    ```bash
     "./steam-runtime/run.sh" "./hl2.sh" "-game" "tf" "-steam" "-tickrate 128" "-nojoy"
     ```
 

@@ -118,7 +118,7 @@ If your game is having trouble starting on Wine, one of the likely culprits is t
 
 Occasionally, the Winetricks GUI will exit prematurely without working. This is usually because Winetricks ran into an error and stopped itself. Almost always, the "error" is a result of Winetricks being confused - the latest victims of this are `dotnet472` and `dotnet48`. The normal solution for this is to tell Winetricks to keep going through the "error" anyway, but that's not possible with the GUI. In this case, you should use Winetricks via the CLI instead by using the following command:
 
-```
+```bash
 WINEPREFIX="/path/to/your/game/prefix" winetricks -q -f YOUR_REDIST_NAME_HERE
 ```
 
@@ -337,25 +337,25 @@ So what can we do? Well, we can't use any of the precompressors, but we still ha
 
 Putting it all together: we're going to download [FreeArc Next](https://encode.su/threads/2621-FreeArc-Next), put it in our toolkit, and compress games using the following command:
 
-```
+```bash
 fa a "output.arc" -t --threads=12 -mrep:128mb+dispack070+delta+lzma:128mb:normal:16:mc8 -dup "YOUR_GAME_DIR_HERE"
 ```
 
 This command compresses games relatively quickly while still achieving close to max possible compression achievable by FreeArc. Decompression of the resultant archives is also very quick. To decompress an `.arc` created by this tool, use the following command:
 
-```
+```bash
 fa x "YourGameArchive.arc" --threads=12 -dp"/path/to/output/directory"
 ```
 
 There's one caveat here: If your game contains any symbolic links, FreeArc Next will ruin them. In my experience, the only games that use symbolic links are ones that we apply `runtime-installer.sh` to. If you want to compress a game that uses symbolic links, you should instead install a tool named [DwarFS](https://github.com/mhx/dwarfs) from your package manager. DwarFS is not quite as good as FreeArc, but it's still a respectable tool and will work in a pinch. To compress a game using DwarFS, use the following command:
 
-```
+```bash
 mkdwarfs -L6g -l7 -B30 -i "YOUR_GAME_DIR_HERE" -o "output.dwarfs"
 ```
 
 To decompress a .dwarfs created by this tool, use the following command:
 
-```
+```bash
 dwarfsextract -n12 -s6g -i "YourGameArchive.dwarfs" -o "/path/to/output/directory"
 ```
 

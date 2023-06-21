@@ -33,7 +33,7 @@ For our walkthrough we'll be cracking the CEG DRM on the Windows version of "Sai
 
 9. Copy `Koaloader.config.json` from Koaloader's root folder into the SRTT directory, and edit the configuration so it reads as follows:
 
-    ```
+    ```json
     {
     "logging": true,
     "enabled": true,

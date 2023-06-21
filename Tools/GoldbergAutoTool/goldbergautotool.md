@@ -15,14 +15,14 @@ First, we're going to compile a tool named `generate_game_infos`. This tool will
     ![GoldbergAutoTool source code](images/GoldbergAutoTool-SourceCode.png)
 
 5. Open `generate_game_infos.cpp` in a text editor and changes the lines on ~12-13 from:
-    ```
+    ```cpp
     #include <nlohmann/json.hpp>
     #include <nlohmann/fifo_map.hpp>
     ```
 
     to
 
-    ```
+    ```cpp
     #include "json.hpp"
     #include "fifo_map.hpp"
     ```
@@ -80,7 +80,7 @@ Next, we're going to set up some other resources.
 
 10. For ease of use, I recommend putting the following code at the end of your `.bashrc`/`.zshrc`/etc and restarting your terminal. This allows you to use `goldbergAutoTool.sh` from any location
 
-    ```
+    ```bash
     alias goldbergAutoTool="/path/to/GoldbergAutoTool/goldbergAutoTool.sh"
     ```
 

@@ -57,7 +57,7 @@ Here's a shortlist of some games and the .dlls that they try to reach for (by no
 # Configuration
 
 **Protip:** After extracting Koaloader to your toolkit, I recommend replacing the contents of its default `Koaloader.config.json` file with the following:
-```
+```json
 {
   "logging": true,
   "enabled": true,
