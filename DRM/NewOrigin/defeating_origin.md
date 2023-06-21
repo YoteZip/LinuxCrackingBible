@@ -44,7 +44,7 @@ For our walkthrough we'll be cracking the Origin DRM on Mass Effect Andromeda (h
 
     ![MEA Anadius cfg](images/MEA-anadiuscfg1.png "Resultant anadius.cfg")
 
-10. If you want DLC to be unlocked as well, you need to manually input the DLC info into `anadius.cfg`. Finding out which what identifiers a DLC uses is somewhat annoying unless you use Anadius's "EA DLC Unlocker" tool with logging enabled (I don't think this works on Linux). A half-measure is that you can download "EA DLC Unlocker" under `Main Forum -> Releases` (thread ID `104412`), and it includes a lot of DLC identifiers in its files already (`g_*.ini` files). Acidicoala also maintains a [large public list](https://github.com/acidicoala/public-entitlements/blob/main/origin/v1/entitlements.json) of them, but it's not fully complete ([local version here](Public_Entitlement_Codes.json)).
+10. If you want DLC to be unlocked as well, you need to manually input the DLC info into `anadius.cfg`. Finding out which what identifiers a DLC uses is somewhat annoying unless you use Anadius's "EA DLC Unlocker" tool with logging enabled (I don't think this works on Linux). A half-measure is that you can download "EA DLC Unlocker" under `Main Forum -> Releases` (thread ID `104412`), and it includes a lot of DLC identifiers in its files already (`g_*.ini` files). Acidicoala also maintains a [large public list](https://github.com/acidicoala/public-entitlements/blob/main/origin/v1/entitlements.json) of them, but it's not fully complete ([local version here (potentially outdated)](Public_Entitlement_Codes.json)).
 
 11. Because I'm omniscient I already know the MEA DLC identifiers. Add the following sections to your anadius.cfg:
 

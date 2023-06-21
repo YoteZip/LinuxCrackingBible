@@ -790,6 +790,27 @@
         "productId": "Origin.OFR.50.0004474"
     },
     {
+        "___name": "Vol.3 Customs Pack",
+        "entitlementTag": "NFS22_EPICCUSTOMSVOL3_CONTENT",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS22PC",
+        "productId": "Origin.OFR.50.0005216"
+    },
+    {
+        "___name": "Robojets Swag Pack",
+        "entitlementTag": "NFS22_LEGENDARYTHEMEVOL3_CONTENT",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS22PC",
+        "productId": "Origin.OFR.50.0005217"
+    },
+    {
+        "___name": "Ford Mustang GT Legendary Custom Pack",
+        "entitlementTag": "NFS22_SPEEDPASSVOL3_CONTENT",
+        "entitlementType": "DEFAULT",
+        "groupName": "NFS22PC",
+        "productId": "Origin.OFR.50.0005218"
+    },
+    {
         "___name": "Northgard - Svafnir, Clan of the Snake",
         "entitlementTag": "NORTHGARD_HCOTS",
         "entitlementType": "DEFAULT",
