@@ -364,7 +364,7 @@ Now that we know how to compress efficiently, it's also a good idea to consider 
 # **8. Epilogue**
 
 
-We made it to the end! This project originally started as a reply to someone, then it became a forum post, then I ran out of forum post space. As I type this, the sum total of characters in this guide is ~100k. I started this project when my forum post hit 10k characters. As I mentioned in the intro, I'm not an expert on any of this, I'm just someone who's putting together the pieces.
+We made it to the end! This project originally started as a reply to someone, then it became a forum post, then I ran out of forum post space. As I type this, the sum total of characters in this guide is ~100k. I started this project when my forum post hit 10k characters. As I mentioned in the intro, I'm not an expert on any of this, I'm just someone who's putting the pieces together.
 
 I hope you enjoyed this guide and feel more comfortable removing DRM by yourself.
 
