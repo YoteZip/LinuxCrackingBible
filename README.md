@@ -33,7 +33,7 @@ Also, this is a coyote I drew. He will help you defeat DRM.
 
 I'm not a security specialist or reverse engineer and I don't know how to crack. I'm not involved with the piracy underground, and I've never collaborated with anyone else regarding how these things are supposed to be done. You might see me doing or saying something stupid in this guide, because everything I know is self-taught. For the most part I'm a monkey with a typewriter, barely understanding why the things I do work. And yet they work.
 
-I'm personally very anti-DRM, but don't I mind buying games. I like to strip DRM and archive games that I like, so that I don't have to rely on online connections or seedy companies to tell me that I can play what I've already legally bought. I encourage any pirates that have disposable income to buy the games that they have enjoyed playing through their "extended demo" periods, especially if they are indie titles!
+I'm personally very anti-DRM, but I don't mind buying games. I like to strip DRM and archive games that I like, so that I don't have to rely on online connections or seedy companies to tell me that I can play what I've already legally bought. I encourage any pirates that have disposable income to buy the games that they have enjoyed playing through their "extended demo" periods, especially if they are indie titles!
 
 ## Game/crack compatibility
 
