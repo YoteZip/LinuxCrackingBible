@@ -65,6 +65,7 @@ Whether you install Flatpak Lutris is mostly preference, but there are a few pra
   - `gamemode` comes with Flatpak Lutris, so no need to install it via your package manager
   - If you want to use `mangohud`, you will need to install the Flatpak version (using `flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud`) instead of the normal package from your package manager.
   - `libstrangle` will not be able to be used as it doesn't have a Flatpak version and relies on some `/usr` things. In place of it, you can use MangoHud's `fps_limit` [configuration](https://github.com/flightlessmango/MangoHud#environment-variables-mangohud_config-and-mangohud_configfile)
+  - Disabling networking on a per-game basis does not currently work cleanly under Flatpak, due to [this bug](https://github.com/flatpak/flatpak/issues/5278). When that bug is fixed it should be fine. It should still be possible to disable networking for all of Lutris in the meantime.
 
 The process of adding a cracked game to Lutris is relatively simple. Click the "+" icon at the top left of the Lutris window, and click "Add locally installed game". You'll be presented with a window containing 4 tabs. Let's run through the most important parts of each tab.
 
@@ -121,7 +122,7 @@ The process of adding a cracked game to Lutris is relatively simple. Click the "
 - **Block a game's network access:** You can use the "Command Prefix" option in the "System Options" tab of a game in order to block a game's access to your networks:
   - If you use a non-Flatpak install of Lutris, you can install [bubblewrap](https://github.com/containers/bubblewrap) from your package manager and use the following prefix:
     - `bwrap --unshare-net --dev-bind / /`
-  - If you use a Flatpak install of Lutris, you must use the `flatpak-spawn` command, as we don't have access to `bubblewrap` in the Flatpak sandbox. Note that there are [some unrelated issues](https://github.com/flatpak/flatpak/issues/5278) with this at the moment, which will hopefully be fixed in the future. It currently clears out environment variables which may impact your game runtime:
+  - If you use a Flatpak install of Lutris, you must use the `flatpak-spawn` command, as we don't have access to `bubblewrap` or networking privileges in the Flatpak sandbox. Note that there are [some unrelated issues](https://github.com/flatpak/flatpak/issues/5278) with this command at the moment, which will hopefully be fixed in the future. It currently clears out environment variables which will probably impact your game runtime and cause issues. As a workaround, you can also disable networking for the entire Lutris Flatpak, which doesn't have the same problem. In the future, the following command prefix should be able to be used:
     - `flatpak-spawn --no-network`
 
 ## Winetricks
