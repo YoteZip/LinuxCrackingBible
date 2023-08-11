@@ -63,7 +63,7 @@ Whether you install Flatpak Lutris is mostly preference, but there are a few pra
   - You can use [flatpak-spawn](https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-spawn) to break out of the Flatpak sandbox a little bit, but it's of limited practical use
   - Flatpak Lutris comes with several compatibility libraries included, which can be helpful for running older native Linux games that would otherwise require exotic/older packages to be installed on your base system.
   - `gamemode` comes with Flatpak Lutris, so no need to install it via your package manager
-  - If you want to use `mangohud`, you will need to install the Flatpak version instead of the normal package from your package manager.
+  - If you want to use `mangohud`, you will need to install the Flatpak version (using `flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud`) instead of the normal package from your package manager.
   - `libstrangle` will not be able to be used as it doesn't have a Flatpak version and relies on some `/usr` things. In place of it, you can use MangoHud's `fps_limit` [configuration](https://github.com/flightlessmango/MangoHud#environment-variables-mangohud_config-and-mangohud_configfile)
 
 The process of adding a cracked game to Lutris is relatively simple. Click the "+" icon at the top left of the Lutris window, and click "Add locally installed game". You'll be presented with a window containing 4 tabs. Let's run through the most important parts of each tab.
