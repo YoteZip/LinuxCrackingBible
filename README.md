@@ -121,7 +121,7 @@ The process of adding a cracked game to Lutris is relatively simple. Click the "
 - **Block a game's network access:** You can use the "Command Prefix" option in the "System Options" tab of a game in order to block a game's access to your networks:
   - If you use a non-Flatpak install of Lutris, you can install [bubblewrap](https://github.com/containers/bubblewrap) from your package manager and use the following prefix:
     - `bwrap --unshare-net --dev-bind / /`
-  - If you use a Flatpak install of Lutris, you must use the following as a prefix:
+  - If you use a Flatpak install of Lutris, you must use the `flatpak-spawn` command, as we don't have access to `bubblewrap` in the Flatpak sandbox. Note that there are [some unrelated issues](https://github.com/flatpak/flatpak/issues/5278) with this at the moment, which will hopefully be fixed in the future. It currently clears out environment variables which may impact your game runtime:
     - `flatpak-spawn --no-network`
 
 ## Winetricks
