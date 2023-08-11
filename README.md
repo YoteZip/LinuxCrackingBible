@@ -56,6 +56,16 @@ As a general rule, when you're setting up a game on Linux, you should always use
 ## Lutris
 [Lutris](https://github.com/lutris/lutris) is my favorite tool for configuring cracked games, but you can use alternatives like [Bottles](https://github.com/bottlesdevs/Bottles) if that's what you're comfortable with. I'll only be walking through configuring Lutris, but most of the information should be generally applicable to other tools as well - you'll just need to figure out how to apply it with your tool.
 
+Whether you install Flatpak Lutris is mostly preference, but there are a few practical differences by using a Flatpak:
+  - Flatpak Lutris uses Flatpak Mesa, which is generally kept cutting-edge. This is great if you're running a distro like Debian/Linux Mint, where your system Mesa setup is older.
+  - You will not have access to the `/usr/bin` directory, so calling commands as "Command Prefixes" is limited. You can allow `filesystem=host` for Lutris through e.g. [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal) and access your `/usr/bin` through `/run/host/usr/bin`, but you'll still be in an abnormal environment and things probably won't work as expected.
+  - You will need to use e.g. [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal) to manually allow Flatpak Lutris access to each directory that your game files/prefixes live in.
+  - You can use [flatpak-spawn](https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-spawn) to break out of the Flatpak sandbox a little bit, but it's of limited practical use
+  - Flatpak Lutris comes with several compatibility libraries included, which can be helpful for running older native Linux games that would otherwise require exotic/older packages to be installed on your base system.
+  - `gamemode` comes with Flatpak Lutris, so no need to install it via your package manager
+  - If you want to use `mangohud`, you will need to install the Flatpak version instead of the normal package from your package manager.
+  - `libstrangle` will not be able to be used as it doesn't have a Flatpak version and relies on some `/usr` things. In place of it, you can use MangoHud's `fps_limit` [configuration](https://github.com/flightlessmango/MangoHud#environment-variables-mangohud_config-and-mangohud_configfile)
+
 The process of adding a cracked game to Lutris is relatively simple. Click the "+" icon at the top left of the Lutris window, and click "Add locally installed game". You'll be presented with a window containing 4 tabs. Let's run through the most important parts of each tab.
 
 **Game Info:**
@@ -86,13 +96,13 @@ The process of adding a cracked game to Lutris is relatively simple. Click the "
 
 **System Options:**
 
-  - `Enable Feral GameMode` - Recommended to leave on. Install [gamemode](https://github.com/FeralInteractive/gamemode) from your package manager to enable this. It auto-configures Linux to give your game higher priority with resources, so occasionally it will improve performance
+  - `Enable Feral GameMode` - Recommended to leave on. Install [gamemode](https://github.com/FeralInteractive/gamemode) from your package manager to enable this if you're not using Flatpak Lutris. It auto-configures Linux to give your game higher priority with resources, so occasionally it will improve performance
 
-  - `FPS Counter (MangoHud)` - A useful tool. Install [mangohud](https://github.com/flightlessmango/MangoHud) from your package manager to enable this. I leave it on when launching games for the first time so I can see their FPS and what graphics pipeline they're rendering with. Note that I have historically had many games crash when enabling this, but supposedly this issue has been [fixed](https://github.com/flightlessmango/MangoHud/issues/852). If you're struggling to get a game to work, it's worth a try to disable this and see if anything changes.
+  - `FPS Counter (MangoHud)` - A useful tool. Install [mangohud](https://github.com/flightlessmango/MangoHud) from your package manager to enable this if you're not using Flatpak Lutris, or use `flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud` if you are. I leave it on when launching games for the first time so I can see their FPS and what graphics pipeline they're rendering with. Note that I have historically had many games crash when enabling this, but supposedly this issue has been [fixed](https://github.com/flightlessmango/MangoHud/issues/852). If you're struggling to get a game to work, it's worth a try to disable this and see if anything changes.
 
-  - `FPS Limit` - You can put an FPS limit here and it will prevent the game from exceeding that FPS, even if the game doesn't have a way to limit itself. Install [libstrangle](https://gitlab.com/torkel104/libstrangle) to enable this option. I always leave this on without issues
+  - `FPS Limit` - You can put an FPS limit here and it will prevent the game from exceeding that FPS, even if the game doesn't have a way to limit itself. Install [libstrangle](https://gitlab.com/torkel104/libstrangle) to enable this option if you're not using Flatpak Lutris. If you're using Flatpak Lutris you won't be able to use this option, but can replace it by using MangoHud's `fps_limit` [configuration](https://github.com/flightlessmango/MangoHud#environment-variables-mangohud_config-and-mangohud_configfile).
 
-  - `Reduce PulseAudio Latency` - Some games will have static in their audio without this option enabled. I just leave it on all the time and don't have any issues
+  - `Reduce PulseAudio Latency` - Some games will have static in their audio without this option enabled. I leave it on all the time and don't have any issues.
 
   - `Environment Variables` - If you have any environment variables you want to auto-apply to a game, you can enter them here. Some important ones that I always leave on:
     - `STAGING_SHARED_MEMORY=1` - Increases performance in [rare cases](https://wiki.winehq.org/Wine-Staging_Environment_Variables)
@@ -108,7 +118,11 @@ The process of adding a cracked game to Lutris is relatively simple. Click the "
 
     ![Lutris Wineconsole](images/Lutris-Wineconsole.png "Lutris's Wine console")
 
-- **Block a game's network access:** You can use the "Command Prefix" option in the "System Options" tab of a game in order to block a game's access to your networks. To set this up, install [bubblewrap](https://github.com/containers/bubblewrap) from your package manager and fill out the command prefix with `bwrap --unshare-net --dev-bind / /`
+- **Block a game's network access:** You can use the "Command Prefix" option in the "System Options" tab of a game in order to block a game's access to your networks:
+  - If you use a non-Flatpak install of Lutris, you can install [bubblewrap](https://github.com/containers/bubblewrap) from your package manager and use the following prefix:
+    - `bwrap --unshare-net --dev-bind / /`
+  - If you use a Flatpak install of Lutris, you must use the following as a prefix:
+    - `flatpak-spawn --no-network`
 
 ## Winetricks
 
