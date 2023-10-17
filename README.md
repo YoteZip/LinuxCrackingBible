@@ -205,6 +205,8 @@ If you don't own the game yet, you'll need to go exploring on the internet. One 
 
 Once you have a cs.rin account, navigate to the Steam Content Sharing (SCS) section of the forum, under `English Forums -> Steam Content Sharing`. Make sure you read the pinned `FAQ and Guide` post in this forum. It contains many important answers to problems you will soon be facing. Next, search for the name of your game (often, game franchises are condensed into one forum post: "Fable 3" -> "Fable Series"). If you find a forum post for it here, it will likely have download links available. At this point, you just need to download each part of the game and remember what the FAQ told you about passwords and google drive limits. After all the parts are downloaded, extract the nested game folder from the archive into your workspace.
 
+`NOTE - as of August 2023, circumstances caused almost all historical Google Drive links from the SCS section to be invalid. This makes it very annoying to source clean games, but with time links will be re-uploaded. In the meantime, you'll likely have a better shot at sourcing games through the Main Forum section, as described just below.`
+
 If you don't find it in this forum, you should next check the `Main Forum` for your game's entry. Navigate to `English Forums -> Main Forum` and search for your game's name. It's very likely you'll find a thread for it - flip to the last post and start reading backwards through the thread. It's likely that someone will post the clean files at some point.
 
 If you're somehow not able to find a copy of the game on cs.rin, then you have to do deeper exploring through the internet. Take a look through some of the sites on [FMHY](https://fmhy.pages.dev/gamingpiracyguide/) and get creative.
