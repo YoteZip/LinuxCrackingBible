@@ -211,6 +211,10 @@ If you don't find it in this forum, you should next check the `Main Forum` for y
 
 If you're somehow not able to find a copy of the game on cs.rin, then you have to do deeper exploring through the internet. Take a look through some of the sites on [FMHY](https://fmhy.pages.dev/gamingpiracyguide/) and get creative.
 
+When sourcing Steam-based games from places you don't trust, you can verify that the files you've ended up with are a clean copy by visiting a game's SteamDB "depot" section with the [Get Data from Steam/SteamDB](https://github.com/Sak32009/GetDataFromSteam-SteamDB) userscript installed, selecting the "Click to view file hashes" link on each expected depot's page, and feeding the userscript prompt at the bottom-right a .sha1 hash manifest of the game directory. Note that games often use multiple depots to serve the full game, so you'll need to do this for each depot that you're expecting to be used, and manually combine/investigate the results. The userscript expects a specific hash manifest format, so I've written [a small shell script](Tools/rhash-steamdb/rhash-steamdb.sh) that can be used to generate a compatible manifest using [RHash](https://github.com/rhash/RHash) on Linux. Additionally, you may find [this userstyle](Tools/Bigger-SteamDB-Hash-Modal/userstyle.css) handy for making the hash results window larger, and thus actually readable.
+
+![SteamDB hash manifest check](images/Hash-Depot-Userscript.png "SteamDB hash manifest check")
+
 We're assuming from this point forwards that you've obtained a clean copy of your game and copied it to your workspace.
 
 **Protip**: You should set up `!cs` and `!scs` Firefox bangs that allow you to perform searches in the `Main Forum` and `SCS` forum directly from your browser's search bar. To do this, go to the relevant forum, right click inside the "Search this forum..." textbox, and click "Add a keyword for this search". Save the bookmark somewhere out of the way and type `!cs` or `!scs` into the keyword box. Now you can type e.g. `!cs Fable 3` into your search bar and get direct results from the Main Forum.
