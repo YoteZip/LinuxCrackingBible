@@ -31,7 +31,12 @@ export STEAMLESSLOC="/path/to/Steamless.CLI.exe"
 # Point at an exe to strip it
 steamless-single() {
     if [[ $# -eq 1 ]] && [[ -f "$1" ]]; then
-        WINEDEBUG=-all wine "$STEAMLESSLOC" --keepbind --quiet "$1"
+            if [[ ! -f "$STEAMLESSLOC" ]]; then
+                echo "Steamless.CLI.exe location not found"
+                exit 1
+            fi
+
+            WINEDEBUG=-all wine "$STEAMLESSLOC" --keepbind --quiet "$1"
     else
         echo 'SteamDRM remover:'
         echo '-------------------------------------------------------------------------------'
@@ -46,6 +51,17 @@ steamless-single() {
 steamless() {
     if [[ $# -eq 1 ]] && [[ -d "$1" ]]; then
         (
+            if [[ ! -f "$STEAMLESSLOC" ]]; then
+                echo "Steamless.CLI.exe location not found"
+                exit 1
+            elif ! [ -x "$(command -v find)" ]; then
+                echo "'find' program is required to run."
+                exit 1
+            elif ! [ -x "$(command -v parallel)" ]; then
+                echo "'parallel' program is required to run."
+                exit 1
+            fi
+
             cd "$1" || return
             echo "Unpacking .exes..."
             find . -type f -name '*.exe' | parallel wine "$STEAMLESSLOC" --keepbind --quiet {} &> /dev/null
