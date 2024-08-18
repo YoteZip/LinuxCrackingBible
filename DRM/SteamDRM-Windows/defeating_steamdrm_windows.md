@@ -45,17 +45,21 @@ steamless-single() {
 # EXEs that are not packed with SteamDRM are unaffected
 steamless() {
     if [[ $# -eq 1 ]] && [[ -d "$1" ]]; then
-        cd "$1" || return
-        echo "Unpacking .exes..."
-        WINEDEBUG=-all find . -type f -name '*.exe' -exec wine "$STEAMLESSLOC" --keepbind --quiet {} \; &> /dev/null
-        echo "Finished."
-        echo ''
-        find . -depth -name '*.unpacked.exe' -execdir bash -c 'mv -i "$1" "${1//.exe.unpacked.exe/.exe.steamstripped}"' bash {} \;
-        echo "Exes unpacked:"
-        echo '#-----------------------------------------------------------------------------#'
-        find . -type f -name '*.exe.steamstripped'
-        echo '#-----------------------------------------------------------------------------#'
-        cd - &> /dev/null || return
+        (
+            cd "$1" || return
+            echo "Unpacking .exes..."
+            find . -type f -name '*.exe' | parallel wine "$STEAMLESSLOC" --keepbind --quiet {} &> /dev/null
+            echo ''
+            echo "Exes unpacked:"
+            echo '#-----------------------------------------------------------------------------#'
+            find . -name '*.unpacked.exe' -exec bash -c '\
+                originalExeName="${1//.unpacked.exe/}";\
+                mv "$originalExeName" "$originalExeName".bak;\
+                mv "$1" "$originalExeName";\
+                echo "$originalExeName"\
+            ' {} \;
+            echo '#-----------------------------------------------------------------------------#'
+        )
     else
         echo 'Mass SteamDRM remover:'
         echo '-------------------------------------------------------------------------------'
