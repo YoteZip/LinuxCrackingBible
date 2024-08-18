@@ -53,9 +53,9 @@ steamless() {
             echo "Exes unpacked:"
             echo '#-----------------------------------------------------------------------------#'
             find . -name '*.unpacked.exe' -exec bash -c '\
-                originalExeName="${1//.unpacked.exe/}";\
+                originalExeName="${0//.unpacked.exe/}";\
                 mv "$originalExeName" "$originalExeName".bak;\
-                mv "$1" "$originalExeName";\
+                mv "$0" "$originalExeName";\
                 echo "$originalExeName"\
             ' {} \;
             echo '#-----------------------------------------------------------------------------#'
