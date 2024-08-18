@@ -81,7 +81,7 @@ The process of adding a cracked game to Lutris is relatively simple. Click the "
 
 **Runner Options (Wine only):**
 
-  - `Wine Version` - Select what version of Wine you want to use when generating the prefix and playing the game. I normally use the latest version of [Wine-GE](https://github.com/GloriousEggroll/wine-ge-custom/releases/tag/GE-Proton8-8), which works for almost all games. If there's a game that doesn't work with Wine-GE, your best chance at causing different behavior is by using a [Kron4ek](https://github.com/Kron4ek/Wine-Builds/releases) build instead. Rarely, there will be regressions in the newest versions of these Wine builds, so if you're getting desperate you can start trying older versions to see if that resolves it. You can easily download different versions of these for Lutris by using [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt) (note that currently ProtonUp-Qt only downloads vanilla Kron4ek builds. You may want to download the `staging` or `staging-tkg` versions manually from their repo).
+  - `Wine Version` - Select what version of Wine you want to use when generating the prefix and playing the game. I normally use the latest version of [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases), which works for almost all games. If there's a game that doesn't work with Proton-GE, your best chance at causing different behavior is by using an older [Wine-GE](https://github.com/GloriousEggroll/wine-ge-custom/releases) build or the staging-tkg version of [Kron4ek's Wine build](https://github.com/Kron4ek/Wine-Builds/releases). Note that Wine-GE will no longer receive updates past 8-26, as it has been effectively superseded by Proton-GE through the use of the new [umu-launcher](https://github.com/Open-Wine-Components/umu-launcher) initiative, which makes Lutris and other game runners behave exactly like the Proton runtime. Lutris automatically launches Proton-GE versions through umu-launcher when selecting a Proton build, and it automatically detects Proton runners from Steam's directory. This is newer technology and a small portion of games don't handle this Proton method nicely, in which case you may want to try traditional Wine builds. Rarely, there will be regressions in the newest versions of Proton/Wine builds, so if you're getting desperate you can start trying older versions to see if that resolves it. You can easily download different versions of Proton/Wine for Lutris by using [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt) (note that currently ProtonUp-Qt only downloads vanilla Kron4ek builds. You may want to download the `staging-tkg` version manually from their repo).
 
   - `DXVK` - Emulates DX9, DX10, and DX11 for your game. Pick the latest version and leave it alone
 
@@ -167,7 +167,7 @@ Wine is actually quite robust at this point. Most games I test work out of the b
 
 - Make sure you're not using Goldberg Experimental if your game is DirectX9, or disable Experimental's overlay with `steam_settings/disable_overlay.txt`
 
-- Flip from `Wine-GE` to `Kron4ek` or vice versa
+- Flip from `Proton-GE` to `Wine-GE`/`Kron4ek`, or vice versa
 
 - Disable `NVAPI`
 
