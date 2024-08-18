@@ -2,7 +2,7 @@
 
 This is a very basic DRM from Valve that wraps around an EXE. Also commonly referred to as SteamStub. It's primarily found on older games, but sometimes new games still come out with this wrapped around. I don't know why a developer would even bother in modern times.
 
-It is trivially unwrapped by a tool named [Steamless](https://github.com/atom0s/Steamless). Grab the latest release and put it in your toolkit. Steamless is a Windows application, but it works well enough through Wine. It comes with a GUI and CLI version - the CLI version should be a bit easier to use on Linux, but I didn't have any trouble running the GUI either. Historically, Steamless has had [issues](https://github.com/atom0s/Steamless/issues/76#issuecomment-1191396442) running through Wine when your Wine environment did not have a proper setup, but those issues should be [fixed](https://github.com/atom0s/Steamless/pull/97) in any version >3.1.0.3. The version that fixes these issues is not currently released as of the writing of this guide, so if that's still the case by the time you read this, you should set up your system's Wine according to the Github issue. I was able to get a working Wine setup just by running `winetricks dotnet48`. When we go through the crack walkthrough, I'll report the MD5 hash of the unwrapped EXE, so you can check that you're getting the same result as I am with your Wine setup.
+It is trivially unwrapped by a tool named [Steamless](https://github.com/atom0s/Steamless). Grab the latest release and put it in your toolkit. Steamless is a Windows application, but it works well enough through Wine. It comes with a GUI and CLI version - the CLI version should be a bit easier to use on Linux, but I didn't have any trouble running the GUI either. To set up a Wine prefix that can run Steamless, you need to run `WINEPREFIX=/path/to/wine/prefix winetricks -q dotnet48`, or omit `WINEPREFIX` to use the normal system prefix.
 
 # Cracking Guide
 
@@ -14,7 +14,7 @@ For our walkthrough we'll be cracking SteamDRM on Call of Duty - World at War. T
 
     ![WAW Steamless Run](images/WAW-Steamless.png "Steamless run")
 
-3. Delete the original EXE and rename the new unpacked EXE to the original's name. (the MD5 hash of an unpacked CoDWaW.exe should be `354273f626af97142fd9797936332663` if your Wine is configured correctly)
+3. Delete the original EXE and rename the new unpacked EXE to the original's name.
 
 4. SteamDRM is now defeated!
 
