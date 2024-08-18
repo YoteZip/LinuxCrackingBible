@@ -16,6 +16,8 @@ Grab the latest release for your toolkit. Goldberg Steam Emulator comes with two
 
 I will go over the basics in this guide, but you should read the [full readme](https://gitlab.com/Mr_Goldberg/goldberg_emulator/-/blob/master/Readme_release.txt) to get comfortable with all the customizations this tool is capable of
 
+**TEMP NOTE**: Mr. Goldberg has ceased development on the emulator and several forks have been swirling around. I've been paying attention to these forks but so far none of them have stabilized as a proper objective upgrade to the original, and several have had bursts of activity before disappearing. I expect that one of these forks will eventually overtake the original in the (hopefully near) future, but so far I am hesitant to recommend a particular one as they keep shifting ownership and introducing new bugs. So far, the original Goldberg emulator has continued working as expected for me and I haven't had a need to use a newer fork, but eventually an upgrade may be needed to keep up with Steam's SDK updates. In case I forget to eventually update this post with a proper recommendation, you can track development of these forks with the latest comments in the original Goldberg Steam Emulator thread, under cs.rin's `Main Forum -> Releases` section (thread ID `91627`).
+
 # Cracking Guide
 
 For our walkthrough we'll be cracking the Steamworks API DRM on a Windows copy of Banners of Ruin. This game is easy to source via cs.rin's SCS (thread ID `119427`), and only uses Steamworks API for protection
