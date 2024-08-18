@@ -15,7 +15,7 @@ For our walkthrough we'll be cracking the Uplay r2 DRM off the Denuvoless copy o
 3. Open `uplay_r2.ini` in a text editor and configure the following options:
     - `Username` - Change to whatever you want your name to show up as ingame
     - `Language` - Change if you need a language other than English. The list of available languages is right above the key
-    - `[DLC]` section - Fill out with DLC IDs for your game in order to unlock them. Acidicoala maintains a [public list](https://github.com/acidicoala/public-entitlements/blob/main/ubisoft/v1/products.jsonc) of them ([local version here (potentially outdated)](Ubisoft_DLC_IDs.jsonc)). The default configuration for Goldberg's Uplay r2 Emulator is actually already set up for IFR, so no need to change anything.
+    - `[DLC]` section - Fill out with DLC IDs for your game in order to unlock them. Acidicoala maintains a [public list](https://github.com/acidicoala/public-entitlements/blob/main/ubisoft/v1/products.jsonc) of them ([archived version here (probably outdated)](https://archive.ph/cfrgE)). The default configuration for Goldberg's Uplay r2 Emulator is actually already set up for IFR, so no need to change anything.
     - `[Items]` section - Same as above. Acidicoala's list also includes these.
 
 4. Uplay r2 is now defeated! This game specifically launches through `scimitar_engine_win64_vs2017_dx11_fx.exe`, which is the Denuvoless version of the executable.

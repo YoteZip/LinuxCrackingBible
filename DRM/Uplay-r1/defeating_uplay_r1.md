@@ -26,7 +26,7 @@ For our walkthrough we'll be cracking the Uplay r1 DRM on a copy of Assassin's C
 
     - `PlayerName` - Change to whatever you want your name to show up as ingame
 
-    - `UplayGameID` - Change to your game's official Uplay Game ID. You can find a public list of them [here](https://github.com/Haoose/UPLAY_GAME_ID/), or in a [local copy](uplay_app_ids.md) I made of that list (potentially outdated). In our case, our Game ID is `437`
+    - `UplayGameID` - Change to your game's official Uplay Game ID. You can find a public list of them [here](https://github.com/Haoose/UPLAY_GAME_ID/), or in this [archived version](https://archive.ph/tYGsr). In our case, our Game ID is `437`
 
     - `Language` - Change if you need a language other than English. The list of available languages is right above the key
 
