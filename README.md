@@ -269,6 +269,7 @@ In order to defeat DRM, we first need to know what types of DRM we're up against
 
 **Securom:**
   - Rarely in older games. More common on games that were released via physical disc.
+  - It's a good idea to check the PCGamingWiki page for your game, since Securom is sometimes stripped out by the developer - Securom may only be present on specific versions of a game
   - On launch, games with Securom will sometimes display a popup with something like `Application load error 5:0000065434`
   - No new games have this DRM. Check if your game is on [this historic list](DRM/Securom/list_of_securom_games.md).
 
