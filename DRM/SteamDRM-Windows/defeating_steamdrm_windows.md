@@ -6,7 +6,7 @@ It is trivially unwrapped by a tool named [Steamless](https://github.com/atom0s/
 
 # Cracking Guide
 
-For our walkthrough we'll be cracking SteamDRM on Call of Duty - World at War. This game is easy to source via cs.rin's SCS (thread ID `55959`). This game uses only uses SteamDRM for protection.
+For our walkthrough we'll be cracking SteamDRM on Call of Duty - World at War. This game is easy to source via cs.rin's SCS (thread ID `55959`). This game only uses SteamDRM for protection.
 
 1. Source "Call of Duty - World at War" and extract it to your workspace
 
