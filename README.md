@@ -319,6 +319,11 @@ In order to defeat DRM, we first need to know what types of DRM we're up against
     - `Microsoft.Xbox.Services.dll`
   - You can check if your game is on this [partial list](<DRM/Xbox Live/list_of_xbox_live_games.md>), but it's a modern DRM so the list may become outdated
 
+**Custom DRM:**
+  - Very rarely, developers try to roll their own custom DRM. This type of DRM is inherently impossible to generically detect/defeat, as it can be implemented in any number of ways
+  - Luckily, they are usually not very good at it. Anyone with half a brain can create a crack for this DRM in most cases. These requirements are unfortunate for you and I, the brainless
+  - Checking the game's cs.rin thread will likely reveal a crack made by someone in the community for any games that have custom DRM
+
 If you are still puzzled on what DRM your game is using, reading the posts in its dedicated cs.rin thread is probably your best bet.
 
 # **6. DRM stripping guides**
