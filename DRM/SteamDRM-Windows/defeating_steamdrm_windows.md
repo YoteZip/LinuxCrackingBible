@@ -66,7 +66,7 @@ steamless() {
 
             cd "$1" || return
             echo "Unpacking .exes..."
-            find . -type f -name '*.exe' | parallel wine "$STEAMLESSLOC" --keepbind --quiet {} &> /dev/null
+            find . -type f -name '*.exe' | parallel -q wine "$STEAMLESSLOC" --keepbind --quiet {} &> /dev/null
             echo ''
             echo "Exes unpacked:"
             echo '#-----------------------------------------------------------------------------#'
