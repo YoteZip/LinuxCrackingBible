@@ -4,6 +4,8 @@ This is a very basic DRM from Valve that wraps around an EXE. Also commonly refe
 
 It is trivially unwrapped by a tool named [Steamless](https://github.com/atom0s/Steamless). Grab the latest release and put it in your toolkit. Steamless is a Windows application, but it works well enough through Wine. It comes with a GUI and CLI version - the CLI version should be a bit easier to use on Linux, but I didn't have any trouble running the GUI either. To set up a Wine prefix that can run Steamless, you need to run `WINEPREFIX=/path/to/wine/prefix winetricks -q dotnet48`, or omit `WINEPREFIX` to use the normal system prefix.
 
+**TEMP NOTE**: Steamless 3.1.0.5 is currently throwing `System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection` on specific files, whereas the older 3.1.0.3 does not. Track this bug report [here](https://github.com/atom0s/Steamless/issues/123). Feel free to use 3.1.0.5 in the meantime but if it causes an error on an executable you should go back to 3.1.0.3 until it's fixed.
+
 # Cracking Guide
 
 For our walkthrough we'll be cracking SteamDRM on Call of Duty - World at War. This game is easy to source via cs.rin's SCS (thread ID `55959`). This game only uses SteamDRM for protection.
