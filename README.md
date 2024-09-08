@@ -242,6 +242,18 @@ In order to defeat DRM, we first need to know what types of DRM we're up against
   - It's a good idea to check the PCGamingWiki page for your game, since GFWL is often stripped out by the developer - GFWL may only be present on specific versions of a game
   - No new games have this DRM. Check if your game is on [this historic list](DRM/GFWL/list_of_gfwl_games.md).
 
+**GOG Galaxy:**
+  - Very common if you sourced your game from GOG
+  - Not traditional DRM, but it's a service library that communicates with GOG middleware for e.g. multiplayer and achievements
+  - This isn't *required* to be removed or defeated, but you have the opportunity to emulate it and completely cut GOG out of the pipeline
+  - I don't own many GOG games, so I haven't tried very hard to play with this yet
+  - Related projects I'm keeping my eye on:
+    - [UniverseLAN](https://github.com/grasmanek94/UniverseLAN)
+    - [Comet](https://github.com/imLinguin/comet)
+  - Telltale files:
+    - Galaxy.dll
+    - Galaxy64.dll
+
 **Origin (Old):**
   - To my knowledge only 8 games had this DRM, but they were all blockbuster games so you're still likely to run into it
   - Not generically defeatable to my knowledge, so not very useful for us
