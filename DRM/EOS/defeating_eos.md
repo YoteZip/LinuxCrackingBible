@@ -4,6 +4,8 @@ This is a generic DRM applied to games sold on the Epic store. It's trivial to d
 
 I have the least amount of experience with this DRM because I don't have an Epic account. I would rather wait a year or two for games to come to Steam than give any business to Epic. Most people seem to be of the same opinion - it will be rare to find clean Epic copies of games when a Steam version also exists. If you want to do advanced configurations, you'll likely have to check the official thread for help. There aren't enough games worth testing on to really get a feel for this tool's intricacies.
 
+**TEMP NOTE**: It looks like Nemirtingas may have abandoned this emulator, and the source repo has been taken down (though the binaries are still available on the original thread for now). It may stop working on future EOS SDK versions. Honestly, since there's only about [~25 Epic-exclusive games](https://www.pcgamingwiki.com/wiki/List_of_games_exclusive_to_Epic_Games_Store) (of which ~20 are mediocre), I'd view EOS DRM as more of a curiosity than something that's really in the way. If you primarily buy games from Epic, please reconsider - Epic (and its CEO) have been downright hostile to Linux.
+
 # Cracking Guide
 
 For our walkthrough we'll be cracking the EOS DRM on PC Building Simulator 2. This game should be easy to source through cs.rin via its dedicated game thread under `Main Forum -> Other Gaming Platforms` (thread ID `120407`). This game uses EOS and EOS must also be configured properly for it to start, so it's a good sanity check that everything is working properly.
