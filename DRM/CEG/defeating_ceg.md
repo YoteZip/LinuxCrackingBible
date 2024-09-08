@@ -27,7 +27,7 @@ For our walkthrough we'll be cracking the CEG DRM on the Windows version of "Sai
 6. Now LumaCEG is ready to auto-defeat CEG, but it needs to get injected into the runtime first. To inject LumaCEG, we're going to use a general purpose injection tool named Koaloader. Refer to the [Koaloader Guide](../../Tools/Koaloader/koaloader.md) for more information on how this tool works.
 
 
-7. At this point, we need to start experimenting with which Koaloader DLL the game will reach out and grab. Since SRTT is a 32-bit game, we'll use 32-bit Koaloader DLLs. As a first try, let's use `glu32.dll`.
+7. At this point, we need to determine with which Koaloader DLL the game will reach out and grab. Since SRTT is a 32-bit game, we'll use 32-bit Koaloader DLLs. As a first try, let's use `glu32.dll`.
 
 8. Copy `glu32.dll` from the `glu32-32` Koaloader folder into the SRTT directory.
 
@@ -61,7 +61,7 @@ For our walkthrough we'll be cracking the CEG DRM on the Windows version of "Sai
 
 13. Start SRTT and observe that nothing happens. At the very least, we're looking for a file named `Koaloader.log.log` to be created in the directory, which means that the game attempted to load our disguised DLL.
 
-14. Back to the drawing board - let's try another DLL. You can pick whatever DLL variant you want to try next, but since I'm omniscient I know that one of the right answers for SRTT is `winmm.dll`. Other games will need other variants of Koaloader in order to work.
+14. Back to the drawing board - let's try another DLL. You can pick whatever DLL variant you want to try next, but since I'm omniscient I know that one of the right answers for SRTT is `winmm.dll`. Other games will need other variants of Koaloader in order to work. The [Koaloader guide](../../Tools/Koaloader/koaloader.md) has a section on deterministically finding a DLL name, if you don't like guessing.
 
 15. Delete `glu32.dll` from the directory and replace it with the 32-bit version of `winmm.dll` from Koaloader.
 

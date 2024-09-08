@@ -1,12 +1,24 @@
 # **Koaloader**
 
-[Koaloader](https://github.com/acidicoala/Koaloader) is nifty tool that lets you arbitrarily inject DLLs into a program at runtime, some of which can auto-defeat DRM. Using Koaloader is one of the harder parts of this guide because it requires some experimentation. You might have noticed that Windows executables usually come with a lot of DLLs scattered around next to them. When a game launches, it dynamically checks for and loads these various DLLs at runtime. Our special trick is that oftentimes games carelessly look for a number of common DLLs that it doesn't ship with, and will load them into itself if it finds them. We're going to exploit this naivety and drop a Koaloader DLL into the game directory disguised as a common DLL. The game will load Koaloader, and Koaloader will then inject any other DLLs that we specify.
+[Koaloader](https://github.com/acidicoala/Koaloader) is nifty tool that lets you arbitrarily inject DLLs into a program at runtime, some of which can auto-defeat DRM. Using Koaloader is one of the harder parts of this guide because it requires some investigation. You might have noticed that Windows executables usually come with a lot of DLLs scattered around next to them. When a game launches, it dynamically checks for and loads these various DLLs at runtime. Our special trick is that oftentimes games carelessly look for a number of common DLLs that it doesn't ship with, and will load them into itself if it finds them. We're going to exploit this naivety and drop a Koaloader DLL into the game directory disguised as a common DLL. The game will load Koaloader, and Koaloader will then inject any other DLLs that we specify.
 
 Using Koaloader is optional for some DRM techniques. Koaloader can load multiple DLLs at one time, but if you only have one to inject you might be able to get away with renaming that DLL directly as a surrogate instead. This doesn't always work, and some DLLs insist that they have specific names (LumaCEG). Keep your options open and be ready to use Koaloader if the situation calls for it.
 
 # Variants
 
-The main problem to solve when using Koaloader is figuring out which common DLL variant a game will try to load in the first place. There are ways to deterministically figure this out, but process hacking methods are really rough to get working on Linux. In my experience, it's a lot quicker to just dump a bunch of DLLs in and figure out which one is working. Koaloader (currently) comes in the following variants:
+The main problem to solve when using Koaloader is figuring out which common DLL variant a game will try to load in the first place. One way to deterministically find candidates is to use [CFF Explorer](https://ntcore.com/explorer-suite/) and analyze the game's exe. CFF Explorer is one of the few tools that runs well enough with Wine and doesn't require direct process hacking. To use CFF Explorer:
+  1. Download the Explorer Suite from the link above, and install it into any Wine prefix
+  2. Run `CFF Explorer.exe` with Wine
+  3. Open the game's executable through CFF Explorer
+  4. Navigate to the "Dependency Walker" section in the left-side pane
+
+  ![CFF Explorer Dependency Walker image](images/cffexplorer.png "CFF Explorer Dependency Walker image")
+
+  5. This will show you a list of DLLs that the game attempts to reach for.
+      - Most DLLs have their own dependencies that they reach for, and so on
+      - If you don't see any common targets in the first layer, you can investigate further down the dependency chain
+
+Koaloader (currently) comes in the following variants:
 
   - `audioses.dll`
   - `d3d9.dll`
@@ -31,28 +43,7 @@ The main problem to solve when using Koaloader is figuring out which common DLL 
   - `wldp.dll`
   - `xinput9_1_0.dll`
 
-I've had the most luck with `winmm.dll`, `iphlpapi.dll`, and `winhttp.dll` in that order. `dinput8.dll` is very commonly used in user-created mods, and it's a good target to check also.
-
-# Compatibility Shortlist
-
-Here's a shortlist of some games and the .dlls that they try to reach for (by no means comprehensive):
-
-  - `winmm.dll`
-    - Assassin's Creed - Brotherhood
-    - Call of Duty - Black Ops
-    - Call of Duty - Black Ops 2
-    - Call of Duty - Black Ops 3
-    - Call of Duty - Infinite Warfare
-    - Call of Duty - Modern Warfare Remastered
-    - GRID 2
-    - Metal Gear Solid V
-    - Red Faction - Armageddon
-    - Saints Row - The Third
-  - `iphlpapi.dll`
-    - Mercenaries 2
-    - Need for Speed - Prostreet
-  - `winhttp.dll`
-    - Need for Speed - Shift
+If you don't want to use CFF Explorer, you can also throw all the DLLs into the directory and see what works. I've had the most luck with `version.dll`, `winmm.dll`, `iphlpapi.dll`, and `winhttp.dll`. `dinput8.dll` is very commonly used in user-created mods, and it's a good target to check also.
 
 # Configuration
 
