@@ -8,6 +8,7 @@ Using Koaloader is optional for some DRM techniques. Koaloader can load multiple
 
 The main problem to solve when using Koaloader is figuring out which common DLL variant a game will try to load in the first place. One way to deterministically find candidates is to use [CFF Explorer](https://ntcore.com/explorer-suite/) and analyze the game's exe. CFF Explorer is one of the few tools that runs well enough with Wine and doesn't require direct process hacking. To use CFF Explorer:
   1. Download the Explorer Suite from the link above, and install it into any Wine prefix
+      - After installation you can put the resultant `CFF Explorer.exe` into your toolkit, it's sufficiently standalone
   2. Run `CFF Explorer.exe` with Wine
   3. Open the game's executable through CFF Explorer
   4. Navigate to the "Dependency Walker" section in the left-side pane
