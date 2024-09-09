@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# SteamAutoDefeat v1.0
+# SteamAutoDefeat v1.0.1
 # Automatically configures the 2nd-gen Goldberg Steam Emulator and runs Steamless on executables in a given directory
 # For usage notes, run this script without arguments
 # Made by Yote.zip
@@ -39,6 +39,9 @@ SAD_STEAMLESS_WINE_PREFIX=""
 #---------------------------------------
 # Displayed name ingame
 SAD_PLAYER_NAME="Player"
+# Path to an image for displaying as a player avatar ingame (jpg/png only)
+# Leave blank or pointing to a nonexistent path to disable
+SAD_PLAYER_AVATAR="$SAD_SCRIPT_DIR/account_avatar.png"
 # If enabled, emulator will respond to all DLC inquiries with "yes". Rarely, games will use other methods to check DLC, or may try to query false DLCs to catch emulators
 # In most cases, leave this on unless it doesn't work
 SAD_AUTO_UNLOCK_DLC=1
@@ -146,6 +149,11 @@ elif [[ $# -eq 2 ]] && [[ "$1" =~ ^[0-9]+$ ]] && [[ -d "$2" ]]; then
         crudini --set "configs.overlay.ini" "overlay::general" "disable_achievement_progress" "$SAD_DISABLE_OVERLAY_ACHIEVEMENT_PROGRESS"
         # Set player name
         crudini --set "configs.user.ini" "user::general" "account_name" "$SAD_PLAYER_NAME"
+        # If configured player avatar exists
+        if [[ -f "$SAD_PLAYER_AVATAR" ]]; then
+            # Copy the avatar to steam_settings, renaming to account_avatar and carrying over the original extension
+            cp -f "$SAD_PLAYER_AVATAR" "account_avatar.${SAD_PLAYER_AVATAR##*.}"
+        fi
 
         # You can put any manual configurations in a $SAD_SCRIPT_DIR/custom_handling/$APP_ID directory and this will copy it into steam_settings when it encounters that game
         if [[ -d "$SAD_SCRIPT_DIR/custom_handling/$APP_ID" ]]; then
@@ -310,3 +318,6 @@ else
     echo "Argument 1: Root directory of game"
     echo "-------------------------------------------------------------------------------"
 fi
+
+# Changelog
+# 1.01 - added avatar support
