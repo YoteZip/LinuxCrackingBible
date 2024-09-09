@@ -362,8 +362,8 @@ If you are still puzzled on what DRM your game is using, reading the posts in it
 
 | Tool                                                                                | Purpose                                                  |
 |-------------------------------------------------------------------------------------|----------------------------------------------------------|
-| [SteamAutoDefeat](Tools/SteamAutoDefeat/steamautodefeat.md)                         | Crack Steamworks API and SteamDRM games more efficiently |
 | [Koaloader](Tools/Koaloader/koaloader.md)                                           | Customizable DLL Injection                               |
+| [SteamAutoDefeat](Tools/SteamAutoDefeat/steamautodefeat.md)                         | Crack Steamworks API and SteamDRM games more efficiently |
 | [Steam Linux Runtime](Tools/Linux-Steam-Runtime/configuring_linux_steam_runtime.md) | Required for certain native Linux games                  |
 
 # **7. Repacking**
