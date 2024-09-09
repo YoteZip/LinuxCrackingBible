@@ -133,13 +133,13 @@ If your game is having trouble starting on Wine, one of the likely culprits is t
 
 ![Lutris Winetricks](images/Lutris-Winetricks.png "Lutris's Winetricks")
 
-Occasionally, the Winetricks GUI will exit prematurely without working. This is usually because Winetricks ran into an error and stopped itself. Almost always, the "error" is a result of Winetricks being confused - the latest victims of this are `dotnet472` and `dotnet48`. The normal solution for this is to tell Winetricks to keep going through the "error" anyway, but that's not possible with the GUI. In this case, you should use Winetricks via the CLI instead by using the following command:
+Occasionally, the Winetricks GUI will exit prematurely without working. This is usually because Winetricks ran into an error and stopped itself. Almost always, the "error" is a result of Winetricks being confused. The normal solution for this is to tell Winetricks to keep going through the "error" anyway, but that's not possible with the GUI. In this case, you should use Winetricks via the CLI instead by using the following command:
 
 ```bash
 WINEPREFIX="/path/to/your/game/prefix" winetricks -q -f YOUR_REDIST_NAME_HERE
 ```
 
-The easiest way to guess what redistributables you need is to go to a game's SteamDB page, navigate to "Depots", and look at which redistributables it's using. Note that any "DirectX" redistributables don't need to be installed, because DXVK/VKD3D are replacing those
+The easiest way to guess what redistributables you need is to go to a game's SteamDB page, navigate to "Depots", and look at which redistributables it's using. Note that many redistributables are backwards-compatible, so installing e.g. `vcrun2022` will satisfy any `vcrun2017`/`vcrun2019` requirements, `dotnet48` will satisfy any lesser versions, and so on. Also, "DirectX" redistributables don't need to be installed, because DXVK/VKD3D are replacing them
 
 ![SteamDB Depots](images/SteamDB-Depots.png "SteamDB Depots")
 
