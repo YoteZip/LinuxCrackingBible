@@ -12,7 +12,7 @@ For our walkthrough we'll be cracking the GFWL DRM on Fable 3. This game is easy
 
 2. [`FABLE 3 ONLY`] Winetricks `xact` is required for Fable 3 to run, otherwise it will crash after intro videos
 
-3. [`FABLE 3 ONLY`] Defeat [Steamworks API](../Steamworks-API/defeating_steamworks.md) protection (remember that this is a DirectX9 game, so if you use Goldberg Experimental build you need to create a file named `steam_settings/disable_overlay.txt` or it will crash on Linux)
+3. [`FABLE 3 ONLY`] Defeat [Steamworks API](../Steamworks-API/defeating_steamworks.md) protection (remember that this is a DirectX9 game, so if you use Goldberg Experimental build you need to disable the overlay or it will crash on Linux)
 
 4. [`FABLE 3 ONLY`] Defeat [Securom](../Securom/defeating_securom.md) protection (we crack Fable 3 in the Securom guide as well)
 

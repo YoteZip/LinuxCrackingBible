@@ -1,5 +1,7 @@
 # **GoldbergAutoTool**
 
+**NOTE**: This page is a tutorial for my 1st-gen Goldberg Steam Emulator auto-cracking script. This version still works on most games, but will eventually fall behind the Steam SDK on updates, as the original Goldberg Steam Emulator has been abandoned. A 2nd-gen auto-cracking script is located [here](../SteamAutoDefeat/steamautodefeat.md). The 1st-gen guide will likely not be updated very much in the future
+
 Steamworks API is the most common form of protection you'll encounter, so I wrote a script to help automate cracking it. Windows users have many programs for this, but I didn't see any for Linux. This will allow you to automatically install and configure Goldberg Steam Emulator with as much extra data as we can scrape from the Steam API. The next steps will set up a small automated environment that can wrap around a few tools and cut down the work we need to do in the future.
 
 First, we're going to compile a tool named `generate_game_infos`. This tool will automatically fetch rich DLC information, achievements, achievement images, and any items from a game's Steam inventory system.

@@ -167,7 +167,7 @@ Wine is actually quite robust at this point. Most games I test work out of the b
 
 - Make sure you are properly overriding any DLLs that you are using (including any that come from a crack)
 
-- Make sure you're not using Goldberg Experimental if your game is DirectX9, or disable Experimental's overlay with `steam_settings/disable_overlay.txt`
+- Make sure you're not using Goldberg Experimental if your game is DirectX9, or disable Experimental's overlay
 
 - Flip from `Proton-GE` to `Wine-GE`/`Kron4ek`, or vice versa
 
@@ -189,7 +189,7 @@ Wine is actually quite robust at this point. Most games I test work out of the b
 
 - Winetricks `dotnet48`
 
-- If you're using Goldberg Steam Emu, try forcing it into offline mode via `steam_settings/offline.txt` (Some of the Borderlands games like to throw errors or load slowly if you don't do this)
+- If you're using Goldberg Steam Emu, try forcing it into offline mode (Some of the Borderlands games like to throw errors or load slowly if you don't do this)
 
 - Disable `MangoHud`
 
@@ -301,6 +301,8 @@ In order to defeat DRM, we first need to know what types of DRM we're up against
   - Telltale files:
     - `steam_api.dll`
     - `steam_api64.dll`
+    - `steamclient.dll`
+    - `steamclient64.dll`
     - `libsteam_api.so`
     - `steamclient.so`
 
@@ -358,11 +360,11 @@ If you are still puzzled on what DRM your game is using, reading the posts in it
 
 ## This is a list of some extra tools we can use as needed:
 
-| Tool                                                                                | Purpose                                       |
-|-------------------------------------------------------------------------------------|-----------------------------------------------|
-| [GoldbergAutoTool](Tools/GoldbergAutoTool/goldbergautotool.md)                      | Crack Steamworks API games more efficiently   |
-| [Koaloader](Tools/Koaloader/koaloader.md)                                           | Customizable DLL Injection                    |
-| [Steam Linux Runtime](Tools/Linux-Steam-Runtime/configuring_linux_steam_runtime.md) | Required for certain native Linux games       |
+| Tool                                                                                | Purpose                                                  |
+|-------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [SteamAutoDefeat](Tools/SteamAutoDefeat/steamautodefeat.md)                         | Crack Steamworks API and SteamDRM games more efficiently |
+| [Koaloader](Tools/Koaloader/koaloader.md)                                           | Customizable DLL Injection                               |
+| [Steam Linux Runtime](Tools/Linux-Steam-Runtime/configuring_linux_steam_runtime.md) | Required for certain native Linux games                  |
 
 # **7. Repacking**
 
@@ -484,6 +486,6 @@ The real fun is doing it yourself. If you want more experience with cracking dif
 
 - Get achievements to show up in a game that uses Goldberg Steam Emulator (Shift+Tab to show the overlay)
 
-- Stellaris (+Steamworks API. Unlock the DLC ingame by configuring Goldberg's emulator. Hint: You need to configure DLC.txt. Try [this tool](https://github.com/Sak32009/GetDLCInfoFromSteamDB/) on Stellaris's SteamDB to get a DLC list)
+- Stellaris (+Steamworks API. Unlock the DLC ingame by configuring Goldberg's emulator. Hint: You need to configure DLC IDs. Try [this tool](https://github.com/Sak32009/GetDLCInfoFromSteamDB/) on Stellaris's SteamDB to get a DLC list, if needed)
 
-- Middle Earth: Shadow of Mordor (Linux) (+Steamworks API and runtime-installer.sh. Get the DLC working ingame by configuring Goldberg's emulator. Hint: you need to configure Depots.txt and DLC.txt. Use [SteamDB](https://steamdb.info/app/241930/depots/) to find depot IDs)
+- Middle Earth: Shadow of Mordor (Linux) (+Steamworks API and runtime-installer.sh. Get the DLC working ingame by configuring Goldberg's emulator. Hint: you need to configure Depot IDs and DLC IDs. Use [SteamDB](https://steamdb.info/app/241930/depots/) to find depot IDs, if needed)
