@@ -10,9 +10,9 @@ I couldn't find any easily-accessible clean and native Linux versions of Valve g
 
 3. Copy [runtime-installer.sh](runtime-installer.sh) to the TF2 directory as `runtime-installer.sh`, and make it executable
 
-4. Open a terminal in the TF2 directory and run: `./runtime-installer.sh hl2.sh`. In this case, `hl2.sh` is the normal executable you use to start the game. This will download the Steam runtime and set up a new executable for you to use, named `start-runtime.sh`
+4. Open a terminal in the TF2 directory and run: `./runtime-installer.sh tf.sh`. In this case, `tf.sh` is the normal executable you use to start the game. This will download the Steam runtime and set up a new executable for you to use, named `start-runtime.sh`
 
-5. Open `start-runtime.sh` in a text editor. This is where you add arguments to use while launching the game. Valve games require a few of these in order to start correctly. You should generally be able to figure these out by looking at the original executable's launch parameters and by referencing [Valve's documentation](https://developer.valvesoftware.com/wiki/Command_Line_Options). Here are the ones I have recorded:
+5. Open `start-runtime.sh` in a text editor. This is where you add arguments to use while launching the game. Valve games require a few of these in order to start correctly. You should generally be able to figure these out by looking at the original executable's launch parameters and by referencing [Valve's documentation](https://developer.valvesoftware.com/wiki/Command_Line_Options). You can also check SteamDB's "Configuration" section on a game for the parameters, e.g. [for TF2](https://steamdb.info/app/440/config/). Note that there must be a `"--"` between the executable and your arguments. Here are the ones I have recorded:
 
     **Counter-Strike: Global Offensive:**
 
@@ -21,7 +21,17 @@ I couldn't find any easily-accessible clean and native Linux versions of Valve g
     `-novid` will skip startup videos
 
     ```bash
-    "./steam-runtime/run.sh" "./csgo.sh" "-steam" "-nojoy" "-tickrate 128" "-vulkan"
+    "./SteamLinuxRuntime_sniper/run" "./csgo.sh" "--" "-steam" "-vulkan"
+    ```
+
+    **Counter-Strike: 2:**
+
+    `-vulkan` may or may not be needed anymore
+
+    `-novid` will skip startup videos
+
+    ```bash
+    "./SteamLinuxRuntime_sniper/run" "./cs2.sh" "--" "-steam" "-vulkan"
     ```
 
     **Left 4 Dead 2:**
@@ -31,15 +41,17 @@ I couldn't find any easily-accessible clean and native Linux versions of Valve g
     `-novid` will skip startup videos
 
     ```bash
-    "./steam-runtime/run.sh" "./hl2.sh" "-game" "left4dead2" "-steam" "-tickrate 128" "-nojoy" "-vulkan"
+    "./SteamLinuxRuntime_sniper/run" "./hl2.sh" "--" "-game" "left4dead2" "-steam" "-vulkan"
     ```
 
     **Portal:**
 
+    `-vulkan` may or may not be needed anymore
+
     `-novid` will skip startup videos
 
     ```bash
-    "./steam-runtime/run.sh" "./hl2.sh" "-game" "portal" "-steam" "-tickrate 128" "-nojoy"
+    "./SteamLinuxRuntime_sniper/run" "./hl2.sh" "--" "-game" "portal" "-steam" "-vulkan"
     ```
 
     **Portal 2:**
@@ -49,15 +61,17 @@ I couldn't find any easily-accessible clean and native Linux versions of Valve g
     `-novid` will skip startup videos
 
     ```bash
-    "./steam-runtime/run.sh" "./portal2.sh" "-game" "portal2" "-steam" "-tickrate 128" "-nojoy"
+    "./SteamLinuxRuntime_sniper/run" "./portal2.sh" "--" "-game" "portal2" "-steam" "-vulkan"
     ```
 
     **Team Fortress 2:**
 
+    `-vulkan` uses new Vulkan renderer. Without this argument my TF2 launches to a black screen.
+
     `-novid` will skip startup videos
 
     ```bash
-    "./steam-runtime/run.sh" "./hl2.sh" "-game" "tf" "-steam" "-tickrate 128" "-nojoy"
+    "./SteamLinuxRuntime_sniper/run" "./tf.sh" "--" "-steam" "-vulkan"
     ```
 
 6. Edit `start-runtime.sh` to match the TF2 line above

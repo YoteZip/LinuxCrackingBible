@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# I don't remember where I got this script
 # Steam-Runtime installer in one step.
+# Note that the runtime version that games expect may change in the future (it's currently "Sniper")
 # Run this file on the same directory as the game executable. (Linux Native only)
 # How to run:
 # ./runtime-installer.sh start-file.sh
@@ -15,19 +15,19 @@ set -e
 APP_PATH=$(dirname "$0")
 cd "$APP_PATH"
 # Use latest
-STEAM_RUNTIME_URL='http://repo.steampowered.com/steamrt-images-scout/snapshots/latest-steam-client-general-availability/steam-runtime.tar.xz'
-wget -c "$STEAM_RUNTIME_URL" || curl "$STEAM_RUNTIME_URL" --output steam-runtime.tar.xz
+STEAM_RUNTIME_URL='https://repo.steampowered.com/steamrt-images-sniper/snapshots/latest-steam-client-general-availability/SteamLinuxRuntime_sniper.tar.xz'
+wget -c "$STEAM_RUNTIME_URL" || curl "$STEAM_RUNTIME_URL"
 
 # Extract it
-tar xf steam-runtime.tar.xz
-rm steam-runtime.tar.xz
+tar xf SteamLinuxRuntime_sniper.tar.xz
+rm SteamLinuxRuntime_sniper.tar.xz
 
 echo "Success"
 
 # Create start-runtime file
 cat > start-runtime.sh << EOF
 #!/bin/sh
-"./steam-runtime/run.sh" "./$START_FILE_NAME"
+"./SteamLinuxRuntime_sniper/run" "./$START_FILE_NAME"
 EOF
 
 # Make our runtime script executable
