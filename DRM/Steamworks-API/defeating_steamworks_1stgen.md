@@ -4,7 +4,7 @@
 
 This is the big one. Most games you'll interact with are "protected" by Steamworks API. It's trivially bypassed by any number of tools, and often it's the only protection a game will have. At some point, publishers gave up on protecting their games and let GabeN's words ring true: "piracy is a service problem"
 
-We defeat this DRM with `Goldberg Steam Emulator`, which is an excellent tool full of customization. Among its features are auto-unlocking of DLC, auto-LAN setup, achievement support, friends network, mod support, and support for native Linux games. The original version has been abandoned, and a few forks have been developed. For now, we're going to use the [Detanup01 fork](https://github.com/Detanup01/gbe_fork).
+We defeat this DRM with `Goldberg Steam Emulator`, which is an excellent tool full of customization. Among its features are auto-unlocking of DLC, auto-LAN setup, achievement support, friends network, mod support, and support for native Linux games.
 
 Goldberg Steam Emulator:
 
