@@ -17,7 +17,6 @@ Steamworks API is the most common form of protection you'll encounter, so I wrot
     ![SteamAutoDefeat Generate Emu Config file structure](images/SAD-Generate-Structure.png)
 
 6. Edit the `SteamAutoDefeat.sh` file:
-    - If you want to hardcode your login credentials, store them in the `SAD_STEAM_USERNAME` and `SAD_STEAM_PASSWORD` variables. If not, it will ask every time
     - Change `SAD_STEAMLESS_CLI_EXE` to the location of the [Steamless](../../DRM/SteamDRM-Windows/defeating_steamdrm_windows.md) executable within your toolkit.
     - Set `SAD_STEAMLESS_WINE_PREFIX` to the Wine prefix that you want to run Steamless in, or leave it blank to use the system prefix. (Remember that you need to run `winetricks -q -f dotnet48` in whichever Wine prefix before Steamless can use it)
     - Change the rest of the options as desired
