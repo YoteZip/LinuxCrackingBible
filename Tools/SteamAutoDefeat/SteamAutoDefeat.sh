@@ -236,7 +236,7 @@ elif [[ $# -eq 2 ]] && [[ "$1" =~ ^[0-9]+$ ]] && [[ -d "$2" ]]; then
                     "steam_api.dll" | "steam_api64.dll" | "libsteam_api.so" )
                         (
                             cd "$SAD_OUTPUT_PATH/$fileDir" || exit # need to move into the directory since the tool doesn't allow output parameter
-                            "$SAD_GEN_INTERFACES_CMD" "$SAD_OUTPUT_PATH/$filePath.bak"
+                            "$SAD_GEN_INTERFACES_CMD" "$SAD_OUTPUT_PATH/$filePath.bak" &> /dev/null
                         )
                         ;;
                 esac
