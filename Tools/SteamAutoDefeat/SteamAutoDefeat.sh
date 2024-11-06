@@ -131,11 +131,8 @@ elif [[ $# -eq 2 ]] && [[ "$1" =~ ^[0-9]+$ ]] && [[ -d "$2" ]]; then
             # Run the emu config generator
             export GSE_CFG_USERNAME="$SAD_STEAM_USERNAME"
             export GSE_CFG_PASSWORD="$SAD_STEAM_PASSWORD"
-            "$SAD_GENERATE_EMU_CMD" "-reldir" "-cve" "$APP_ID"
+            "$SAD_GENERATE_EMU_CMD" "-cve" "$APP_ID"
         )
-        # Clean temp files
-        rm -rf "$SAD_OUTPUT_PATH/backup/"
-        rm -rf "$SAD_OUTPUT_PATH/login_temp/"
 
         cd "output/$APP_ID/steam_settings/" || exit
 
