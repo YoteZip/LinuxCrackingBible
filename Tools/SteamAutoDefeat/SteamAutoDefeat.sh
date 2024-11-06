@@ -17,9 +17,6 @@ SAD_SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # SAD Configuration:
 #---------------------------------------
-# Hardcoded Steam credentials, for retrieving info from the Steam API (achievements, DLC, etc). Leave blank to enter manually each time
-SAD_STEAM_USERNAME=""
-SAD_STEAM_PASSWORD=""
 # Set a directory to hold all the relevant crack parts as they're generated, then you'll be asked to apply the crack at the end
 # You can set this to a static directory if you plan on saving the clean crack without applying it, otherwise mktemp will put it in your /tmp
 SAD_OUTPUT_PATH="$(mktemp -d)"
@@ -129,9 +126,7 @@ elif [[ $# -eq 2 ]] && [[ "$1" =~ ^[0-9]+$ ]] && [[ -d "$2" ]]; then
         echo "-------------------------------------------------------------------------------"
         (
             # Run the emu config generator
-            export GSE_CFG_USERNAME="$SAD_STEAM_USERNAME"
-            export GSE_CFG_PASSWORD="$SAD_STEAM_PASSWORD"
-            "$SAD_GENERATE_EMU_CMD" "-cve" "$APP_ID"
+            "$SAD_GENERATE_EMU_CMD" "-cve" "-token" "$APP_ID"
         )
 
         cd "output/$APP_ID/steam_settings/" || exit
