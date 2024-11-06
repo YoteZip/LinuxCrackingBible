@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# SteamAutoDefeat v1.0.1
+# SteamAutoDefeat v1.1.0
 # Automatically configures the 2nd-gen Goldberg Steam Emulator and runs Steamless on executables in a given directory
 # For usage notes, run this script without arguments
 # Made by Yote.zip
@@ -312,4 +312,8 @@ else
 fi
 
 # Changelog
-# 1.01 - added avatar support
+# 1.1.0 - change authentication to use new refresh token feature instead of hardcoded creds. (this requires gbe_fork 2024-11-05 or later)
+#       - switches away from -reldir, which wasn't doing much for us.
+#         (this  will make a "backup" directory start appearing next to your generate_emu_config executable, but there's not a clean way of keeping the refresh tokens with -reldir enabled.)
+#       - sends generate interfaces output into /dev/null, since it's started being noisy and there's no internal quiet flag
+# 1.0.1 - added avatar support
