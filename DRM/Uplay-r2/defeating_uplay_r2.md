@@ -4,6 +4,8 @@ This is the new DRM that Ubisoft uses for their games. It's trivial to crack, bu
 
 To handle r2, we're going to use Goldberg's Uplay r2 Emulator, which can be found under `Main Forum -> Releases` (thread ID `111722`). Download the latest copy for your toolkit.
 
+**TEMP NOTE**: There are a couple of Uplay r2 forks now present in the thread, but given that Uplay r2 is still always paired with Denuvo for now, the forks don't offer a practical benefit over the original for the moment. Be aware of them, just in case something changes.
+
 # Cracking Guide
 
 For our walkthrough we'll be cracking the Uplay r2 DRM off the Denuvoless copy of Immortals Fenyx Rising (hereafter referred to as `IFR` for my sanity). This game is easy to source via cs.rin's Main Forum (thread ID `97720`), and only uses Uplay r2 for protection. Make sure you get the `10074088` Steam build of the game, which is the one where the developers messed up and released an executable without Denuvo applied.
