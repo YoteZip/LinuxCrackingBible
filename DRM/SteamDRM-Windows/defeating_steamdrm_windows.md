@@ -8,13 +8,13 @@ It is trivially unwrapped by a tool named [Steamless](https://github.com/atom0s/
 
 # Cracking Guide
 
-For our walkthrough we'll be cracking SteamDRM on Call of Duty - World at War. This game is easy to source via cs.rin's SCS (thread ID `55959`). This game only uses SteamDRM for protection.
+For our walkthrough we'll be cracking SteamDRM on Star Wars - Knights of the Old Republic. This game is easy to source via cs.rin's Main Forum (thread ID `64642`), or you can follow along with your own Windows SteamDRM-protected game. Star Wars - Knights of the Old Republic only uses SteamDRM for protection.
 
-1. Source "Call of Duty - World at War" and extract it to your workspace
+1. Source "Star Wars - Knights of the Old Republic" and extract it to your workspace
 
-2. Open a terminal in the toolkit folder where your Steamless tool lives, and run `WINEDEBUG=-all wine Steamless.CLI.exe --keepbind --quiet "/path/to/CoDWaW.exe"` to generate an unpacked EXE. This command will use your system's Wine setup. If you want to use a specific Wine prefix instead, use the `WINEPREFIX` environment variable.
+2. Open a terminal in the toolkit folder where your Steamless tool lives, and run `WINEDEBUG=-all wine Steamless.CLI.exe --keepbind --quiet "/path/to/swkotor.exe"` to generate an unpacked EXE. This command will use your system's Wine setup. If you want to use a specific Wine prefix instead, use the `WINEPREFIX` environment variable.
 
-    ![WAW Steamless Run](images/WAW-Steamless.png "Steamless run")
+    ![SWKOTOR Steamless Run](images/SWKOTOR-Steamless.png "Steamless run")
 
 3. Delete the original EXE and rename the new unpacked EXE to the original's name.
 

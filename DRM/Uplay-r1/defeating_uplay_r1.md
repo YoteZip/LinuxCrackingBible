@@ -12,7 +12,7 @@ We need to grab one more tool from the LumaPlay thread. Navigate to page 30 and 
 
 # Cracking Guide
 
-For our walkthrough we'll be cracking the Uplay r1 DRM on a copy of Assassin's Creed IV - Black Flag. This game is easy to source via cs.rin's SCS (thread ID `55902`), and uses Uplay r1 and Steamworks API for protection.
+For our walkthrough we'll be cracking the Uplay r1 DRM on a copy of Assassin's Creed IV - Black Flag. This game is easy to source via cs.rin's Main Forum (thread ID `63150`), or you can follow along with your own UplayR1-protected game. Assassin's Creed IV - Black Flag uses Uplay r1 and Steamworks API for protection.
 
 1. Source "Assassin's Creed IV - Black Flag" and extract it to your workspace
 

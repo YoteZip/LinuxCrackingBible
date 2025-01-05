@@ -8,7 +8,7 @@ Another tool you may find useful for handling Securom is the "80_PA Universal Se
 
 # Cracking Guide
 
-For our walkthrough we'll be cracking the Securom DRM on Fable 3. This game is easy to source via cs.rin's SCS (thread ID `93457`). Fable 3 is infested with DRM - it contains Steamworks API, Securom, and GFWL.
+For our walkthrough we'll be cracking the Securom DRM on Fable 3. This game is easy to source via cs.rin's Main Forum (thread ID `59454`), or you can follow along with your own Securom-protected game. Fable 3 is infested with DRM - it contains Steamworks API, Securom, and GFWL.
 
 1. Source Fable 3 and extract it to your workspace
 

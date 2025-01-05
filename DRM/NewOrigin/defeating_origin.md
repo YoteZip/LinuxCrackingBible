@@ -16,41 +16,43 @@ Overall, Anadius's tools are great and easy to work with. They come with an easy
 
 # Cracking Guide
 
-For our walkthrough we'll be cracking the Origin DRM on Mass Effect Andromeda (hereafter referred to as `MEA` for my sanity). This game is easy to source via cs.rin's SCS (thread ID `56017`), and only uses Origin DRM.
+For our walkthrough we'll be cracking the Origin DRM on Mass Effect Andromeda (hereafter referred to as `MEA` for my sanity). This game is easy to source via cs.rin's Main Forum (thread ID `65642`), or you can follow along with your own Origin-protected game. MEA uses Origin DRM (and also Steamworks API if you source the version from Steam instead of Origin).
 
 1. Source MEA and extract it to your workspace
 
-2. Open a terminal in the toolkit folder where your Anadius Origin Unwrapper tool lives, and run `python origin_unwrapper.py "/path/to/MassEffectAndromeda.exe" --add-dll` to generate a patched EXE. Ignore the "MassEffectAndromedaTrial" EXE, these "trials" come with a lot of Origin games and I don't think they do anything
+2. Defeat [Steamworks API](../Steamworks-API/defeating_steamworks.md) protection (if you sourced MEA from Steam instead of Origin. Origin games won't always have this protection)
+
+3. Open a terminal in the toolkit folder where your Anadius Origin Unwrapper tool lives, and run `python origin_unwrapper.py "/path/to/MassEffectAndromeda.exe" --add-dll` to generate a patched EXE. Ignore the "MassEffectAndromedaTrial" EXE, these "trials" come with a lot of Origin games and I don't think they do anything
 
     ![MEA Unwrap](images/MEA-Unwrap.png "Unwrapping Mass Effect Andromeda")
 
-3. Rename the output `unwrapped fixed` file to its original EXE name and copy it to your MEA directory, replacing the original
+4. Rename the output `unwrapped fixed` file to its original EXE name and copy it to your MEA directory, replacing the original
 
-4. Since MEA is a 64-bit game, copy `anadius64.dll` from Anadius's Emulator into the folder next to the EXE.
+5. Since MEA is a 64-bit game, copy `anadius64.dll` from Anadius's Emulator into the folder next to the EXE.
 
-5. Open the `origin_helper_tools.html` file from Anadius Emulator's configs/tools  in a web browser, and navigate to the "Generate Emulator Config" section. This tool will auto-generate a template configuration for you to use
+6. Open the `origin_helper_tools.html` file from Anadius Emulator's configs/tools  in a web browser, and navigate to the "Generate Emulator Config" section. This tool will auto-generate a template configuration for you to use
 
     ![MEA Generate Config](images/MEA-GenerateConfig.png "Generating an Anadius config")
 
-6. Click "Browse" and pick your `__Installer/installerdata.xml` file from the MEA directory
+7. Click "Browse" and pick your `__Installer/installerdata.xml` file from the MEA directory
 
-7. You can generally always select `Has username visible` and `Has avatar visible` just in case a game uses them somewhere. The rest don't really need to be touched unless your game is Denuvo or you want to try auto-generating achievements (doesn't always work)
+8. You can generally always select `Has username visible` and `Has avatar visible` just in case a game uses them somewhere. The rest don't really need to be touched unless your game is Denuvo or you want to try auto-generating achievements (doesn't always work)
 
-8. Click "Generate config" and save it into your MEA directory
+9. Click "Generate config" and save it into your MEA directory
 
-9. Edit the `anadius.cfg` file that you just saved:
+10. Edit the `anadius.cfg` file that you just saved:
     - `User.Username` - Change to whatever you want your name to show up as ingame
     - `User.Avatar` - Link to a png that you want to display as an avatar ingame
 
     ![MEA Anadius cfg](images/MEA-anadiuscfg1.png "Resultant anadius.cfg")
 
-10. If you want DLC to be unlocked as well, you need to manually input the DLC info into `anadius.cfg`. Acidicoala maintains a [large public list](https://github.com/acidicoala/public-entitlements/blob/main/origin/v1/entitlements.json) of these DLC identifiers, but it's not fully complete ([archived version here (probably outdated)](https://archive.ph/PiS1o)). If your DLC isn't listed, you can check Anadius's "EA DLC Unlocker tool" next, found under `Main Forum -> Releases` (thread ID `104412`). This tool comes with a handful of DLC identifier configurations in its `g_*.ini` files. If neither of these sources help, you can try manually logging the DLC checks with EA DLC Unlocker. As far as I can tell, this method requires owning the base game, as the EA DLC Unlocker manipulates the EA client, not the game itself. To start logging:
+11. If you want DLC to be unlocked as well, you need to manually input the DLC info into `anadius.cfg`. Acidicoala maintains a [large public list](https://github.com/acidicoala/public-entitlements/blob/main/origin/v1/entitlements.json) of these DLC identifiers, but it's not fully complete ([archived version here (probably outdated)](https://archive.ph/PiS1o)). If your DLC isn't listed, you can check Anadius's "EA DLC Unlocker tool" next, found under `Main Forum -> Releases` (thread ID `104412`). This tool comes with a handful of DLC identifier configurations in its `g_*.ini` files. If neither of these sources help, you can try manually logging the DLC checks with EA DLC Unlocker. As far as I can tell, this method requires owning the base game, as the EA DLC Unlocker manipulates the EA client, not the game itself. To start logging:
 	- Anadius includes a `setup_linux.sh` script with the tool which can be used to automatically detect and install EA DLC Unlocker into Steam-based EA game installations, or you can prefix it like `WINEPREFIX=/path/to/custom/prefix setup_linux.sh` for an arbitrary prefix.
 	- After installation, enable logging by editing `drive_c/users/<username>/AppData/Roaming/anadius/EA DLC Unlocker v2/config.ini` and enabling `logLSX`.
 	- After logging is enabled, start the game and attempt to get it to check for DLC (opening ingame DLC displays, navigating to locked contents, etc).
 	- (I have tested a handful of games and haven't been able to get any non-standard logging to occur. If you get logs, it should be easy to parse through them to find DLC identifiers.)
 
-11. Because I'm omniscient I already know the MEA DLC identifiers. Add the following sections to your anadius.cfg:
+12. Because I'm omniscient I already know the MEA DLC identifiers. Add the following sections to your anadius.cfg:
 
     ```json
 	"Content"
@@ -108,10 +110,10 @@ For our walkthrough we'll be cracking the Origin DRM on Mass Effect Andromeda (h
 	}
     ```
 
-12. Your `anadius.cfg` should now look like this:
+13. Your `anadius.cfg` should now look like this:
 
     ![MEA Anadius cfg w DLC](images/MEA-anadiuscfg2.png "Final anadius.cfg")
 
-13. Origin is now defeated!
+14. Origin is now defeated!
 
 ![wise yote aligns his moral compass](images/morallycorrect.png "wise yote aligns his moral compass")

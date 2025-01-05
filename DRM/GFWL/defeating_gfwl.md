@@ -6,7 +6,7 @@ We're going to use a GFWL emulator from catspaw to defeat this DRM. You can find
 
 # Cracking Guide
 
-For our walkthrough we'll be cracking the GFWL DRM on Fable 3. This game is easy to source via cs.rin's SCS (thread ID `93457`). Fable 3 is infested with DRM, but so are most GFWL games. It's protected by Steamworks API, Securom, and GFWL.
+For our walkthrough we'll be cracking the GFWL DRM on Fable 3. This game is easy to source via cs.rin's Main Forum (thread ID `59454`), or you can follow along with your own GFWL-protected game. Fable 3 is infested with DRM, but so are most GFWL games. It's protected by Steamworks API, Securom, and GFWL.
 
 1. Source Fable 3 and extract it to your workspace
 

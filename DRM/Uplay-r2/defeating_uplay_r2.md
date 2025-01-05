@@ -6,7 +6,7 @@ To handle r2, we're going to use Goldberg's Uplay r2 Emulator, which can be foun
 
 # Cracking Guide
 
-For our walkthrough we'll be cracking the Uplay r2 DRM off the Denuvoless copy of Immortals Fenyx Rising (hereafter referred to as `IFR` for my sanity). This game is easy to source via cs.rin's SCS (thread ID `128248`), and only uses Uplay r2 for protection. Make sure you get the `10074088` Steam build of the game, which is the one where the developers messed up and released an executable without Denuvo applied.
+For our walkthrough we'll be cracking the Uplay r2 DRM off the Denuvoless copy of Immortals Fenyx Rising (hereafter referred to as `IFR` for my sanity). This game is easy to source via cs.rin's Main Forum (thread ID `97720`), and only uses Uplay r2 for protection. Make sure you get the `10074088` Steam build of the game, which is the one where the developers messed up and released an executable without Denuvo applied.
 
 1. Source IFR and extract it to your workspace
 

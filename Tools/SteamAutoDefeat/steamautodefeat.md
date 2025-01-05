@@ -23,7 +23,7 @@ Steamworks API is the most common form of protection you'll encounter, so I wrot
 
 7. Now SteamAutoDefeat is ready to run and strip SteamDRM/SteamStub and Steamworks API from any game that it is pointed at.
 
-8. Next, we're going to use it on a clean copy of Dead Cells, which has both SteamDRM and Steamworks API protection. This game can be sourced via cs.rin's SCS (thread ID `83054`).
+8. Next, we're going to use it on a clean copy of Dead Cells, which has both SteamDRM and Steamworks API protection. This game can be sourced via cs.rin's Main Forum (thread ID `76784`), or you can follow along with your own Steamworks/SteamDRM-protected game.
 
 9. Navigate to your `SteamAutoDefeat` directory and run the following command: `./SteamAutoDefeat.sh <STEAM_ID> /path/to/your/game/root/dir`. For Dead Cells, we'll use: `./SteamAutoDefeat.sh 588650 "/mnt/Cracking/Dead Cells"`
 

@@ -12,7 +12,7 @@ Stage 2 requires LumaCEG to be injected into the game at runtime. Thankfully, th
 
 # Cracking Guide
 
-For our walkthrough we'll be cracking the CEG DRM on the Windows version of "Saints Row - The Third" (hereafter referred to as `SRTT` for my sanity). This game is easy to source via cs.rin's SCS (thread ID `55978`). SRTT is protected with CEG and Steamworks API.
+For our walkthrough we'll be cracking the CEG DRM on the Windows version of "Saints Row - The Third" (hereafter referred to as `SRTT` for my sanity). This game is easy to source via cs.rin's Main Forum (thread ID `60550`), or you can follow along with your own CEG-protected game. SRTT is protected with CEG and Steamworks API.
 
 1. Source SRTT and extract it to your workspace
 

@@ -4,7 +4,7 @@ This is a very basic DRM from Valve that wraps around a Linux executable. Also c
 
 # Cracking Guide
 
-For our walkthrough we'll be cracking SteamDRM on the native Linux version of Binding of Isaac - Rebirth. A native Linux copy of this game was posted by zTG on page 84 of cs.rin's official Binding of Isaac thread (thread ID `65646`). This game uses SteamDRM and Steamworks API for protection.
+For our walkthrough we'll be cracking SteamDRM on the native Linux version of Binding of Isaac - Rebirth. A native Linux copy of this game was posted by zTG on page 84 of cs.rin's official Binding of Isaac thread (thread ID `65646`), or you can follow along with your own Linux SteamDRM-protected game. Binding of Isaac - Rebirth uses SteamDRM and Steamworks API for protection.
 
 1. Source Binding of Isaac - Rebirth and extract it to your workspace
 

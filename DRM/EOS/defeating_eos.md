@@ -8,7 +8,7 @@ I have the least amount of experience with this DRM because I don't have an Epic
 
 # Cracking Guide
 
-For our walkthrough we'll be cracking the EOS DRM on PC Building Simulator 2. This game should be easy to source through cs.rin via its dedicated game thread under `Main Forum -> Other Gaming Platforms` (thread ID `120407`). This game uses EOS and EOS must also be configured properly for it to start, so it's a good sanity check that everything is working properly.
+For our walkthrough we'll be cracking the EOS DRM on PC Building Simulator 2. This game should be easy to source through cs.rin via its dedicated game thread under `Main Forum -> Other Gaming Platforms` (thread ID `120407`), or you can follow along with your own EOS-protected game. PC Building Simulator 2 uses EOS, and EOS must also be configured properly for it to start, so it's a good sanity check that everything is working properly.
 
 1. Source PC Building Simulator 2 and extract it to your workspace
 

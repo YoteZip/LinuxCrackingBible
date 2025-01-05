@@ -16,7 +16,7 @@ I will go over the basics in this guide, but you should read the [full readme](h
 
 # Cracking Guide
 
-For our walkthrough we'll be cracking the Steamworks API DRM on a Windows copy of Banners of Ruin. This game is easy to source via cs.rin's SCS (thread ID `119427`), and only uses Steamworks API for protection
+For our walkthrough we'll be cracking the Steamworks API DRM on a Windows copy of Banners of Ruin. This game is easy to source via cs.rin's Main Forum (thread ID `107002`), or you can follow along with your own Steamworks-protected game. Banners of Ruin only uses Steamworks API for protection
 
 1. Source Banners of Ruin and extract it to your workspace
 
