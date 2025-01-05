@@ -287,12 +287,12 @@ In order to defeat DRM, we first need to know what types of DRM we're up against
   - On launch, games with Securom will sometimes display a popup with something like `Application load error 5:0000065434`
   - No new games have this DRM. Check if your game is on [this historic list](DRM/Securom/list_of_securom_games.md).
 
-**SteamDRM (Windows):**
+**SteamDRM / SteamStub (Windows):**
   - Sometimes in Steam games
   - Most games that have this are older but new games can still use it
   - Run the game's executables through `Steamless` and check if you get an `.unpacked.exe` file output (more info on this tool in the [SteamDRM (Windows) Guide](DRM/SteamDRM-Windows/defeating_steamdrm_windows.md))
 
-**SteamDRM (Linux):**
+**SteamDRM / SteamStub (Linux):**
   - Very rare in older native Linux Steam games
   - Run the game's executables through `pyUnstub` and check if you get something other than "error on parsing headers" (more info on this tool in the [SteamDRM (Linux) Guide](DRM/SteamDRM-Linux/defeating_steamdrm_linux.md))
 
@@ -344,19 +344,19 @@ If you are still puzzled on what DRM your game is using, reading the posts in it
 
 # **6. DRM stripping guides**
 
-| Guide                                                                    | Stripped By                        |
-|--------------------------------------------------------------------------|------------------------------------|
-| [CEG (Steam Custom Executable Generation)](DRM/CEG/defeating_ceg.md)     | Koaloader + LumaCEG                |
-| [Epic Online Services (EOS)](DRM/EOS/defeating_eos.md)                   | Nemirtingas Epic Emulator          |
-| [Games for Windows Live (GFWL)](DRM/GFWL/defeating_gfwl.md)              | Catspaw GFWL Emulator (15d)        |
-| [Origin (New)](DRM/NewOrigin/defeating_origin.md)                        | Anadius Origin Unwrapper+Emulator  |
-| [Securom](DRM/Securom/defeating_securom.md)                              | Virusek+Neogame Generic 7/8 Bypass |
-| [SteamDRM (Windows)](DRM/SteamDRM-Windows/defeating_steamdrm_windows.md) | Steamless                          |
-| [SteamDRM (Linux)](DRM/SteamDRM-Linux/defeating_steamdrm_linux.md)       | pyUnstub                           |
-| [Steamworks API](DRM/Steamworks-API/defeating_steamworks.md)             | Goldberg Steam Emulator            |
-| [Uplay r1](DRM/Uplay-r1/defeating_uplay_r1.md)                           | LumaPlay                           |
-| [Uplay r2](DRM/Uplay-r2/defeating_uplay_r2.md)                           | Goldberg Uplay r2 Emulator         |
-| [Xbox Live](DRM/Xbox%20Live/defeating_xbox_live.md)                      | Goldberg Xbox Live Emulator        |
+| Guide                                                                                | Stripped By                        |
+|--------------------------------------------------------------------------------------|------------------------------------|
+| [CEG (Steam Custom Executable Generation)](DRM/CEG/defeating_ceg.md)                 | Koaloader + LumaCEG                |
+| [Epic Online Services (EOS)](DRM/EOS/defeating_eos.md)                               | Nemirtingas Epic Emulator          |
+| [Games for Windows Live (GFWL)](DRM/GFWL/defeating_gfwl.md)                          | Catspaw GFWL Emulator (15d)        |
+| [Origin (New)](DRM/NewOrigin/defeating_origin.md)                                    | Anadius Origin Unwrapper+Emulator  |
+| [Securom](DRM/Securom/defeating_securom.md)                                          | Virusek+Neogame Generic 7/8 Bypass |
+| [SteamDRM / SteamStub (Windows)](DRM/SteamDRM-Windows/defeating_steamdrm_windows.md) | Steamless                          |
+| [SteamDRM / SteamStub (Linux)](DRM/SteamDRM-Linux/defeating_steamdrm_linux.md)       | pyUnstub                           |
+| [Steamworks API](DRM/Steamworks-API/defeating_steamworks.md)                         | Goldberg Steam Emulator            |
+| [Uplay r1](DRM/Uplay-r1/defeating_uplay_r1.md)                                       | LumaPlay                           |
+| [Uplay r2](DRM/Uplay-r2/defeating_uplay_r2.md)                                       | Goldberg Uplay r2 Emulator         |
+| [Xbox Live](DRM/Xbox%20Live/defeating_xbox_live.md)                                  | Goldberg Xbox Live Emulator        |
 
 ## This is a list of some extra tools we can use as needed:
 
@@ -438,7 +438,7 @@ The real fun is doing it yourself. If you want more experience with cracking dif
 - Mercenaries 2
 - NFS Shift (+SteamDRM, Winetricks `physx`)
 
-**SteamDRM (Windows)**:
+**SteamDRM / SteamStub (Windows)**:
 
 - GRID
 - Mirror's Edge

@@ -1,6 +1,6 @@
-# **SteamDRM (Linux)**
+# **SteamDRM / SteamStub (Linux)**
 
-This is a very basic DRM from Valve that wraps around a Linux executable. Also commonly referred to as SteamStub. It's primarily found on older games, but there are a couple modern games that still have it. This is a very rare protection type, but luckily it's very easy to unwrap with a simple python script named [pyUnstub](https://gitlab.com/sektour/steamstub_scripts). Clone the repo to your toolkit.
+This is a very basic DRM from Valve that wraps around a Linux executable. It's primarily found on older games, but there are a couple modern games that still have it. This is a very rare protection type, but luckily it's very easy to unwrap with a simple python script named [pyUnstub](https://gitlab.com/sektour/steamstub_scripts). Clone the repo to your toolkit.
 
 # Cracking Guide
 
