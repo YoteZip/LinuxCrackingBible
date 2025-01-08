@@ -10,19 +10,13 @@ For our walkthrough we'll be cracking the Xbox Live DRM off of Halo - The Master
 
 1. Source MCC and extract it to your workspace
 
-2. [`MCC ONLY`] Set your Lutris Wine version to be a Kron4ek build. This may not be necessary in the future - I was having issues with Wine-GE 8-8 crashing after splash screen. Kron4ek 8.10 worked correctly
+2. Defeat [Steamworks API](../Steamworks-API/defeating_steamworks.md) protection with Goldberg's Steam Emulator (make sure you crack with the `experimental` version)
 
-3. Defeat [Steamworks API](../Steamworks-API/defeating_steamworks.md) protection with Goldberg's Steam Emulator (make sure you crack with the `experimental` version)
+3. In your `steam_settings` folder from Goldberg's Steam Emulator, create a folder named `load_dlls`
 
-4. [`MCC ONLY`] MCC has custom DRM that also needs to be defeated. Go to MCC's official cs.rin thread (thread ID `90277`). On page 142, download the file under `GOLDBERG CRACK MIRROR` posted by oneshotman.
+4. Copy `xlive64.dll` from Goldberg's Xbox Live Emulator into this new folder
 
-5. [`MCC ONLY`] From that archive, extract `mcclauncher.exe`, `mcclauncher.exe.legit`, and the `data` folder to your MCC game directory. Rename the `data` directory to `Data` and merge it into the original `Data` folder, because capitalization matters on Linux.
-
-6. In your `steam_settings` folder from Goldberg's Steam Emulator, create a folder named `load_dlls`
-
-7. Copy `xlive64.dll` from Goldberg's Xbox Live Emulator into this new folder
-
-8. Xbox Live DRM is now defeated!
+5. Xbox Live DRM is now defeated!
 
 - [`MCC ONLY`] MCC needs special handling in order to actually launch campaign missions etc. Since all Halo games are optional to install, it uses "depot" markers to check whether they've been installed. To tell MCC that we have everything it's expecting, navigate to your `steam_settings` folder and create a file named `depots.txt`. Fill that file with the following content:
 
