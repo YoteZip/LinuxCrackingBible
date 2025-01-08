@@ -290,6 +290,7 @@ In order to defeat DRM, we first need to know what types of DRM we're up against
 **SteamDRM / SteamStub (Windows):**
   - Sometimes in Steam games
   - Most games that have this are older but new games can still use it
+  - On launch, games with SteamDRM will sometimes display a popup with something like `Application load error 5:0000065434`
   - Run the game's executables through `Steamless` and check if you get an `.unpacked.exe` file output (more info on this tool in the [SteamDRM (Windows) Guide](DRM/SteamDRM-Windows/defeating_steamdrm_windows.md))
 
 **SteamDRM / SteamStub (Linux):**
