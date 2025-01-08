@@ -6,7 +6,7 @@ The most popular way to defeat this DRM is by injecting the DLL through Goldberg
 
 # Cracking Guide
 
-For our walkthrough we'll be cracking the Xbox Live DRM off of Halo - The Master Chief Collection (hereafter referred to as `MCC` for my sanity). This game is easy to source via cs.rin's Main Forum (thread ID `90277`), or you can follow along with your own Xbox Live-protected game. MCC uses Xbox Live and Steamworks API for protection. It requires quite a few unique steps that other Xbox Live games will not require, but this was the easiest game to source for demonstration
+For our walkthrough we'll be cracking the Xbox Live DRM off of Halo - The Master Chief Collection (hereafter referred to as `MCC` for my sanity). This game is easy to source via cs.rin's Main Forum (thread ID `90277`), or you can follow along with your own Xbox Live-protected game. MCC uses Xbox Live and Steamworks API for protection.
 
 1. Source MCC and extract it to your workspace
 
