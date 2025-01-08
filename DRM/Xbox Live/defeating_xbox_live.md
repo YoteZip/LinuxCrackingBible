@@ -2,7 +2,7 @@
 
 This is Microsoft's Xbox Live DRM, only found on a half dozen games so far. It's trivial to crack, only requiring an auto-defeat DLL to be injected with no configuration. To crack this DRM, we're going to use Goldberg Xbox Live Emulator, which can be found under `Main Forum -> Releases` (thread ID `114182`). Download the latest copy for your toolkit.
 
-The most popular way to defeat this DRM is by injecting the DLL through Goldberg's Experimental Steam Emulator, which includes an easy folder for loading DLLs. It's possible to use other Steam emulators/cracks and inject this DLL in another way, but so far there hasn't been a need to do this.
+The most popular way to defeat this DRM is by injecting the DLL through Goldberg's Experimental Steam Emulator, which includes an easy folder for loading DLLs. It's still possible to use other methods to inject this DLL (e.g. [Koaloader](../../Tools/Koaloader/koaloader.md)), but it's often not necessary if the game is already protected with Steamworks.
 
 # Cracking Guide
 
