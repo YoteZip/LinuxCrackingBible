@@ -167,7 +167,7 @@ Wine is actually quite robust at this point. Most games I test work out of the b
 
 - Make sure you are properly overriding any DLLs that you are using (including any that come from a crack)
 
-- Make sure you're not using Goldberg Experimental if your game is DirectX9, or disable Experimental's overlay
+- Try disabling Goldberg Experimental's overlay if your game is DirectX9, as DX9 games generally don't play nice with it
 
 - Flip from `Proton-GE` to `Wine-GE`/`Kron4ek`, or vice versa
 

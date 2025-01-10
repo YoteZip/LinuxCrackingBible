@@ -48,7 +48,7 @@ SAD_EXPERIMENTAL_ENABLED=1
 # Alternatively, you can use `bwrap --unshare-net --dev-bind / /` as a command prefix to sandbox all networking from a game
 SAD_BLOCK_NON_LAN_CONNECTIONS=1
 # If enabled, a Shift+Tab overlay will be injected into the game for achievement popups and LAN friend network
-# As of writing, DirectX 9 games still have a very high likelihood of crashing on startup (same as 1st-gen Goldberg Steam Emulator)
+# As of writing, some DirectX 9 games crash on startup with this overlay enabled
 SAD_ENABLE_OVERLAY=1
 # By default, the overlay will display a notification every time you make any progress on an achievement
 # You most likely want this disabled, as it is very spammy
