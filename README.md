@@ -383,29 +383,31 @@ Okay, so let's just decompress their stuff and then we can compress with our com
 
 So what can we do? Well, we can't use any of the precompressors, but we still have one trick up our sleeve. As luck would have it, it happens to be a pretty good one. The archiving program that repackers use is named FreeArc, and the newest version happens to have a Linux version. Even without any precompressors, FreeArc can still destroy traditional compression programs in terms of compression ratio. This is largely due to its global deduplication algorithm, which can match duplicate chunks all the way across a file instead of only in a short window. FreeArc also includes some great compression algorithms that we'll be making use of.
 
-Putting it all together: we're going to download [FreeArc Next](https://encode.su/threads/2621-FreeArc-Next), put it in our toolkit, and compress games using the following command:
+Putting it all together: we're going to download [FreeArc Next](https://encode.su/threads/2621-FreeArc-Next), put it in our toolkit, and compress games using the following command (change threads as desired, but be wary of memory usage by using too many):
 
 ```bash
-fa a "output.arc" -t --threads=12 -mrep:128mb+dispack070+delta+lzma:128mb:normal:16:mc8 -dup "YOUR_GAME_DIR_HERE"
+fa a "output.arc" --threads=12 -mrep:128mb+dispack070+delta+lzma:128mb:normal:16:mc8 -t -dup "YOUR_GAME_DIR_HERE"
 ```
 
-This command compresses games relatively quickly while still achieving close to max possible compression achievable by FreeArc. Decompression of the resultant archives is also very quick. To decompress an `.arc` created by this tool, use the following command:
+This command compresses games relatively quickly while still achieving close to max possible compression achievable by FreeArc. Decompression of the resultant archives is also very quick. To decompress an `.arc` created by this tool, use the following command (change threads as desired, but be wary of memory usage by using too many):
 
 ```bash
 fa x "YourGameArchive.arc" --threads=12 -dp"/path/to/output/directory"
 ```
 
-There's one caveat here: If your game contains any symbolic links, FreeArc Next will ruin them. In my experience, the only games that use symbolic links are ones that we apply `runtime-installer.sh` to. If you want to compress a game that uses symbolic links, you should instead install a tool named [DwarFS](https://github.com/mhx/dwarfs) from your package manager. DwarFS is not quite as good as FreeArc, but it's still a respectable tool and will work in a pinch. To compress a game using DwarFS, use the following command:
+There's one caveat here: If your game contains any symbolic links, FreeArc Next will ruin them. In my experience, the only games that use symbolic links are ones that we apply `runtime-installer.sh` to. If you want to compress a game that uses symbolic links, you should instead install a tool named [DwarFS](https://github.com/mhx/dwarfs) from your package manager. DwarFS is not quite as good as FreeArc, but it's still a respectable tool and will work in a pinch. To compress a game using DwarFS, use the following command (change memory constraint as desired):
 
 ```bash
-mkdwarfs -L6g -l7 -B30 -i "YOUR_GAME_DIR_HERE" -o "output.dwarfs"
+mkdwarfs --memory-limit=6g -l7 -B30 -i "YOUR_GAME_DIR_HERE" -o "output.dwarfs"
 ```
 
-To decompress a .dwarfs created by this tool, use the following command:
+To decompress a .dwarfs created by this tool, use the following command (change memory constraint as desired):
 
 ```bash
-dwarfsextract -n12 -s6g -i "YourGameArchive.dwarfs" -o "/path/to/output/directory"
+dwarfsextract --cache-size=6g -i "YourGameArchive.dwarfs" -o "/path/to/output/directory"
 ```
+
+You probably also want to put `nice -n 10` before each command, e.g. `nice -n 10 fa x "game.arc"`, to deprioritize the process in favor of the rest of your running applications.
 
 Now that we know how to compress efficiently, it's also a good idea to consider ripping out things that we don't need. You'll notice that most repackers split out each language of a game into a separate download - there's a good reason for this. Audio does not compress very well, and foreign languages actually take up a relatively large portion of a game's filesize. If we explore a game's files using something like [Filelight](https://apps.kde.org/filelight/), we're often able to find foreign audio and delete it before compressing, saving us far more space than any algorithm could.
 
