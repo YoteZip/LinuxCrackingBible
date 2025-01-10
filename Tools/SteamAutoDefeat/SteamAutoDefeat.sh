@@ -46,7 +46,6 @@ SAD_AUTO_UNLOCK_DLC=1
 SAD_EXPERIMENTAL_ENABLED=1
 # If enabled, emulator will block the game from sending any network connections unless they are to a local/LAN IP address
 # Alternatively, you can use `bwrap --unshare-net --dev-bind / /` as a command prefix to sandbox all networking from a game
-# If you're in a Flatpak environment (>=1.15.6), you can instead use `flatpak-spawn --no-network`
 SAD_BLOCK_NON_LAN_CONNECTIONS=1
 # If enabled, a Shift+Tab overlay will be injected into the game for achievement popups and LAN friend network
 # As of writing, DirectX 9 games still have a very high likelihood of crashing on startup (same as 1st-gen Goldberg Steam Emulator)
