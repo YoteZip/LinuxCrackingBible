@@ -49,8 +49,6 @@ SAD_EXPERIMENTAL_ENABLED=1
 SAD_BLOCK_NON_LAN_CONNECTIONS=1
 # If enabled, a Shift+Tab overlay will be injected into the game for achievement popups and LAN friend network
 # As of writing, DirectX 9 games still have a very high likelihood of crashing on startup (same as 1st-gen Goldberg Steam Emulator)
-# The newer overlay included with the 2nd-gen Goldberg forks doesn't seem to work with DXVK, unlike Mr. Goldberg's version
-# It doesn't seem to crash when it fails to hook, at least. If a game is crashing, it's worth a shot to disable this
 SAD_ENABLE_OVERLAY=1
 # By default, the overlay will display a notification every time you make any progress on an achievement
 # You most likely want this disabled, as it is very spammy
