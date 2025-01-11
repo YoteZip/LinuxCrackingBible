@@ -22,68 +22,10 @@ For our walkthrough we'll be cracking SteamDRM on Star Wars - Knights of the Old
 
 ![wise yote should call his dad](images/steamstub.png "wise yote should call his dad")
 
-**Bonus:** You can put these two commands at the end of your `.bashrc`/`.zshrc`/etc in order to quickly run Steamless at will. I frequently run `steamless` on a new game's folder to auto-strip any EXEs that might have SteamDRM on them. EXEs that aren't packed with SteamDRM will not be affected, so it's just a quick method to get this DRM out of the way if it's there. Make sure you customize `STEAMLESSLOC` in the code below
-
-![WAW Mass Steamless Run](images/WAW-MassSteamless.png "Mass steamless run")
-
+**Bonus:** You can use my [small shell script](./steamless-helper.sh) in order to quickly run Steamless at will. Make sure you customize `STEAMLESS_CLI_EXE` at the top of the script. Alias it in your `.bashrc`/`.zshrc`/etc in with e.g.:
 ```bash
-# Steamless
-export STEAMLESSLOC="/path/to/Steamless.CLI.exe"
-
-# Point at an exe to strip it
-steamless-single() {
-    if [[ $# -eq 1 ]] && [[ -f "$1" ]]; then
-            if [[ ! -f "$STEAMLESSLOC" ]]; then
-                echo "Steamless.CLI.exe location not found"
-                exit 1
-            fi
-
-            WINEDEBUG=-all wine "$STEAMLESSLOC" --keepbind --quiet "$1"
-    else
-        echo 'SteamDRM remover:'
-        echo '-------------------------------------------------------------------------------'
-        echo 'Argument 1: Input file'
-        echo '-------------------------------------------------------------------------------'
-        return
-    fi
-}
-
-# Attempt to strip every EXE in a folder
-# EXEs that are not packed with SteamDRM are unaffected
-steamless() {
-    if [[ $# -eq 1 ]] && [[ -d "$1" ]]; then
-        (
-            if [[ ! -f "$STEAMLESSLOC" ]]; then
-                echo "Steamless.CLI.exe location not found"
-                exit 1
-            elif ! [ -x "$(command -v find)" ]; then
-                echo "'find' program is required to run."
-                exit 1
-            elif ! [ -x "$(command -v parallel)" ]; then
-                echo "'parallel' program is required to run."
-                exit 1
-            fi
-
-            cd "$1" || return
-            echo "Unpacking .exes..."
-            find . -type f -name '*.exe' | parallel -q wine "$STEAMLESSLOC" --keepbind --quiet {} &> /dev/null
-            echo ''
-            echo "Exes unpacked:"
-            echo '#-----------------------------------------------------------------------------#'
-            find . -name '*.unpacked.exe' -exec bash -c '\
-                originalExeName="${0//.unpacked.exe/}";\
-                mv "$originalExeName" "$originalExeName".bak;\
-                mv "$0" "$originalExeName";\
-                echo "$originalExeName"\
-            ' {} \;
-            echo '#-----------------------------------------------------------------------------#'
-        )
-    else
-        echo 'Mass SteamDRM remover:'
-        echo '-------------------------------------------------------------------------------'
-        echo 'Argument 1: Input folder. All .exes in this folder will have their SteamDRM removed.'
-        echo '-------------------------------------------------------------------------------'
-        return
-    fi
-}
+alias steamless="/path/to/steamless-helper.sh"
 ```
+I frequently run `steamless` on a new game's folder to auto-strip any EXEs that might have SteamDRM on them. EXEs that aren't packed with SteamDRM will not be affected, so it's just a quick method to get this DRM out of the way if it's there.
+
+![WAW Steamless Helper Run](images/WAW-SteamlessHelper.png "Steamless Helper run")
