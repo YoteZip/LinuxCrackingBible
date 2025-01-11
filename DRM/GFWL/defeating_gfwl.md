@@ -6,15 +6,15 @@ We're going to use a GFWL emulator from catspaw to defeat this DRM. You can find
 
 # Cracking Guide
 
-For our walkthrough we'll be cracking the GFWL DRM on Fable 3. This game is easy to source via cs.rin's Main Forum (thread ID `59454`), or you can follow along with your own GFWL-protected game. Fable 3 is infested with DRM, but so are most GFWL games. It's protected by Steamworks API, Securom, and GFWL.
+For our walkthrough we'll be cracking the GFWL DRM on Fable III. This game is easy to source via cs.rin's Main Forum (thread ID `59454`), or you can follow along with your own GFWL-protected game. Fable III is infested with DRM, but so are most GFWL games. It's protected by Steamworks API, Securom, and GFWL.
 
-1. Source Fable 3 and extract it to your workspace
+1. Source Fable III and extract it to your workspace
 
-2. [`FABLE 3 ONLY`] Winetricks `xact` is required for Fable 3 to run, otherwise it will crash after intro videos
+2. [`Fable III ONLY`] Winetricks `xact` is required for Fable III to run, otherwise it will crash after intro videos
 
-3. [`FABLE 3 ONLY`] Defeat [Steamworks API](../Steamworks-API/defeating_steamworks.md) protection (remember that this is a DirectX9 game, so if you use Goldberg Experimental build you need to disable the overlay or it may crash on Linux)
+3. [`Fable III ONLY`] Defeat [Steamworks API](../Steamworks-API/defeating_steamworks.md) protection (remember that this is a DirectX9 game, so if you use Goldberg Experimental build you need to disable the overlay or it may crash on Linux)
 
-4. [`FABLE 3 ONLY`] Defeat [Securom](../Securom/defeating_securom.md) protection (we crack Fable 3 in the Securom guide as well)
+4. [`Fable III ONLY`] Defeat [Securom](../Securom/defeating_securom.md) protection (we crack Fable III in the Securom guide as well)
 
 5. Extract `xlive.dll` and `xlive.ini` from catspaw's GFWL emulator to your game directory.
 
@@ -28,7 +28,7 @@ For our walkthrough we'll be cracking the GFWL DRM on Fable 3. This game is easy
 
 8. We can inform Wine of this configuration by using Lutris. If you use another tool, there should be a section somewhere for this, or worst-case you can use the `WINEDLLOVERRIDES` environment variable. To do this in Lutris, open your game's configuration and navigate to `Runner Options` -> `DLL Overrides`. Input `xlive` as a key and `n,b` as a value. `n,b` stands for "Native, then Built-in", aka Wine should preferentially let the game's local DLL load if available, or fallback to the Built-in Wine version if it's not.
 
-    ![Fable 3 xlive DLL Override](images/Fable3-xlive-override.png "xlive DLL override")
+    ![Fable III xlive DLL Override](images/Fable3-xlive-override.png "xlive DLL override")
 
 9. GFWL is now defeated!
 

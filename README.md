@@ -205,7 +205,7 @@ If you already own the game on Steam or another marketplace, congrats, this part
 
 If you don't own the game yet, you'll need to go exploring on the internet. One of the best places to find untouched games is cs.rin. If you don't have a cs.rin account yet, you'll need to make one in order to do basically anything from this guide. cs.rin hosts a lot of the tools that we'll be using, and you won't be able to download from there without an account.
 
-Once you have a cs.rin account, navigate to the Steam Content Sharing (SCS) section of the forum, under `English Forums -> Steam Content Sharing`. Make sure you read the pinned `FAQ and Guide` post in this forum. It contains many important answers to problems you will soon be facing. Next, search for the name of your game (often, game franchises are condensed into one forum post: "Fable 3" -> "Fable Series"). If you find a forum post for it here, it will likely have download links available. At this point, you just need to download each part of the game and remember what the FAQ told you about passwords and google drive limits. After all the parts are downloaded, extract the nested game folder from the archive into your workspace.
+Once you have a cs.rin account, navigate to the Steam Content Sharing (SCS) section of the forum, under `English Forums -> Steam Content Sharing`. Make sure you read the pinned `FAQ and Guide` post in this forum. It contains many important answers to problems you will soon be facing. Next, search for the name of your game (often, game franchises are condensed into one forum post: "Mass Effect 2" -> "Mass Effect Series"). If you find a forum post for it here, it will likely have download links available. At this point, you just need to download each part of the game and remember what the FAQ told you about passwords and google drive limits. After all the parts are downloaded, extract the nested game folder from the archive into your workspace.
 
 `NOTE - as of August 2023, circumstances caused almost all historical Google Drive links from the SCS section to be invalid. Nowadays, most people are primarily uploading to the Main Forum section, as described just below.`
 
@@ -221,7 +221,7 @@ Next, select the "Get Data from Steam / SteamDB" prompt at the bottom right of t
 
 ![SteamDB hash checker modal](images/Hash-Depot-Userscript-Modal.png "SteamDB hash checker modal")
 
-**Protip**: You should set up `!cs` and `!scs` Firefox bangs that allow you to perform searches in the `Main Forum` and `SCS` forum directly from your browser's search bar. To do this, go to the relevant forum, right click inside the "Search this forum..." textbox, and click "Add a keyword for this search". Save the bookmark somewhere out of the way and type `!cs` or `!scs` into the keyword box. Now you can type e.g. `!cs Fable 3` into your search bar and get direct results from the Main Forum.
+**Protip**: You should set up `!cs` and `!scs` Firefox bangs that allow you to perform searches in the `Main Forum` and `SCS` forum directly from your browser's search bar. To do this, go to the relevant forum, right click inside the "Search this forum..." textbox, and click "Add a keyword for this search". Save the bookmark somewhere out of the way and type `!cs` or `!scs` into the keyword box. Now you can type e.g. `!cs Mass Effect 2` into your search bar and get direct results from the Main Forum.
 
 We're assuming from this point forwards that you've obtained a clean copy of your game and copied it to your workspace.
 

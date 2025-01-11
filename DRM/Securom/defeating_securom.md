@@ -8,15 +8,15 @@ Another tool you may find useful for handling Securom is the "80_PA Universal Se
 
 # Cracking Guide
 
-For our walkthrough we'll be cracking the Securom DRM on Fable 3. This game is easy to source via cs.rin's Main Forum (thread ID `59454`), or you can follow along with your own Securom-protected game. Fable 3 is infested with DRM - it contains Steamworks API, Securom, and GFWL.
+For our walkthrough we'll be cracking the Securom DRM on Fable III. This game is easy to source via cs.rin's Main Forum (thread ID `59454`), or you can follow along with your own Securom-protected game. Fable III is infested with DRM - it contains Steamworks API, Securom, and GFWL.
 
-1. Source Fable 3 and extract it to your workspace
+1. Source Fable III and extract it to your workspace
 
-2. [`FABLE 3 ONLY`] Winetricks `xact` is required for Fable 3 to run, otherwise it will crash after intro videos
+2. [`Fable III ONLY`] Winetricks `xact` is required for Fable III to run, otherwise it will crash after intro videos
 
-3. [`FABLE 3 ONLY`] Defeat [Steamworks API](../Steamworks-API/defeating_steamworks.md) protection (remember that this is a DirectX9 game, so if you use Goldberg Experimental build you need to disable the overlay or it may crash on Linux)
+3. [`Fable III ONLY`] Defeat [Steamworks API](../Steamworks-API/defeating_steamworks.md) protection (remember that this is a DirectX9 game, so if you use Goldberg Experimental build you need to disable the overlay or it may crash on Linux)
 
-4. [`FABLE 3 ONLY`] Defeat [GFWL](../GFWL/defeating_gfwl.md) protection (we crack Fable 3 in the GFWL guide as well)
+4. [`Fable III ONLY`] Defeat [GFWL](../GFWL/defeating_gfwl.md) protection (we crack Fable III in the GFWL guide as well)
 
 5. In order to defeat Securom, we need to get the game to inject the virusek/NEOGAME Securom auto-defeat DLL. To do this, we're going to use a general purpose injection tool named Koaloader. Refer to the [Koaloader Guide](../../Tools/Koaloader/koaloader.md) for more information on how this tool works.
 
