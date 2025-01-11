@@ -156,6 +156,9 @@ The easiest way to guess what redistributables you need is to go to a game's Ste
 
   - `dotnet48` is sometimes required if you’re using modding tools or other types of 3rd party stuff. Users commonly create these tools using dotnet
 
+If you have "Output debugging info" enabled under Lutris -> Runner options, Wine will also give you messages about failed DLL imports and other issues, which are generally an indication that a redistributable is missing.
+
+![Lutris Show Logs](images/Lutris-ShowLogs.png "Lutris's Show Logs")
 
 ## Wine troubleshooting
 
