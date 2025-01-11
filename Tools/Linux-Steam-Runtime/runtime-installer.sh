@@ -1,37 +1,34 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-# Steam-Runtime installer in one step.
+# Portable Steam-Runtime installer
 # Note that the runtime version that games expect may change in the future (it's currently "Sniper")
 # Run this file on the same directory as the game executable. (Linux Native only)
 # How to run:
 # ./runtime-installer.sh start-file.sh
-# start-file.sh is the name of the original start file
+# start-file.sh is the name of the original file that launches the game
 
-# Define start file
-START_FILE_NAME="$1"
+# Might work as a simple codename swap in the future, depending on how Valve does things
+CURRENT_RUNTIME_CODENAME="sniper"
+
+set -e
+startFile="$1"
 
 # Download steam-runtime
-set -e
-APP_PATH=$(dirname "$0")
-cd "$APP_PATH"
-# Use latest
-STEAM_RUNTIME_URL='https://repo.steampowered.com/steamrt-images-sniper/snapshots/latest-steam-client-general-availability/SteamLinuxRuntime_sniper.tar.xz'
-wget -c "$STEAM_RUNTIME_URL" || curl "$STEAM_RUNTIME_URL"
+startFileDir=$(dirname "$startFile")
+cd "$startFileDir"
+steamRuntimeURL="https://repo.steampowered.com/steamrt-images-$CURRENT_RUNTIME_CODENAME/snapshots/latest-steam-client-general-availability/SteamLinuxRuntime_$CURRENT_RUNTIME_CODENAME.tar.xz"
+wget -c "$steamRuntimeURL" || curl "$steamRuntimeURL"
 
 # Extract it
-tar xf SteamLinuxRuntime_sniper.tar.xz
-rm SteamLinuxRuntime_sniper.tar.xz
+tar xf "SteamLinuxRuntime_$CURRENT_RUNTIME_CODENAME.tar.xz"
+rm "SteamLinuxRuntime_$CURRENT_RUNTIME_CODENAME.tar.xz"
 
-echo "Success"
-
-# Create start-runtime file
+# Create start-runtime executable
 cat > start-runtime.sh << EOF
 #!/bin/sh
-"./SteamLinuxRuntime_sniper/run" "./$START_FILE_NAME"
+# Arguments go after the "--", e.g. "./start.sh" "--" "-vulkan"
+"./SteamLinuxRuntime_$CURRENT_RUNTIME_CODENAME/run" "./$startFile" "--"
 EOF
 
-# Make our runtime script executable
 chmod +x start-runtime.sh
-
-# Make original start script executable
-chmod +x "$START_FILE_NAME"
+chmod +x "$startFile"
