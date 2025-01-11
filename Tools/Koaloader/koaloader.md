@@ -42,7 +42,7 @@ Koaloader (currently) comes in the following variants:
   - `wldp.dll`
   - `xinput9_1_0.dll`
 
-If you don't want to use CFF Explorer, you can also throw all the DLLs into the directory and see what works. I've had the most luck with `version.dll`, `winmm.dll`, `iphlpapi.dll`, and `winhttp.dll`. `dinput8.dll` is very commonly used in user-created mods, and it's a good target to check also.
+If you don't want to use CFF Explorer, you can also throw all the DLLs into the directory and see what works. I've had the most luck with `version.dll`, `winmm.dll`, `iphlpapi.dll`, `winhttp.dll`, and `dinput8.dll`.
 
 # Configuration
 
