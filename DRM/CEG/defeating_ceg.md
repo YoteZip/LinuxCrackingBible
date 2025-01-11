@@ -26,7 +26,6 @@ For our walkthrough we'll be cracking the CEG DRM on the Windows version of "Sai
 
 6. Now LumaCEG is ready to auto-defeat CEG, but it needs to get injected into the runtime first. To inject LumaCEG, we're going to use a general purpose injection tool named Koaloader. Refer to the [Koaloader Guide](../../Tools/Koaloader/koaloader.md) for more information on how this tool works.
 
-
 7. At this point, we need to determine which Koaloader DLL the game will reach out and grab. Since SRTT is a 32-bit game, we'll use 32-bit Koaloader DLLs. As a first try, let's use `glu32.dll`.
 
 8. Copy `glu32.dll` from the `glu32-32` Koaloader folder into the SRTT directory.
@@ -35,19 +34,19 @@ For our walkthrough we'll be cracking the CEG DRM on the Windows version of "Sai
 
     ```json
     {
-    "logging": true,
-    "enabled": true,
-    "auto_load": false,
-    "targets": [
-        "SaintsRowTheThird.exe",
-        "SaintsRowTheThird_DX11.exe"
-    ],
-    "modules": [
-        {
-        "path": "LumaCEG_Plugin_x86.dll",
-        "required": true
-        }
-    ]
+        "logging": true,
+        "enabled": true,
+        "auto_load": false,
+        "targets": [
+            "SaintsRowTheThird.exe",
+            "SaintsRowTheThird_DX11.exe"
+        ],
+        "modules": [
+            {
+                "path": "LumaCEG_Plugin_x86.dll",
+                "required": true
+            }
+        ]
     }
     ```
 
