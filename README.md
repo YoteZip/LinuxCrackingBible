@@ -258,8 +258,8 @@ In order to defeat DRM, we first need to know what types of DRM we're up against
     - [UniverseLAN](https://github.com/grasmanek94/UniverseLAN)
     - [Comet](https://github.com/imLinguin/comet)
   - Telltale files:
-    - Galaxy.dll
-    - Galaxy64.dll
+    - `Galaxy.dll`
+    - `Galaxy64.dll`
 
 **Origin (Old):**
   - To my knowledge only 8 games had this DRM, but they were all blockbuster games so you're still likely to run into it
