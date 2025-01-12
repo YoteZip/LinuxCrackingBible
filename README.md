@@ -232,6 +232,8 @@ We're assuming from this point forwards that you've obtained a clean copy of you
 
 In order to defeat DRM, we first need to know what types of DRM we're up against. Games can contain one or many types of DRM. If it came from the SCS forum, it's most likely at least using Steamworks API. We can search through [PCGamingWiki](https://www.pcgamingwiki.com/) for our game and look through the "Availability" section at the top, which will likely give us a general idea of what type of DRM is inside. PCGamingWiki sometimes lacks precision on which specific version of a company's DRM is being used, but it's an easy way to get a general idea. While we're here, we should check if our game has Denuvo or Arxan DRM included. If it does, we won't be able to crack it. Denuvo is nearly impossible to crack even for people who know what they're doing, but Arxan has been shown to be at least a bit easier. Unfortunately, I'll need more typewriters before I figure out how to get rid of those DRMs.
 
+## Common types of DRM:
+
 **CEG (Steam Custom Executable Generation):**
   - Very rarely in older games.
   - No new games have this DRM. Check if your game is on [this historic list](DRM/CEG/list_of_ceg_games.md).
