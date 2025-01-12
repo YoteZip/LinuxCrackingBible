@@ -238,11 +238,13 @@ In order to defeat DRM, we first need to know what types of DRM we're up against
 
 **Epic Online Services (EOS):**
   - Very common if you sourced your game from Epic
-  - Telltale files:
+  - Telltale library files:
     - `EOSSDK-Win32-Shipping.dll`
     - `EOSSDK-Win64-Shipping.dll`
     - `libEOSSDK-Linux-Shipping.so`
-  - Sometimes games will include these files without using them
+  - Sometimes games will include these libraries without using them for DRM purposes
+  - Telltale folder:
+    - `.egstore`
 
 **Games for Windows Live (GFWL):**
   - Very rare, games from ~2007-2013
