@@ -6,11 +6,11 @@ List sourced from Anadius's unwrapper tool.
 
 - Dragon Age Inquisition
 
-- Mass Effect 1
+- Mass Effect 1 (Not Legendary Edition)
 
-- Mass Effect 2
+- Mass Effect 2 (Not Legendary Edition)
 
-- Mass Effect 3
+- Mass Effect 3 (Not Legendary Edition)
 
 - Need For Speed Most Wanted (2015)
 
