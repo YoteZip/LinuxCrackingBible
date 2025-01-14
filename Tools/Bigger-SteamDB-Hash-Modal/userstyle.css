@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name           Bigger SteamDB Hash Modal
 @namespace      Bigger-SteamDB-Hash-Modal
-@version        1.0.1
+@version        1.0.2
 ==/UserStyle== */
 
 @-moz-document domain("steamdb.info") {
-    .modal-dialog.modal-lg, .modal-dialog.modal-xl {
-	    --bs-modal-width: 90% !important;
+    .pbs-modal-dialog.pbs-modal-xl {
+	    --pbs-modal-width: 90% !important;
     }
 }
