@@ -2,7 +2,7 @@
 
 This is a generic DRM applied to games sold on the EA/Origin store, and sometimes to EA games on other stores. Note that there is an older version of this DRM only released on [~8 games](../OldOrigin/list_of_oldorigin_games.md), but it's not (currently) able to be cracked generically. New Origin DRM is quite easy to defeat generically using Anadius's Origin Unwrapper and Emulator tools. The Origin Unwrapper tool can be found under `Main Forum -> Releases` (thread ID `125589`), and the Emulator can be found in the same forum (thread ID `115335`).
 
-Download the Unwrapper, the Emulator, and the Emulator's configs/tools and keep them in your toolkit.
+Download the Unwrapper (the source code is sufficient, since it's just Python), the Emulator, and the Emulator's configs/tools and keep them in your toolkit.
 
 Origin encrypts certain parts of the EXE as a DRM, so we can't get in the middle to inject an emulator DLL. In order to circumvent this, we need to take three steps:
 
