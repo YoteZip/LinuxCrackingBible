@@ -198,6 +198,8 @@ Wine is actually quite robust at this point. Most games I test work out of the b
 
 - Disable `FPS Limit`
 
+- If you're using the Goldberg Steam Emu's `steamclient_loader` feature with Proton/UMU, try setting `PROTON_DISABLE_LSTEAMCLIENT=1` as an environment variable
+
 - Force the Prefix Architecture to the correct option, under the "Game Options" tab in Lutris. I've had a couple cases where it auto-picked wrong and caused problems
 
 - Allow Network Access, if you're limiting it via command prefix
