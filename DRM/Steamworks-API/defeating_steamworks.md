@@ -34,7 +34,7 @@ For our walkthrough we'll be cracking the Steamworks API DRM on a Windows copy o
 
 4. Find your game's Steam ID. The easiest way to do this is to go to its store page, and grab the number from the URL. The Steam ID for Banners of Ruin is "1075740".
 
-5. Navigate to the `generate_emu_config-linux/generate_emu_config` directory in your toolkit, and run the following command: `./generate_emu_config -cve <STEAM_ID>`, where `STEAM_ID` is the ID from the previous step. This will give you a login prompt, which will use your Steam credentials to download extra information for the emulator, like DLC identifiers and achievements. If you don't want to use your login, you can instead put `-anon` in the command, though it won't be able to get as much information. As of writing, the login calls are prone to timing out, so if it doesn't seem like it's doing anything, cancel it and try again.
+5. Navigate to the `gen_emu_config_old-linux/generate_emu_config` directory in your toolkit, and run the following command: `./generate_emu_config -cve <STEAM_ID>`, where `STEAM_ID` is the ID from the previous step. This will give you a login prompt, which will use your Steam credentials to download extra information for the emulator, like DLC identifiers and achievements. If you don't want to use your login, you can instead put `-anon` in the command, though it won't be able to get as much information. As of writing, the login calls are prone to timing out, so if it doesn't seem like it's doing anything, cancel it and try again.
 
     ![BOR Config Generation](images/BOR-Config-Gen.png "BOR config generation")
 
