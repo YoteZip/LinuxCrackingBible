@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# SteamAutoDefeat v1.1.1
+# SteamAutoDefeat v1.1.2
 # Automatically configures the 2nd-gen Goldberg Steam Emulator and runs Steamless on executables in a given directory
 # For usage notes, run this script without arguments
 # Made by Yote.zip
@@ -48,7 +48,7 @@ SAD_EXPERIMENTAL_ENABLED=1
 # Alternatively, you can use `bwrap --unshare-net --dev-bind / /` as a command prefix to sandbox all networking from a game
 SAD_BLOCK_NON_LAN_CONNECTIONS=1
 # If enabled, a Shift+Tab overlay will be injected into the game for achievement popups and LAN friend network
-# As of writing, some DirectX 9 games crash on startup with this overlay enabled
+# As of writing, some DirectX 9 games crash on startup with this overlay enabled, and some Vulkan games will only display a black screen
 SAD_ENABLE_OVERLAY=1
 # By default, the overlay will display a notification every time you make any progress on an achievement
 # You most likely want this disabled, as it is very spammy
@@ -309,6 +309,7 @@ else
 fi
 
 # Changelog
+# 1.1.2 - Add note on overlay's interaction with Vulkan
 # 1.1.1 - change default directory for the config generation tool to "gen_emu_config_old-linux", to correspond with the new gbe_fork_tools repo naming convention
 # 1.1.0 - change authentication to use new refresh token feature instead of hardcoded creds. (this requires gbe_fork 2024-11-05 or later)
 #       - switches away from -reldir, which wasn't doing much for us.
