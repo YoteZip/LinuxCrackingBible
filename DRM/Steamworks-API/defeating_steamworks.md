@@ -72,6 +72,7 @@ For our walkthrough we'll be cracking the Steamworks API DRM on a Windows copy o
 - If you're trying to crack one of the few native Linux games that requires a Steam runtime in order to work, follow the steps in the [Linux Steam Runtime guide](../../Tools/Linux-Steam-Runtime/configuring_linux_steam_runtime.md)
 
 - Very rarely, games will need to use the `steamclient_experimental` feature. Copy these files in and configure `ColdClientLoader.ini`, then start the game using `steamclient_loader.exe` instead of the normal executable. The only game that I've personally seen require this is Dying Light 2. The game may warn you about "Steam not running" as a hint
+  - Note that if you're using Proton to launch your game, you may need to set `PROTON_DISABLE_LSTEAMCLIENT=1` as an environment variable while using the `steamclient_loader.exe` feature - issue [tracked here](https://github.com/Detanup01/gbe_fork/issues/209).
 
 - To crack Steamworks API (and [SteamDRM](../SteamDRM-Windows/defeating_steamdrm_windows.md)) automatically in the future, use my [SteamAutoDefeat](../../Tools/SteamAutoDefeat/steamautodefeat.md) tool
 
