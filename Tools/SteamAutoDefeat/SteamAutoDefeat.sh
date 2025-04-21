@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# SteamAutoDefeat v1.1.0
+# SteamAutoDefeat v1.1.1
 # Automatically configures the 2nd-gen Goldberg Steam Emulator and runs Steamless on executables in a given directory
 # For usage notes, run this script without arguments
 # Made by Yote.zip
@@ -25,7 +25,7 @@ SAD_OUTPUT_PATH="$(mktemp -d)"
 SAD_WIN_RELEASE_RELPATH="$SAD_SCRIPT_DIR/goldberg_emu/emu-win-release"
 SAD_LINUX_RELEASE_RELPATH="$SAD_SCRIPT_DIR/goldberg_emu/emu-linux-release"
 SAD_GEN_INTERFACES_CMD="$SAD_LINUX_RELEASE_RELPATH/tools/generate_interfaces/generate_interfaces_x64"
-SAD_GENERATE_EMU_CMD="$SAD_SCRIPT_DIR/goldberg_emu/generate_emu_config-linux/generate_emu_config/generate_emu_config"
+SAD_GENERATE_EMU_CMD="$SAD_SCRIPT_DIR/goldberg_emu/gen_emu_config_old-linux/generate_emu_config/generate_emu_config"
 # If enabled, automatically strip any SteamDRM/SteamStub protection from binaries using Steamless. This doesn't affect regular binaries, so it's safe to leave on
 SAD_AUTO_STEAMLESS=1
 SAD_STEAMLESS_CLI_EXE="$SAD_SCRIPT_DIR/steamless/Steamless.CLI.exe"
@@ -309,6 +309,7 @@ else
 fi
 
 # Changelog
+# 1.1.1 - change default directory for the config generation tool to "gen_emu_config_old-linux", to correspond with the new gbe_fork_tools repo naming convention
 # 1.1.0 - change authentication to use new refresh token feature instead of hardcoded creds. (this requires gbe_fork 2024-11-05 or later)
 #       - switches away from -reldir, which wasn't doing much for us.
 #         (this  will make a "backup" directory start appearing next to your generate_emu_config executable, but there's not a clean way of keeping the refresh tokens with -reldir enabled.)
