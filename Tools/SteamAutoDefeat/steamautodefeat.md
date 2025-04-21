@@ -8,7 +8,7 @@ Steamworks API is the most common form of protection you'll encounter, so I wrot
 
 3. Create another directory under `SteamAutoDefeat` named `goldberg_emu` (i.e, `SteamAutoDefeat/goldberg_emu`)
 
-4. Pull the archives from the [latest Goldberg Steam Emulator release](https://github.com/Detanup01/gbe_fork/releases) - specifically, we want `emu-win-release`, `emu-linux-release`, and `generate_emu_config-linux` (currently the last version of `generate_emu_config-linux` is located in the [2025-01-09 release](https://github.com/Detanup01/gbe_fork/releases/tag/release-2025_01_09). In the future there should be new releases located in the [gbe_fork_tools repo](https://github.com/Detanup01/gbe_fork_tools))
+4. Pull the archives from the [latest Goldberg Steam Emulator release](https://github.com/Detanup01/gbe_fork/releases/latest) - specifically, we want `emu-win-release` and `emu-linux-release`. Next, pull `gen_emu_config_old-linux` from the [gbe_fork_tools repo](https://github.com/Detanup01/gbe_fork_tools/releases/latest).
 
 5. Unpack these archives so that your file structure looks like this:
 
