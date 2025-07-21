@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Portable Steam-Runtime installer v1.1.0
+# Portable Steam-Runtime installer v1.1.1
 # Note that the runtime version that games expect may change in the future (it's currently "sniper")
 # Next Steam Runtime codename is slated to be "medic", ETA unknown
 # Run this file on the same directory as the game executable. (Linux Native only)
