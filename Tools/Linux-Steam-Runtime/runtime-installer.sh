@@ -18,7 +18,7 @@ startFile="$1"
 startFileBase=$(basename "$startFile")
 startFileDir=$(dirname "$startFile")
 cd "$startFileDir"
-steamRuntimeURL="https://repo.steampowered.com/steamrt-images-$CURRENT_RUNTIME_CODENAME/snapshots/latest-steam-client-general-availability/SteamLinuxRuntime_$CURRENT_RUNTIME_CODENAME.tar.xz"
+steamRuntimeURL="https://repo.steampowered.com/steamrt-images-$CURRENT_RUNTIME_CODENAME/snapshots/latest-public-stable/SteamLinuxRuntime_$CURRENT_RUNTIME_CODENAME.tar.xz"
 wget -c "$steamRuntimeURL" || curl "$steamRuntimeURL"
 
 # Extract it
