@@ -15,3 +15,5 @@ List sourced from Anadius's unwrapper tool.
 - Need For Speed Most Wanted (2015)
 
 - Titanfall 1
+
+- SimCity (2013)
