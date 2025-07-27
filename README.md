@@ -85,7 +85,7 @@ The process of adding a cracked game to Lutris is relatively simple. Click the "
 
   - `DXVK` - Emulates DX8, DX9, DX10, and DX11 for your game. I haven't seen any regressions in this in a very long time, so generally picking the latest version and leaving it alone is sufficient. You can also try the [Async variant](https://gitlab.com/Ph42oN/dxvk-gplasync) which can theoretically reduce stuttering, but the difference doesn't seem noticeable now that the magical Graphics Pipeline Library has been implemented in DXVK. I still use the Async version just in case it marginally helps. The one caveat is that Async DXVK can potentially trigger anti-cheats in online games because of the way it manipulates the render pipeline. To install the Async version, use [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt) and target your Lutris install, or extract the latest version from the [releases](https://gitlab.com/Ph42oN/dxvk-gplasync/-/tree/main/releases) section to `~/.local/share/lutris/runtime/dxvk/dxvk-gplasync-vX.X-X` if you're using native Lutris, or `~/.var/app/net.lutris.Lutris/data/lutris/runtime/dxvk/dxvk-gplasync-vX.X-X` if you're using Flatpak Lutris.
 
-  - `VKD3D` - Emulates DX12 for your game. Pick the latest version and leave it alone, unless you want to intentionally disable DX12 to try to force a DX9/10/11 fallback
+  - `VKD3D` - Emulates DX12 for your game. Pick the latest version and leave it alone, unless you want to intentionally disable DX12 to try to force a DX8/DX9/10/11 fallback
 
   - `D3D Extras` - Just leave it on, have never had an issue with it
 
