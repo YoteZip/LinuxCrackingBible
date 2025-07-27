@@ -46,9 +46,12 @@ For our walkthrough we'll be cracking the Xbox Live DRM off of Halo - The Master
     1064276
     ```
 
-- [`MCC ONLY`] Next, create a file in `steam_settings` named `DLC.txt`. Fill that file with this content:
+- [`MCC ONLY`] Next, make sure that the file in `steam_settings` named `configs.app.ini` contains the DLC IDs, like so:
 
     ```
+    [app::dlcs]
+    # should the emu report all DLCs as unlocked, default=1
+    unlock_all=1
     1064220=Halo: Reach
     1064221=Halo: Combat Evolved Anniversary
     1064270=Halo 2: Anniversary
