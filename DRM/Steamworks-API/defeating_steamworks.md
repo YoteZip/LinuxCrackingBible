@@ -54,7 +54,7 @@ For our walkthrough we'll be cracking the Steamworks API DRM on a Windows copy o
       - Linux: `~/.local/share/GSE Saves/settings/configs.user.ini`
     - Since we're spinning up a Wine prefix per game, there's really no such thing as "global" to us. Each Wine prefix is effectively its own Windows install. It's easier to just configure it here as a hardcoded setting
 
-9. Navigate to the `emu-linux-release/tools/generate_interfaces` directory, and execute the following command: `./generate_interfaces_x64 "/path/to/<steam_api.dll/so>"`, where the `steam_api` bit is your steam_api library that you replaced. You don't have to do this for `steamclient` libraries. This will generate a `steam_interfaces.txt` file in your current directory.
+9. Navigate to the `emu-linux-release/tools/generate_interfaces` directory, and execute the following command: `./generate_interfaces_x64 "/path/to/<steam_api.dll/so>"`, where the `steam_api` bit is your steam_api library that you replaced (not the emulator version, the original). You don't have to do this for `steamclient` libraries. This will generate a `steam_interfaces.txt` file in your current directory.
 
 10. Copy the `steam_interfaces.txt` file next to the Steam library that you replaced.
 
