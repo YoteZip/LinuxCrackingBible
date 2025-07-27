@@ -204,6 +204,8 @@ Wine is actually quite robust at this point. Most games I test work out of the b
 
 - Allow Network Access, if you're limiting it via command prefix
 
+- If you're getting truly desperate, you can search through the [Protonfixes repo](https://github.com/Open-Wine-Components/umu-protonfixes/tree/master/gamefixes-steam) for your game's Steam ID to see if they have any unique fixes figured out. If you're getting even more desperate, you can manually search through [a raw `proton` executable](https://github.com/GloriousEggroll/proton-ge-custom/blob/master/proton) for fixes related to your game's Steam ID
+
 # **4. Sourcing a game**
 
 If you already own the game on Steam or another marketplace, congrats, this part is easy! Just download the game from your client and copy paste it to your workspace.
