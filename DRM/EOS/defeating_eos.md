@@ -12,7 +12,7 @@ For our walkthrough we'll be cracking the EOS DRM on PC Building Simulator 2. Th
 
 1. Source PC Building Simulator 2 and extract it to your workspace
 
-2. Open a terminal in the base game directory and run the following command to locate the EOS libraries: `find . -type f | grep -E EOSSDK-Win32-Shipping.dll\|EOSSDK-Win64-Shipping.dll\|libEOSSDK-Linux-Shipping.so`
+2. Open a terminal in the base game directory and run the following command to locate the EOS libraries: `find . -name 'EOSSDK-Win32-Shipping.dll' -o -name 'EOSSDK-Win64-Shipping.dll' -o -name 'libEOSSDK-Linux-Shipping.so'`
 
     ![PCBS2 Search](images/PCBS2-Search.png "EOS search results")
 
