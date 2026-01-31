@@ -309,6 +309,7 @@ else
 fi
 
 # Changelog
+# 1.1.2 - 1/31/26 NOTE: GBE Fork Tools updated today with some required Steam schema changes, and no code updates are needed from SAD for continued compatibility. Make sure you replace your old release with https://github.com/Detanup01/gbe_fork_tools/releases/latest. I also needed to delete and recreate my refresh_tokens.json in order for the underlying GBE Fork Tools command to start working again, but that may be a coincidence. If you have the same problem, the code will not generate anything and will instead exit safely around line ~129 when it fails to cd into the "steam_settings" directory
 # 1.1.2 - Add note on overlay's interaction with Vulkan
 # 1.1.1 - change default directory for the config generation tool to "gen_emu_config_old-linux", to correspond with the new gbe_fork_tools repo naming convention
 # 1.1.0 - change authentication to use new refresh token feature instead of hardcoded creds. (this requires gbe_fork 2024-11-05 or later)
