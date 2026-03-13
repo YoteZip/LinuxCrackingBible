@@ -188,7 +188,7 @@ Wine is actually quite robust at this point. Most games I test work out of the b
 
 - If the game is attempting to launch full screen, try to force it to start in windowed mode via Argument or through the game's configuration files
 
-- Make sure that your system's vm.max_map_count is set to 1048576 with [this method](https://stackoverflow.com/questions/42889241/how-to-increase-vm-max-map-count) (not 65530 or 262144). Rarely, games will just crash if they run out of memory maps.
+- Make sure that your system's vm.max_map_count is set to at least 1048576 with [this method](https://stackoverflow.com/questions/42889241/how-to-increase-vm-max-map-count) (not 65530 or 262144). Rarely, games will just crash if they run out of memory maps. SteamOS uses a default of 2147483642, for reference.
 
 - Try an older Wine version
 
