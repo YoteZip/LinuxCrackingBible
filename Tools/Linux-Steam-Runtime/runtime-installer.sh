@@ -3,6 +3,7 @@
 # Portable Steam-Runtime installer v1.1.1
 # Note that the runtime version that games expect may change in the future (it's currently "sniper")
 # Next Steam Runtime codename is slated to be "medic", ETA unknown
+# Games may demand certain older versions if they have been hardcoded to do so, so you may need to tweak this script or grab the right version manually in that case
 # Run this file on the same directory as the game executable. (Linux Native only)
 # How to run:
 # ./runtime-installer.sh start-file.sh
