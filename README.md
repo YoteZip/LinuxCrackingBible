@@ -91,7 +91,7 @@ The process of adding a cracked game to Lutris is relatively simple. Click the "
 
   - `D3D Extras` - Just leave it on, have never had an issue with it
 
-  - `DXVK-NVAPI` - Emulates some Nvidia features even if you're using an AMD card. This can sometimes cause games to freak out, so it's a good idea to try disabling it if you're having problems launching.
+  - `DXVK-NVAPI` - Emulates some Nvidia features even if you're using an AMD card. This can sometimes cause games to freak out, so it's a good idea to try disabling it if you're having problems launching. Note that with newer versions of Lutris, this option will disappear when using Proton-based runners, so if you need to disable it you need to use `PROTON_DISABLE_NVAPI=1` as an environment variable instead.
 
   - `Esync/Fsync` - Just leave them on, have never had an issue with these
 
