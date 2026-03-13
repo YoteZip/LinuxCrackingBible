@@ -280,7 +280,7 @@ elif [[ $# -eq 2 ]] && [[ "$1" =~ ^[0-9]+$ ]] && [[ -d "$2" ]]; then
 
             read -rp "Clean up the output directory? (y/n) --- " SAD_PROMPT
             if [[ "$SAD_PROMPT" = [Yy] ]]; then
-                # Remeber that this deletes SAD_OUTPUT_PATH/APP_ID, not the original SAD_OUTPUT_PATH from the configuration
+                # Remember that this deletes SAD_OUTPUT_PATH/APP_ID, not the original SAD_OUTPUT_PATH from the configuration
                 rm -rf "$SAD_OUTPUT_PATH"
             fi
         else
