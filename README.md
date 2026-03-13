@@ -496,6 +496,8 @@ The real fun is doing it yourself. If you want more experience with cracking dif
 
 **Misc:**
 
+- Back to the Dawn (+Steamworks API and it requires `steamclient_loader.exe` usage to get to the main menu)
+
 - Left 4 Dead 2 (Linux version) (+Steamworks API and it requires runtime-installer.sh usage)
 
 - Far Cry 5 (CODEX Denuvo-cracked release. Switch from the CODEX Uplay r1 emulator to LumaPlay instead)
