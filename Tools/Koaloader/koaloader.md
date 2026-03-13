@@ -79,6 +79,6 @@ The important options here are `targets` and `modules`:
 
 ---
 
-**Important:** when using Koaloader with Wine games, you will need to whitelist your chosen DLL as `n,b` in Wine's "DLL Overrides" configuration.
+**Important:** when using Koaloader with Wine games, you will need to whitelist your chosen DLL as `n,b` in Wine's "DLL Overrides" configuration (either in your Wine runner tool's configuration, or with the `WINEDLLOVERRIDES` environment variable, e.g. `WINEDLLOVERRIDES="dinput8=n,b"`)
 
 ![wise yote respects koalas](images/koalas.png "wise yote respects but fears koalas")
