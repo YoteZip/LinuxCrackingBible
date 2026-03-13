@@ -2,7 +2,7 @@
 
 This is the big one. Most games you'll interact with are "protected" by Steamworks API. It's trivially bypassed by any number of tools, and often it's the only protection a game will have. At some point, publishers gave up on protecting their games and let GabeN's words ring true: "piracy is a service problem"
 
-We defeat this DRM with `Goldberg Steam Emulator`, which is an excellent tool full of customization. Among its features are auto-unlocking of DLC, auto-LAN setup, achievement support, friends network, mod support, and support for native Linux games. The original "1st-gen" version of this emulator has been abandoned, and a few forks have been developed. For now, we're going to use the Detanup01 fork. If you want to track development of the forks, you can check the latest comments in the original Goldberg Steam Emulator thread, under cs.rin's `Main Forum -> Releases` section (thread ID `91627`). If you're interested in a tutorial for the 1st-gen version, my old guide is located [here](defeating_steamworks_1stgen.md). If a new fork overtakes this one, or if configuration steps change, I will try to keep this guide updated, but be warned that things are still a bit volatile at the moment.
+We defeat this DRM with `Goldberg Steam Emulator`, which is an excellent tool full of customization. Among its features are auto-unlocking of DLC, auto-LAN setup, achievement support, friends network, mod support, and support for native Linux games. The original "1st-gen" version of this emulator has been abandoned, and a new fork maintained by Detanup01 is the general successor. Discussion about this fork continues in the original Goldberg Steam Emulator thread, under cs.rin's `Main Forum -> Releases` section (thread ID `91627`)
 
 Goldberg Steam Emulator:
 
